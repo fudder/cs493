@@ -1,0 +1,36 @@
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "http://localhost/AttributesDemo/", "http://localhost/AttributesDemo", "{EDB5F7FC-F722-4121-AB81-B479F6894034}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.VirtualPath = "/AttributesDemo"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\..\..\dotnetsdk11\Samples\ASP.NET\AttributesDemo\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\AttributesDemo\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/AttributesDemo"
+		Release.AspNetCompiler.PhysicalPath = "..\..\..\..\dotnetsdk11\Samples\ASP.NET\AttributesDemo\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\AttributesDemo\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "..\..\..\..\dotnetsdk11\Samples\ASP.NET\AttributesDemo\"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|.NET = Debug|.NET
+		Release|.NET = Release|.NET
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EDB5F7FC-F722-4121-AB81-B479F6894034}.Debug|.NET.ActiveCfg = Debug|.NET
+		{EDB5F7FC-F722-4121-AB81-B479F6894034}.Debug|.NET.Build.0 = Debug|.NET
+		{EDB5F7FC-F722-4121-AB81-B479F6894034}.Release|.NET.ActiveCfg = Release|.NET
+		{EDB5F7FC-F722-4121-AB81-B479F6894034}.Release|.NET.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

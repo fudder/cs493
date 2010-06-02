@@ -1,0 +1,1262 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+
+<title>eBay SDK for .NET Readme</title>
+
+<style type="text/css">
+/* Default style for links */
+a {text-decoration:none}
+a:active  { color: #0000CC}
+a:hover   { color: #CC0033}
+a:link    { color: #3366CC}
+a:visited { color: #9999CC}
+/* Other Styles */
+body { background-color: #FFFFFF; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; }
+table { width : 35%; border : none; empty-cells : show; }
+table.note { border: .5px #408080; }
+th { font-size: 24px; background-color: #FFA500; vertical-align : top; text-align : left; padding: 4px 4px 4px 4px; }
+th.clear, td.clear { background-color: #FFFFFF; }
+td.future { color: Gray; }
+td.current { font-weight: bold; background-color: #90EE90; }
+td.date { white-space: nowrap; }
+td.note { color: #006800; background-color: #E6F8D6; padding: 4px 4px 4px 4px;}
+td.version { font-weight: bold; white-space: nowrap; }
+td, div.CellBody { font-size: 14px; background-color: #EFEFEF; vertical-align : top; padding: 0px 4px 0px 4px;}
+h1.title { color: #666666; font-size: 36px }
+h1 { color: #006800; font-size: 24px }
+h2 { color: #666666; font-size: 20px }
+h3 { color: #006800; font-size: 16px }
+h4 { color: #666666; font-size: 14px }
+p.Ref {	margin-top: -5px; }
+pre.Obsolete, p.Obsolete, span.Obsolete, b.Obsolete { color: #FF69B4; }
+pre.Deprecated, p.Deprecated, span.Deprecated, b.Deprecated { color: Red; }
+b.Con {color: #005977}
+b.ListRunIn { color: #006800 }
+code, pre, div.Pre {color: #633d00; font-family: Courier New, Courier, mono; }
+div.Table {text-align: left}
+div.TableTitle, div.RefHeading { font-weight: bold; }
+span.NoteLabel, b.NoteLabel { color: #006800; font-weight: bold; }
+div.Note { color: #006800; }
+</style>
+</head>
+
+<body>
+
+<nosearch>
+<!-- BEGIN WEBSIDESTORY CODE v3.0.0 (pro-no10)-->
+<!-- COPYRIGHT 1997-2003 WEBSIDESTORY, INC. ALL RIGHTS RESERVED. U.S.PATENT No. 6,393,479 B1. Privacy notice at: http://websidestory.com/privacy -->
+<script language="javascript">
+var _pn="PUT+PAGE+NAME+HERE"; //page name(s)
+var _mlc="Documentation"; //multi-level content category
+var _cp="null"; //campaign
+var _acct="WR57061898MF01EN3"; //account number(s)
+var _pndef="title"; //default page name
+var _ctdef="full"; //default content category
+var _prc=""; //commerce price
+var _oid=""; //commerce order
+var _dlf=""; //download filter
+var _elf=""; //exit link filter
+var _epg=""; //event page identifier
+var _mn="wp180"; //machine name
+var _gn="phg.hitbox.com"; //gateway name
+</script><script language="javascript1.1" defer
+src="http://stats.hitbox.com/js/hbp-11up.js"></script><script
+language="javascript">if(navigator.appName!='netscape'&&navigator.
+appVersion.toString().charAt(0)!='3')document.write("<\!"+"--");//"</script><noscript>
+<img src="http://phg.hitbox.com/HG?hc=wp180&cd=1&hv=6&ce=u&hb=WR57061898MF01EN3&n=PUT+PAGE+NAME+HERE&vcon=CONTENT+CATEGORY" border='0' width='1' height='1>'
+</noscript><!--//-->
+
+<!-- END WEBSIDESTORY CODE  -->
+</nosearch>
+
+<a name="top"></a>
+<!-- ################################# -->
+<h1 class="title">eBay SDK for .NET Readme</h1>
+
+<p><b>Notes:</b> The most recent full SDK release is this <b>eBay SDK 661 for .NET Full Release</b>.</p>
+
+
+<p>Point releases, unlike full releases, do not go through the typical, full rounds of quality
+assurance. Point releases include bug fixes and updates to the wrapper classes. You can download
+this release and subsequent point releases from the
+<a href="http://developer.ebay.com/community/featured_projects/?name=eBay+SDK+for+.NET"
+target="_blank">eBay SDK for .NET download page</a>.
+<br>
+<br> <b>Please see the most recent version of this Readme file, available at the <a href="http://developer.ebay.com/developercenter/windows/" target="_blank">Windows Developer Center</a>.</b>
+<br>
+<br> Please note that upgrades to an SDK should always be done in a test environment.
+Additionally, before using a version of the SDK, please read this Readme file. Please also read
+the <a href="http://developer.ebay.com/DevZone/XML/docs/WebHelp/ReleaseNotes.html"
+target="_blank">Trading API Release Notes</a> (which contain tables showing schema changes
+that occur every two weeks) for all Trading API versions released after your current version.
+The Trading API Release Notes are located at the
+<a href="http://developer.ebay.com/developercenter/windows/" target="_blank">
+Windows Developer Center</a>.
+</p>
+
+<table cellspacing="2">
+<tr>
+    <th>Contents</th>
+</tr>
+<tr>
+    <td class="version"><a href="#ReleaseInformation">Release Information for the eBay SDK for .NET</a></td>
+</tr>
+<tr>
+    <td class="version"><a href="#GeneralInformation">General Information for the eBay SDK for .NET</a></td>
+</tr>
+</table>
+
+
+<a name=ReleaseInformation></a>
+<h2>Release Information for the eBay SDK for .NET</h2>
+
+<p><b>Important:</b> Changes to the Trading API affect the SDK. For example, in schema version 499, deprecated objects in the schema were deleted, creating backward incompatibility. Please see the <a href="http://developer.ebay.com/DevZone/XML/docs/WebHelp/ReleaseNotes.html" target="_blank">Trading API Release Notes</a>
+for ongoing updates to the schema (including occasional removals of schema elements).
+Please also see <a href="http://developer.ebay.com/DevZone/XML/docs/HowTo/eBayWS/eBaySchemaVersioning.html" target="_blank">Versioning Strategy</a> and <a href="http://developer.ebay.com/DevZone/XML/docs/Reference/ebay/deprObjects.html" target="_blank">Deprecated Objects</a>.
+</p>
+
+<table cellspacing="2">
+<tr>
+    <td class="version"><a href="#661">SDK Version 661 for .NET Full Release</a></td>
+</tr>
+<tr>
+    <td class="version"><a href="#639">SDK Version 639 for .NET Beta Full Release</a></td>
+</tr>
+<tr>
+    <td class="version"><a href="#631">SDK Version 631 for .NET Beta Full Release</a></td>
+</tr>
+<tr>
+    <td class="version"><a href="#623">SDK Version 623 for .NET Beta Point Release</a></td>
+</tr>
+<tr>
+    <td class="version"><a href="#615">SDK Version 615 for .NET Beta Release</a></td>
+</tr>
+<tr>
+    <td class="version"><a href="#603">SDK Version 603 for .NET Point Release</a></td>
+</tr>
+<tr>
+    <td class="version"><a href="#595">SDK Version 595 for .NET Full Release</a></td>
+</tr>
+<tr>
+    <td class="version"><a href="#581">SDK Version 581 for .NET Point Release</a></td>
+</tr>
+<tr>
+    <td class="version"><a href="#575">SDK Version 575 for .NET Point Release</a></td>
+</tr>
+<tr>
+    <td class="version"><a href="#561">SDK Version 561 and Subsequent Point Releases</a></td>
+</tr>
+<tr>
+    <td class="version"><a href="#549">SDK Version 549 and Subsequent Point Releases</a></td>
+</tr>
+<tr>
+    <td class="version"><a href="#523">SDK Version 523 and Subsequent Point Releases</a></td>
+</tr>
+<tr>
+    <td class="version"><a href="#511">SDK Version 511 and Subsequent Point Releases</a></td>
+</tr>
+<tr>
+    <td class="version"><a href="#503">SDK Version 503 for .NET Point Release</a></td>
+</tr>
+<tr>
+    <td class="version"><a href="#495">SDK Version 495 for .NET Full Release</a></td>
+</tr>
+<tr>
+    <td class="version"><a href="#485">SDK Version 485 and Subsequent Point Releases</a></td>
+</tr>
+<tr>
+    <td class="version"><a href="#479">SDK Version 479 and Subsequent Point Releases</a></td>
+</tr>
+<tr>
+    <td class="version"><a href="#471">SDK Version 471 and Subsequent Point Releases</a></td>
+</tr>
+<tr>
+    <td class="version"><a href="#465">SDK Version 465 and Subsequent Point Releases</a></td>
+</tr>
+<tr>
+    <td class="version"><a href="#459">SDK Version 459 and Subsequent Point Releases</a></td>
+</tr>
+<tr>
+    <td class="version"><a href="#pre-459">Pre-Version-459 of the SDK</a></td>
+</tr>
+</table>
+
+<a name=661></a>
+<h3>SDK Version 661 for .NET Full Release</h3>
+
+<p>This release is compatible with eBay's 661 Trading WSDL, and contains support for the
+following new features:
+
+		<h4>New Calls and Fields</h4>
+
+		<p>The VerifyRelistItem and ExtendSiteHostedPictures calls, as well as a new VerifyOnly
+		field for the ReviseItem call have been introduced in this release. Please refer to the
+		 <a href="http://developer.ebay.com/DevZone/XML/docs/WebHelp/ReleaseNotes.html" target="_blank">
+		 Trading API Release Notes</a> for a detailed list of the new calls and elements.
+        </p>
+
+		<h4>Updated apiCallDemo Sample</h4>
+
+		<p>A new UploadPictures sample has been added in the apiCallsDemo. This sample shows how to
+		use the eBay Picture Service (EPS) to upload pictures.</p>
+
+		<h4>Assemblies Have Updated Trust Levels</h4>
+
+		<p>Per your request, we updated the trust level of the .NetSDK assemblies ([assembly: AllowPartiallyTrustedCallers]
+		has been added in all .NetSDK assemblies). This may be helpful for those who want to host their applications on
+		a shared hosting environment.
+        </p>
+
+
+<hr>
+<a href="#top"><span class="Small c1">Back to top</span></a>
+
+<a name=639></a>
+<h3>SDK Version 639 for .NET Beta Full Release</h3>
+
+<p>This release is compatible with eBay's 639 Trading WSDL, and contains support for the
+following new features:
+
+		<h4>Compatability with Microsoft Visual Studio 2008</h4>
+
+		<h4>Native Support for Microsoft's Visual Studio 2008 and DotNET 3.5</h4>
+
+		<p>This release no longer supports Microsoft Visual Studio 2003 and .NET 1.1, but
+		is backward compatible with Visual Studio 2005 and DotNET 2.0.</p>
+
+		<p>Now the complete code source, all samples, and utilities have been re-built using
+		Microsoft's Visual Studio 2008 and .NET 3.5. Note that with Visual Studio 2008, you
+		can use any of the following .NET Frameworks: 2.0, 3.0, 3.5, Silverlight CoreCLR, or
+		.NET Compact Framework.</p>
+
+		This release includes:</p>
+
+		<ul>
+		<li>The core libraries built in VS2008.</li>
+		<li>The code generator for VS2008 can generate eBay Trading Web Service proxy (both in command line and in VS2008 IDE). </li>
+		<li>The core libraries can be built in VS2008, including the corresponding solution file.</li>
+		<li>All samples/unit tests have been built/run in VS2008.</li>
+		<li>A NAnt build script (that supports .NET 3.5/VS2008 build) has been included for advanced users (users who
+		prefer building from the command line instead of building with Microsoft Visual Studio.<li>
+		</ul>
+
+
+		<h4>New C# Winforms Attribute Sample</h4>
+
+		<p>A new C#/Winform attributesDemo sample has been added in the SDK.
+        This sample simulates a simple Sell Your Item(SYI) flow, it shows how to use eBay
+        API/SDK to:
+        <ul>
+        <li>Handle item attributes/specifics.</li>
+        <li>Handle eBay meta-data like listing type/duration, payment methods, shipping
+        service, etc.</li>
+        <li>Cache eBay meta-data on local driver.</li>
+        </ul>
+        </p>
+        <p>
+        For detailed architecture and call flow of the sample, please refer to the readme
+        in the sample folder.
+        </p>
+
+<hr>
+<a href="#top"><span class="Small c1">Back to top</span></a>
+
+<a name=631></a>
+<h3>SDK Version 631 for .NET Beta Full Release</h3>
+
+<p>This release is compatible with eBay's 631 Trading WSDL, and contains support for the following new features:
+
+		<h4>New Helper Class for HTTP Proxy Settings</h4>
+
+		<p><b class="con">ApiContext</b> class has been enhanced to support HTTP Proxy Setting for those who access
+		the eBay API using a proxy server and want to configure the proxy settings programmatically. For examples
+		of usage, please refer to the <b class="con">apiCallsDemo</b> sample.</p>
+
+		<h4>New DetailsDownloader Helper Class</h4>
+
+		<p>The new <b class="con">DetailsDownloader.cs</b>, helper class shows you how to cache eBay details locally.</p>
+
+		<h4>Most Calls Can Be Made with Tokens Only</h4>
+
+		<p>With the exception of, <b class="con">GetTokenStatus, RevokeToken, GetSessionID,</b> and
+		<b class="con">FetchToken</b>, all SDK API calls can now be made with an eBay API developer token
+		(instead of full eBay API developer credentials.)</p>
+
+		<h4>Additional NANT Script Now Supports .NET 2.0</h4>
+
+		<p>A NAnt build script (that supports .NET 2.0/VS2005 build) has been included for advanced users (users who
+		prefer building from the command line instead of building with Microsoft Visual Studio).</p>
+
+<hr>
+<a href="#top"><span class="Small c1">Back to top</span></a>
+
+<a name=623></a>
+<h3>SDK Version 623 for .NET Beta Point Release</h3>
+
+<p>This release is compatible with eBay's 623 Trading WSDL, and does not contain new features.</p>
+
+<hr>
+<a href="#top"><span class="Small c1">Back to top</span></a>
+
+<a name=615></a>
+<h3>SDK Version 615 for .NET Beta Release</h3>
+
+<p>This release is compatible with eBay's 615 Trading WSDL, and contains support for the following new features:
+
+		<h4>Native Support for Microsoft's Visual Studio 2005 and DotNET 2.0</h4>
+
+		<p>This release no longer supports Microsoft Visual Studio 2003 and .NET 1.1. Now the complete code
+		source, all samples, and utilities have been re-built using Microsoft's Visual
+		Studio 2005 and .NET 2.0.</p>
+
+		This release was also tested with Microsoft's Visual Studio 2008, so it is unofficially supported as follows:</p>
+
+		<ul>
+		<li>The core libraries (built in VS2005) can be used in VS2008.</li>
+		<li>The code generator for VS2008 can generate eBay Trading Web Service proxy (both in command line and in VS2008 IDE). </li>
+		<li>The core libraries can be built in VS2008, but the corresponding solution file should be converted to VS2008 format first(use the converter provided by VS2008).</li>
+		<li>All samples/unit tests can be built/run in VS2008, but the corresponding solution files should be converted to VS2008 format first(use the converter provided by VS2008).</li>
+		</ul>
+
+		<h4>Complete Testing with Microsoft's Vista Operating System</h4>
+
+		<p>The complete code source, all samples, and utilities have been tested with the Microsoft Vista 32-bit
+		Operating System.</p>
+
+        <h4>Vista Install Script</h4>
+
+        <p>This release features a new installer script that runs on both XP and Vista operating systems. The
+        installer will determine whether you have Microsoft's .NET Framework 2.0 installed, and will ask you to
+        install the framework if it is not detected.</p>
+
+        <p>Before you can use SDK with Microsoft's Visual Studio 2005 in the Vista Operating System, you need to:</p>
+
+        <ul>
+        <li>Download and install Microsoft's Visual Studio 2005 Service Pack 1, located
+        <a href="http://www.microsoft.com/downloads/details.aspx?FamilyId=BB4A75AB-E2D4-4C96-B39D-37BAF6B5B1DC&displaylang=en">Here</a></li>.
+        <li>Turn off <b>User Account Control</b> in Vista, using Control Panel -> User Accounts -> Turn User Account Control On or Off.</li>
+        </ul>
+
+		<h4>Support for the AddFixedPriceItem Family of Calls</h4>
+
+		<p>Four new wrapper classes, <b class="con">AddFixedPriceItem, ReviseFixedPriceItem, RelistFixedPriceItem</b>
+		and <b class="con">AddFixedPriceItem</b>, have been added in this release. These classes can be used as single calls
+		within a method, or they can be used within data files in
+		the <a href="http://developer.ebay.com/DevZone/large-merchant-services/Concepts/LMS_APIGuide.html">Large Merchant
+		Services solution</a>.</p>
+<br>
+<hr>
+<a href="#top"><span class="Small c1">Back to top</span></a>
+
+<a name=603></a>
+<h3>SDK Version 603 for .NET Point Release</h3>
+
+<p>This release is compatible with eBay's 603 Trading WSDL, and contains support for the following new features:
+
+		<h4>New Helper Classes</h4>
+
+		<p>Two new helper classes, <b class="con">CategoriesDownloader.cs</b> and <b class="con">FeaturesDownloader.cs</b>, have been added in this
+		release. The <b class="con">CategoriesDownloader.cs</b> class caches eBay Category information to a local disk. The
+		<b class="con">FeaturesDownloader.cs</b> class caches the eBay Category Feature information to a local disk. Using these
+		classes, you can access category information without repeatedly making <b class="con">GetCategory</b> and
+		<b class="con">GetCategoryFeatures</b> requests.</p>
+
+		<h4>Updated AttributesDemo Samples to Cache Meta-data</h4>
+
+		<p>The <b class="con">AttributesDemo</b> sample has been updated to take advantage of the new helper classes, so that you can
+		see how to cache the eBay categories and features in a local repository.</p>
+
+		<p>The <b class="con">SampleShippingApplication</b> sample has also been updated to use the new helper classes, so that
+		you can see how to cache the eBay categories and features specifically for a shipping application.</p>
+
+        <h4>eBayAccount Class Returned</h4>
+
+        <p>The <b class="con">eBayAccount</b> class was removed as part of a code clean-up in Release 595. It has been
+        added back into the code for this release. It is also available as a downloadable patch for Release 595.</p>
+
+<hr>
+<a href="#top"><span class="Small c1">Back to top</span></a>
+
+
+<a name=595></a>
+<h3>SDK Version 595 for .NET Full Release</h3>
+
+<p>This release is compatible with eBay's 595 Trading WSDL, and contains support for the following new features.
+
+		<h4>Key Features of This Release</h4>
+		<p>With this release, we provide full support for Microsoft's .NET 2.0 platform (.NET SDK).
+		This version of eBay's SDK for .NET also still supports .NET 1.1.</p>
+		<p><b>Build Information:</b>
+		<ul>
+		<li>The eBay SDK for .NET is built in VS2003/.NET 1.1,</li>
+		<li>The provided .dlls can be used in both VS2003/.NET 1.1 and VS2005/.NET 2.0 environment.</li>
+		<li>You may also choose to build the whole SDK from source in VS2005/.NET 2.0. If you choose to build from
+		the source, you should use the proxy generator for VS2005/.NET 2.0 to regenerate the eBay Trading Web Service
+		proxy before you build.</li>
+		<li>A NANT build script is provided in this release for advanced users who prefer building from the command line
+		instead of building with Microsoft Visual Studio. This script only works with .NET 1.1 at this time.</li>
+		</ul>
+		</p>
+
+		<p>As of this release, you can now use eBay's SDK for .NET with Microsoft's Vista operating system, provided
+		that you:
+		<ul>
+		<li>are using Microsoft Visual Studio 2005 with Service Pack 1 installed</li>
+		<li>only use our zipped package (not our installation package) to install eBay's SDK for .NET on Vista</li>
+		</ul>
+		</p>
+
+		<p><b>Comments:</b>
+		<ul>
+		<li>The eBay's SDK for .NET has not been tested in later version of Visual Studio like VS 2008.
+		The .dll files in this release can be used in Vista/VS2005 directly. You do not need to convert them
+		to VS 2005 format.</li>
+		</ul>
+		</p>
+
+		<h4>UploadSiteHostedPicture</h4>
+
+		<p>Since the classes in the eBay Picture Service (EPS) have been replaced by the <b class="con">UploadSiteHostedPictures</b>
+		Trading API (XML) call, the DotNET SDK now supports the <b class="con">UploadSiteHostedPictures</b> call. Because this is
+		a Trading API call, you will need to provide an <a href="http://developer.ebay.com/quickstartguide/Default.aspx"> eBay
+		developer authorization token</a> (that you obtain with your application keys) when making this call.
+		</p>
+		<p>
+		The <b class="con">UploadSiteHostedPictures</b> call is the only call in the Trading API that doesn't support SOAP. Therefore,
+		you need to use the following (XML) endpoints (Gateway URLs):
+		<ul>
+		<li>For the Sandbox, use: https://api.sandbox.ebay.com/ws/api.dll</li>
+		<li>For Production, use: https://api.ebay.com/ws/api.dll</li>
+		</ul>
+		In addition, it is important that you use these endpoints for both the production and sandbox environments. The addresses for
+		both environments must be consistent because you will need to update the authorization token in your ApiContext class before
+		switching from one platform to the other (Trading API (XML) and SDK servers use different authorization keys.)
+		</p>
+		<p>
+		You can still use the EPS libraries with this release, but they will eventually be discontinued, so we recommend that you
+		migrate to the newer call as soon as you can.
+		The <b class="con">UploadSiteHostedPictures</b> call enables you to upload files in image formats such as JPG by
+		including a binary attachment after the XML input, as part of the request. The call returns <b class="con">SiteHostedPictureDetails.FullURL</b>,
+		which must be stored by your application (for associating the picture using the <b class="con">Item.PictureDetails.PictureURL</b> field
+		of <b class="con">AddItem</b>, <b class="con">ReviseItem</b>, or <b class="con">RelistItem</b>).
+		</p>
+		<p>For more information, please see the following:
+		<ul>
+		<li><a href="../Reference/eBay/UploadSiteHostedPictures.html">UploadSiteHostedPictures</a> in the Input/Output Reference</li>
+		<li><a href="https://ebay.custhelp.com/cgi-bin/ebay.cfg/php/enduser/std_adp.php?p_faqid=1050">Sample UploadSiteHostedPictures Call</a> in the Knowledge Base </li>
+		</ul>
+		</p>
+
+		<h4>Selling Manager Pro (SMP) calls are supported in this release.</h4>
+
+		<h4>Support for ProPay</h4>
+
+		<p>This release also includes support for the ProPay payment method. ProPay is a third party application that allows small
+		businesses to accept credit cards. For more information about ProPay, see www.ProPay.com. For more information about
+		accepted eBay payment methods, see <a href="http://developer.ebay.com/DevZone/XML/docs/Reference/eBay/types/BuyerPaymentMethodCodeType.html">BuyerPaymentMethodCodeType</a> in
+		the Trading Call Reference.</p>
+
+        <h4>Updates to SDK Samples</h4>
+
+        <p>An updated ASP attributeDemo sample includes return policy information that is integrated
+		with the rest of the Item details, instead of being posted on a separate page. It also includes
+		a dynamic lookup feature for Shipping Service, Payment Methods, Listing Type, and Listing Duration.
+		This sample demonstrates the usage of eBay Custom Item Specifics with the Trading API
+		GetCategoryFeatures and GetCategorySpecifics calls.</p>
+
+		<p>Please note that for Return Policy and for the requirement to specify shipping,
+		some samples contain hard-coded fields. Therefore, if you want to change the
+		target site used in the sample, you must integrate <code>GetCategoryFeaturesCall</code>
+		and <code>GeteBayDetailsCall</code> into the sample. For important information, see the
+		<a href="http://developer.ebay.com/DevZone/XML/docs/WebHelp/ReleaseNotes.html"
+		target="_blank">Trading API Release Notes</a> and the eBay Trading Web Services section
+		of the <a href="http://developer.ebay.com/support/docs/" target="_blank">Developer
+		Documentation Center</a>.</p>
+
+		<h4>Documentation of Recent API Features</h4>
+
+		<p>For important information about the latest API features,
+		<b>including new requirements for listings</b>, please see the
+		<a href="http://developer.ebay.com/DevZone/XML/docs/WebHelp/ReleaseNotes.html"
+		target="_blank">Trading API Release Notes</a> and the eBay Trading Web Services section
+		of the <a href="http://developer.ebay.com/support/docs/" target="_blank">Developer
+		Documentation Center</a>.</p>
+
+		<h4>Removal of Legacy XML Classes</h4>
+
+		<p>As of this release, all legacy XML classes and calls have been removed. The new
+		<b class="con">UploadSiteHostedPictures</b> call is the only remaining XML call.</p>
+<hr>
+<a href="#top"><span class="Small c1">Back to top</span></a>
+
+<a name=581></a>
+<h3>SDK Version 581 for .NET Point Release</h3>
+
+		<h4>Documentation of Recent API Features Available</h4>
+		<p>For important information about the latest API features,
+		<b>including new requirements for listings</b>, please see the
+		<a href="http://developer.ebay.com/DevZone/XML/docs/WebHelp/ReleaseNotes.html"
+		target="_blank">Trading API Release Notes</a> and the eBay Trading Web Services section
+		of the <a href="http://developer.ebay.com/support/docs/" target="_blank">Developer
+		Documentation Center</a>.</p>
+
+		<h4>Recent API Feature Updates</h4>
+		<p>The eBay SDK for .NET contains updated wrapper classes, updated test cases, and other
+		updates that facilitate your use of recent API features. Changes include
+		<a href="http://developer.ebay.com/DevZone/XML/docs/WebHelp/ReleaseNotes.html#577-NF">updates to user token retrieval</a> and <a href="http://developer.ebay.com/DevZone/XML/docs/WebHelp/ReleaseNotes.html#579-AN">deprecation of eBay Express</a>. </p>
+
+        <h4>Updates to SDK Samples</h4>
+		<p>Some SDK samples are updated based on recent API features. Please note
+		that for Return Policy and for the requirement to specify shipping,
+		some samples contain hard-coded fields. Therefore, if you want to change the
+		target site used in the sample, you must integrate <code>GetCategoryFeaturesCall</code>
+		and <code>GeteBayDetailsCall</code> into the sample. For important information, see the
+		<a href="http://developer.ebay.com/DevZone/XML/docs/WebHelp/ReleaseNotes.html"
+		target="_blank">Trading API Release Notes</a> and the eBay Trading Web Services section
+		of the <a href="http://developer.ebay.com/support/docs/" target="_blank">Developer
+		Documentation Center</a>.</p>
+
+<hr>
+<a href="#top"><span class="Small c1">Back to top</span></a>
+
+<a name=575></a>
+<h3>SDK Version 575 and Subsequent Point Releases</h3>
+
+        <h4>Support for Microsoft .NET Framework version 2.0</h4>
+
+        <p>Beginning with this release, the SDK will only support Microsoft .NET Framework
+		versions 1.1 and 2.0 (not
+		<a href="http://support.microsoft.com/lifecycle/?LN=en-us&p1=1248&x=13&y=14">version 1.0</a>,
+		which Microsoft has retired).<br><br>
+		<strong>If you are still using version 1.0, please update your .NET Framework version.</strong>
+        This may require that you upgrade your integrated development environment.</p>
+
+        <h4>Recent API Feature Updates</h4>
+		<p>The eBay SDK for .NET contains updated wrapper classes, updated test cases, and other
+		updates that facilitate your use of recent features of the API. </p>
+
+		<h4>Documentation of Recent API Features Available</h4>
+		<p>For information about the latest API features, please see the
+		<a href="http://developer.ebay.com/DevZone/XML/docs/WebHelp/ReleaseNotes.html"
+		target="_blank">Trading API Release Notes</a> and the eBay Trading Web Services section
+		of the <a href="http://developer.ebay.com/support/docs/" target="_blank">Developer
+		Documentation Center</a>.</p>
+
+<hr>
+<a href="#top"><span class="Small c1">Back to top</span></a>
+
+<a name=561></a>
+<h3>SDK Version 561 and Subsequent Point Releases</h3>
+
+		<h4>User Authentication Improvements</h4>
+		<p>The eBay SDK for .NET includes the user-authentication improvements released
+		with Trading API version 557. For information about these improvements,
+		see <a href="http://developer.ebay.com/DevZone/XML/docs/WebHelp/ReleaseNotes.html#557-nf">the Release Notes for version 557 of the Trading API</a> and see <a href="http://developer.ebay.com/DevZone/XML/docs/WebHelp/index.htm?context=eBay_XML_API&topic=AuthNAuth">Authentication and Authorization</a>.</p>
+
+		<p>The SDK changes include 3 new wrapper classes
+		(GetSessionIDCall, GetTokenStatusCall, and RevokeTokenCall) and new FetchTokenCall functionality.
+		Please use the new FetchTokenCall functionality in your application.
+		The SoapApiDemo samples for both C# and VB.NET are updated with the new FetchTokenCall functionality.
+		The C# SoapApiDemo sample is updated to show uses of the 3 new wrapper classes.
+		The VB.NET SoapApiDemo sample is updated to show the use of GetTokenStatusCall.
+		</p>
+
+		<h4>Code Generator Improvements</h4>
+		<p>The <a href="#CodeGen">code generator</a> in
+		<i>...\SDKInstallDir\Code Generator</i>
+		is easier to use and no longer generates stubs for non-SOAP calls.</p>
+
+		<h4>Visual Basic 6 Sample Removed</h4>
+		<p>The Visual Basic 6 sample (formerly under <i>...\SDKInstallDir\Samples\VB6</i>)
+		has been removed from the SDK. Please see the
+		VB.NET sample (under <i>...\SDKInstallDir\Samples\VB.NET</i>) instead.</p>
+
+		<h4>Recent API Feature Updates</h4>
+		<p>The eBay SDK for .NET contains updated wrapper classes, updated test cases, and other updates that facilitate your use of recent features of the API. </p>
+
+		<h4>Documentation of Recent API Features Available</h4>
+		<p>For information about the latest API features, please see the
+		<a href="http://developer.ebay.com/DevZone/XML/docs/WebHelp/ReleaseNotes.html" target="_blank">Trading API Release Notes</a> and the eBay Trading Web Services section of the <a href="http://developer.ebay.com/support/docs/" target="_blank">Developer Documentation Center</a>. </p>
+
+<hr>
+<a href="#top"><span class="Small c1">Back to top</span></a>
+<!-- ################################# -->
+<!-- ################################# -->
+
+<a name=549></a>
+<h3>SDK Version 549 and Subsequent Point Releases</h3>
+
+		<h4>Attributes Library Supports Sitewide Attribute Sets</h4>
+		<p>The Attributes Library in the SDK now supports downloading and rendering
+		sitewide characteristic sets. This enables you to include sitewide attributes in listings.</p>
+
+		<p>On many sites, you use sitewide attribute sets to fill in an item's Return Policy fields,
+		the Item Condition field, or both. Some categories may support zero, one, or both of these sets
+		(as indicated in each sitewide set's "exclude list").</p>
+
+		<p>The changes described here assume you are already familiar with the Attributes Library.
+		(For information about working with the Attributes Library, see <a href="http://developer.ebay.com/DevZone/WindowsSDK/docs/Concepts/AttributeLibrary/AttrCatlgOverview-The_Attributes_(Item_Specifics__Return_Policy)_API.html" target="_blank">The Attributes API</a>.)
+		</p>
+
+		<p>In the <b>IAttributesMaster</b> interface and <b>AttributesMaster</b> class,
+		these new methods have been defined:</p>
+
+		<ul>
+			<li><b>GetItemSpecificAttributeSetsForCategories()</b> for retrieving
+			(standard) characteristic sets that are mapped to each specified category.</li>
+			<li><b>GetSiteWideAttributeSetsForCategories()</b> for retrieving
+			sitewide characteristic sets that are mapped to each specified category.</li>
+			<li><b>GetReturnPolicyAttributeSet()</b> method for extracting the
+			Return Policy characteristic set from the array of sitewide sets.
+			(If you are using eBay's Item Specifics SYI XSL stylesheet, the return policy
+			needs to be rendered on a separate page.)</li>
+			<li><b>JoinItemSpecificAndSiteWideAttributeSets()</b> for creating an array of
+			all the standard and sitewide characteristic sets (e.g., Item Condition)
+			that will be rendered together (not including Return Policy). </li>
+		</ul>
+
+		<p>Also, in the <b>AttributesMaster</b> class, the <b>RenderHtml()</b> method has been overloaded
+		to support rendering Return Policy fields (using eBay's XSL stylesheet).
+		This method checks whether the data is for a return policy, and adds the <b>pageId</b> attribute to
+		the <b>SelectedAttributes</b> node if it is.</p>
+
+		<p><b>Note</b>: In a few cases, the Item Condition attribute may appear twice when
+		you render standard and sitewide data for a category (please
+		<a href="http://developer.ebay.com/community/forums" target="_blank">inform eBay</a> if this occurs).
+		This occurs when a category is mapped to
+		a standard characteristic set that defines an Item Condition attribute locally, and the
+		category is also mapped to a sitewide Item Condition characteristic set.
+		To avoid unexpected results, the seller should either use the
+		local Item Condition defined in the standard set, or you should make sure the
+		same value is used for both when you list the item.</p>
+
+		<p>A few helper methods have been added to or modified in <b>IAttributesXmlProvider</b> and
+		<b>AttributesXmlDownloader</b>:</p>
+		<ul>
+			<li><b>GetMultipleCSXml()</b> returns an <b>XmlDocument</b> object. (This provides a convenient
+			alternative to GetMultipleCSXmlText(), which returns a string.)</li>
+			<li><b>DownloadXml()</b> returns an <b>XmlDocument</b> instead of returning void.</li>
+		</ul>
+
+		<p>A few helper methods have also been added to <b>ICategoryCSProvider</b> and
+		<b>CategoryCSDownloader</b>:</p>
+		<ul>
+			<li><b>GetSiteWideCharacteristics()</b> gets a list of sitewide characteristic sets
+			that are mapped to the specified category.</li>
+			<li><b>GetSiteWideCharSetsAttrIds()</b> gets an array of sitewide characteristic set IDs
+			that are mapped to the specified category.</li>
+			<li><b>GetVCSIdMap()</b> gets the characteristic set IDs that are mapped
+			to the specified category (as a <b>Hashtable</b>).</li>
+			<li><b>GetVCSIdArray()</b> gets the characteristic set IDs as an array.
+			(In <b>CategoryCSDownloader</b>, this method uses <b>GetVCSIdMap()</b>.)</li>
+		</ul>
+
+		<p>Before <b>CategoryCSDownloader</b> downloads sitewide characteristic sets,
+		it checks to see what version of the metadata is already stored locally and
+		compares it to the version on the site.  If the version on the site is different, or
+		if the metadata isn't stored locally, it downloads the appropriate metadata
+		from the site and stores it in the local file system. These are the filename conventions
+		(where <i>version</i> is the metadata version, not the request version):</p>
+
+		<table cellspacing="2">
+			<tr><td class="version">Sitewide characteristic set mapping (all categories)</td><td><i>site</i>.ALL.<i>version</i>.swcs</td></tr>
+			<tr><td class="version">Sitewide characteristic set mapping (one category)</td><td><i>site.categoryID.version</i>.swcs</td></tr>
+		</table>
+		<blockquote><i>site.categoryID.version</i>.</blockquote>
+
+		<p>Here are a few cases that may be helpful when you're testing sitewide attributes in the Sandbox:</p>
+		<ul>
+			<li><b>Site ID 77 (Germany), category 156939</b><br>
+			Mapped to:
+				<ul>
+					<li>Standard set: 3029 (Backofen &amp; Herde), with local Zustand (condition) attribute (10244)</li>
+					<li>Sitewide set: 2136 (Return Policy)</li>
+				</ul><br>
+			</li>
+			<li><b>Site ID 77 (Germany), category 18459</b> <br>
+			Mapped to:
+				<ul>
+					<li>Standard set: 2997 (Briefmarken - Stamps)</li>
+					<li>Sitewide set: 1950 (Artikelzustand - Item Condition)</li>
+					<li>Sitewide set: 2136 (Return Policy)</li>
+				</ul><br>
+			</li>
+			<li><b>Site ID 0 (US), category 48514</b> <br>
+			Mapped to:
+				<ul>
+					<li>Standard set: 2034 (Camcorders), with local Condition attribute (10244)</li>
+					<li>Sitewide set: 2135 (Return Policy)</li>
+				</ul><br>
+			</li>
+			<li><b>Site ID 212 (Poland), category 9861</b> <br>
+			Mapped to:
+				<ul>
+					<li>Standard set: 4896 (Samochody osowe), with local Stan (condition) attribute (10244)</li>
+					<li>No sitewide set (3830 Item Condition set is returned but excludes this category)</li>
+				</ul><br>
+			</li>
+		</ul>
+
+		<p>For a sample that uses the new functionality in the Attributes library, see
+		C:\Program Files\eBay\SDKInstallDir\Samples\ASP.NET\AttributesDemo and
+		the <a href="http://developer.ebay.com/DevZone/WindowsSDK/docs/InstalledSamples/ASP.NET/AttributesDemo/Readme.htm" target="_blank">Readme file for that sample</a>.</p>
+
+		<!-- REMOVE THIS IF THE ABOVE TEXT IS APPROVED
+		<h4>Functionality Added for Sitewide Attribute Sets</h4>
+		<p>The Attributes Library in the SDK contains functionality for using
+		sitewide attribute sets. For more information, please see the most recent
+		version of this .NET SDK Readme file, available at
+		the <a href="http://developer.ebay.com/developercenter/windows/" target="_blank">Windows Developer Center</a>.</p>
+		-->
+
+<hr>
+<a href="#top"><span class="Small c1">Back to top</span></a>
+<!-- ################################# -->
+<!-- ################################# -->
+
+
+<a name=523></a>
+<h3>SDK Version 523 and Subsequent Point Releases</h3>
+
+		<h4>Attributes Library Enhanced</h4>
+
+		<p>The Attributes Library now gives you the option to store attribute metadata locally, and
+		only download updates for a site if a newer version exists on the site.
+		Each provider includes one or more <b>Get</b> methods for this purpose.
+		In the downloader classes that implement these provider interfaces, these
+		methods check to see what version of the metadata is already stored locally and
+		compare it to the version on the site. If the version on the site is different, or
+		if the metadata isn't stored locally, these <b>Get</b> methods download the appropriate metadata
+		from the site and store it in the local file system.</p>
+
+		<p>These are the filename conventions (where <i>version</i> is the
+    metadata version, not the request version):</p>
+
+    <table cellspacing="2">
+    <tr><td class="version">XSL file</td><td><i>site.version</i>.attrxsl</td></tr>
+      <tr><td class="version">Category-to-CS mappings (all categories)</td><td><i>site</i>.ALL.<i>version</i>.catcs</td></tr>
+      <tr><td class="version">Category-to-CS mappings (one category)</td><td><i>site.categoryID.version</i>.catcs</td></tr>
+      <tr><td class="version">Attributes CS (all sets)</td><td><i>site</i>.ALL.<i>version</i>.attrcs</td></tr>
+      <tr><td class="version">Attributes CS (one or more sets)</td><td><i>site.CSIdHashcode.version</i>.attrcs</td></tr>
+    </table>
+
+		<p>For example, if you retrieve a full attribute metadata XML file from the UK site
+    (without specifying a particular CSId), and the attribute system version is 8005,
+    the filename would be: UK.ALL.8005.attrcs.</p>
+
+    <p>If you retrieve attribute metadata for one or more CSIds, the downloader creates
+    a hashcode for the set (the sum of the IDs), and uses that value in the filename.</p>
+
+    <p>The downloader saves these files in the C:\temp directory. </p>
+
+    <p><b>Important:</b> You can delete these locally stored files, but if you edit or rename them,
+    your application may fail.</p>
+
+		<p>Alternatively, each provider includes <b>Download</b> methods to enable you to force a full download of the metadata without checking the version. In the downloader classes, these methods store the metadata in memory only.</p>
+
+		<p>For more information about working with the Attributes Library, see <a href="http://developer.ebay.com/DevZone/WindowsSDK/docs/Concepts/AttributeLibrary/AttrCatlgOverview-The_Attributes_(Item_Specifics__Return_Policy)_API.html" target="_blank">The Attributes API</a>.
+		For a sample that uses the new functionality in the Attributes library, see
+		C:\Program Files\eBay\SDKInstallDir\Samples\ASP.NET\AttributesDemo and
+		the <a href="http://developer.ebay.com/DevZone/WindowsSDK/docs/InstalledSamples/ASP.NET/AttributesDemo/Readme.htm" target="_blank">Readme file for that sample</a>. </p>
+
+		<p>Also note that the following (existing) class and interface definitions have been moved from the AttributesMaster.cs file to individual files in eBay.Service.SDK.Attribute.<p>
+		<ul>
+		<li>AttributesHelper</li>
+		<li>AttributesXslDownloader</li>
+		<li>AttributesXmlDownloader</li>
+		<li>CategoryCSDownloader</li>
+		<li>IAttributesXslProvider</li>
+		<li>IAttributesXmlProvider</li>
+		<li>ICategoryCSProvider</li>
+		<li>IAttributesMaster</li>
+		</ul>
+
+		<h4>Recent API Feature Updates</h4>
+		<p>The eBay SDK for .NET contains updated wrapper classes, updated test cases, and other updates that facilitate your use of recent features of the API. </p>
+
+		<h4>Documentation of Recent API Features Available</h4>
+		<p>For information about the latest API features, please see the
+		<a href="http://developer.ebay.com/DevZone/XML/docs/WebHelp/ReleaseNotes.html" target="_blank">Trading API Release Notes</a> and the eBay Trading Web Services section of the <a href="http://developer.ebay.com/support/docs/" target="_blank">Developer Documentation Center</a>. </p>
+
+		<h4>Removal of Sample</h4>
+		<p>The following sample (formerly under ...\SDKInstallDir\Samples\C#)
+		has been removed from the SDK: SamplePaymentApplication.</p>
+
+<hr>
+<a href="#top"><span class="Small c1">Back to top</span></a>
+<!-- ################################# -->
+<!-- ################################# -->
+
+<a name=511></a>
+<h3>SDK Version 511 and Subsequent Point Releases</h3>
+
+		<h4>Changes to Download Location and to Documentation</h4>
+
+		<p>The eBay SDK for .NET no longer is available in the Community Codebase.
+		Instead, it is available on the <a href="http://developer.ebay.com/community/featured_projects/?name=eBay+SDK+for+.NET" target="_blank">eBay SDK for .NET download page</a>. The 511 version includes the 511 NDoc.</p>
+
+		<p>For information about the latest API features, please see the
+		<a href="http://developer.ebay.com/DevZone/XML/docs/WebHelp/ReleaseNotes.html" target="_blank">Trading API Release Notes</a> and the <a href="http://developer.ebay.com/DevZone/XML/docs/WebHelp/index.htm" target="_blank">Trading Web Services API Guide</a> at the <a href="http://developer.ebay.com/developercenter/windows/" target="_blank">Windows Developer Center</a>. The <a href="http://developer.ebay.com/DevZone/XML/docs/WebHelp/index.htm" target="_blank">Trading Web Services API Guide</a> replaces the eBay SDK for .NET Guide.</p>
+
+		<h4>No Wrapper Class Currently Available for the UploadSiteHostedPictures Call</h4>
+		<p>Schema <a href="http://developer.ebay.com/DevZone/XML/docs/WebHelp/ReleaseNotes.html#513" target="_blank">version 513</a> introduced a new XML API call (UploadSiteHostedPictures) for uploading pictures for listings. Availability of this call in the SOAP API is planned for a future date, to be announced. Until this call is available in the SOAP API, no wrapper class will be available for this call in the SDK.</p>
+
+		<h4>Deletions of Deprecated Fields and Calls</h4>
+		<p>Many deprecated calls and fields were deleted in WSDL version 499. Due to the large number of <a href="http://developer.ebay.com/DevZone/XML/docs/WebHelp/ReleaseNotes.html#499-AN">deletions</a>, SDK Version 511 is not backward compatible.</p>
+
+		<h4>Helper Classes Available for GetCategoryFeaturesCall and GeteBayDetailsCall</h4>
+		<p>You can use two new helper classes (in ...\SDKInstallDir\Source\eBay.Service.SDK\Util) for storing
+		the data returned by GetCategoryFeaturesCall and GeteBayDetailsCall.</p>
+
+		<h4>SampleSellingApplication Not Compatible with This SDK Version</h4>
+		<p>The sample titled SampleSellingApplication (in ...\SDKInstallDir\Samples\C#\SampleSellingApplication)
+		is not compatible with this SDK version. </p>
+
+		<h4>Removal of Two Samples</h4>
+		<p>The following samples (formerly under ...\SDKInstallDir\Samples\C#)
+		have been removed from the SDK: AttributeBulkEditorControl and AttributeBulkEditorDemo.</p>
+
+<hr>
+<a href="#top"><span class="Small c1">Back to top</span></a>
+<!-- ################################# -->
+<!-- ################################# -->
+
+
+<a name=503></a>
+<h3>SDK Version 503 for .NET Point Release</h3>
+
+		<h4>Deletions of Deprecated Fields and Calls</h4>
+		<p>Due to a large number of <a href="http://developer.ebay.com/DevZone/XML/docs/WebHelp/ReleaseNotes.html#499-AN">deletions</a> from version 499 of the schema, SDK version 503 is not backward compatible. Deprecated calls and fields were deleted on <a href="http://developer.ebay.com/DevZone/XML/docs/WebHelp/ReleaseNotes.html#499-SC">schema version 499</a>.</p>
+
+		<p>For information about SDK changes, please see the NDoc installed in the C:\Program Files\eBay\SDKInstallDir\docs\LibRef folder. Additional information about schema deletions is in the <a href="http://developer.ebay.com/DevZone/XML/docs/Reference/eBay/deprObjects.html">Deprecated Objects</a> page in the <i>Input/Output Reference</i>. Please also read the <a href="http://developer.ebay.com/DevZone/XML/docs/HowTo/eBayWS/eBaySchemaVersioning.html">eBay Schema Versioning Strategy</a>
+		page.</p>
+
+		<h4>Recent API Feature Updates</h4>
+		<p>This SDK point release contains updated wrapper classes and other updates that facilitate your use of new API features. The following features, described in the
+		<a href="http://developer.ebay.com/DevZone/XML/docs/WebHelp/ReleaseNotes.html" target="_blank">Trading API Release Notes</a>, are among the API features included in this SDK release:</p>
+		<ul>
+			<li><b>Retreiving Product Information and Listings</b>. You can use GetProductsCall
+			to retrieve basic product information (such as product titles, stock photos, and Item Specifics),
+			as well as buying guides, reviews, and active items. </li>
+			<li><b>Applying Discounts Across Listings</b>. You can temporarily reduce the prices of listed items using the Promotional Price Display feature. The feature enables sellers to apply a time-based discount across many Store Inventory and fixed-price listings.</li>
+		</ul>
+
+		<h4>Update to Shipping Discount Profiles Feature on API Version 505</h4>
+		<p>In the Shipping Discount Profiles feature, changes to WSDL elements were made on
+		<a href="http://developer.ebay.com/DevZone/XML/docs/WebHelp/ReleaseNotes.html#505-SC" target="_blank">API version 505</a>. To use the Shipping Discount Profiles feature, please update your SDK to WSDL version 505 or later.</p>
+
+		<h4>Update to CurrencyUtility Class</h4>
+		<p>The GetDefaultCurrencyCodeType method of the CurrencyUtility class has been updated to return currencies for newer eBay sites.</p>
+
+<hr>
+<a href="#top"><span class="Small c1">Back to top</span></a>
+<!-- ################################# -->
+<!-- ################################# -->
+
+
+<a name=495></a>
+<h3>SDK Version 495 for .NET Full Release</h3>
+
+		<h4>Recent API Feature Updates</h4>
+		<p>The eBay SDK for .NET contains updated wrapper classes, updated test cases, and other updates that facilitate your use of recent features of the API. </p>
+
+		<h4>GetMyeBayCall Removed</h4>
+		<p>The GetMyeBayCall wrapper class has been removed from the SDK due to deprecation of the underlying request/response elements in the schema. For more information about deprecated elements, please see the <a href="http://developer.ebay.com/DevZone/XML/docs/HowTo/eBayWS/eBaySchemaVersioning.html" target="_blank">Versioning Strategy</a> and <a href="http://developer.ebay.com/DevZone/XML/docs/Reference/eBay/VersioningSummary.html" target="_blank">Versioning Summary</a>. Additionally, the GetMyeBay code has been removed from sample code.</p>
+
+		<h4>References to SiteHostedPicture and VendorHostedPicture Removed</h4>
+		<p>The PictureDetails field replaced the SiteHostedPicture and VendorHostedPicture fields in the API.
+		Therefore, references in sample code to SiteHostedPicture and VendorHostedPicture have been removed from the SDK.
+		For information about when the PictureDetails field replaced the SiteHostedPicture and VendorHostedPicture fields,
+		please see the <a href="http://developer.ebay.com/DevZone/XML/docs/Reference/eBay/VersioningSummary.html" target="_blank">Versioning Summary</a>.</p>
+
+		<h4>Updated Samples</h4>
+		<p>Four dialog boxes, including dialog boxes for use of GetCartCall and SetCartCall,
+		have been added to the SoapApiDemo sample (C:\Program Files\eBay\SDKInstallDir\Samples\C#\SoapApiDemo).</p>
+
+		<h4>Consolidation of Multi-Call Test Programs</h4>
+		<p>The multi-call test programs delivered with the SDK have been consolidated.
+		They require only a single compilation after you have opened TestScenarios.sln in C:\Program Files\eBay\SDKInstallDir\Source\SanityTest\TestScenarios. Additionally,
+		they use only one Account Settings dialog box. </p>
+
+		<h4>Multi-Call Test Programs for Adding Orders and for Retrieving Shipping Information</h4>
+		<p>Multi-call test programs for adding orders and for retrieving shipping information
+		have been added to the SDK. To run the test programs, use TestScenarios.sln in C:\Program Files\eBay\SDKInstallDir\Source\SanityTest\TestScenarios.</p>
+
+		<h4>GetCharitiesCall Wrapper Class Updated</h4>
+		<p>The GetCharitiesCall wrapper class can be used without any call-specific input fields in order to retrieve all charity nonprofit organizations. Formerly, at least one call-specific input field
+		was required in the wrapper class.</p>
+
+<hr>
+<a href="#top"><span class="Small c1">Back to top</span></a>
+<!-- ################################# -->
+<!-- ################################# -->
+
+<a name=485></a>
+<h3>SDK Version 485 and Subsequent Point Releases</h3>
+
+		<h4>Control Payload Logging</h4>
+		<p>You can use the new ExceptionFilter class to specify several types of logging.
+		You can specify logging in cases of specific API errors and HTTP status codes.
+		You also can specify logging in general cases of API exceptions and HTTP exceptions. The new logging feature makes logging more useful and reduces the size of your logs. </p>
+
+		<p>The FrmMain.cs file in the SOAPApiDemo sample (at C:\Program Files\eBay\SDKInstallDir\Samples\C#\SoapApiDemo) shows one way to use the new ExceptionFilter class. To use the new logging feature for a program, you can add values from C:\Program Files\eBay\SDKInstallDir\Source\Helper\AppSettingHelper.cs to the app.config file for the program. To see an example of how to log only calls resulting in HTTP status codes 404 and 502, add the following line to the app.config file of SoapApiDemo (case insensitive):
+		<pre>&lt;add key="LogPayloadHttpStatusCodes" value="404;502"/&gt;</pre>
+
+		To see an example of how to log only calls resulting in error codes 17 and 124, add the following line to the app.config file of SoapApiDemo:
+		<pre>&lt;add key="LogPayloadErrorCodes" value="17;124"/&gt;</pre>
+
+		To see an example of how to log only calls resulting generally in API exceptions, add the following line to the app.config file of SoapApiDemo:
+		<pre>&lt;add key="LogPayloadExceptions" value="ApiException"/&gt;</pre>
+
+		To see an example of how to log only calls resulting generally in HTTP exceptions, add the following line to the app.config file of SoapApiDemo:
+		<pre>&lt;add key="LogPayloadExceptions" value="HttpException"/&gt;</pre>
+
+		To see an example of how to log only calls resulting generally in API and HTTP exceptions, add the following line to the app.config file of SoapApiDemo:
+		<pre>&lt;add key="LogPayloadExceptions" value="ApiException;HttpException"/&gt;</pre>
+
+		</p>
+
+		<h4>Reporting for Performance Latencies</h4>
+		<p>Enhancements to core SDK files can help you determine the time needed for each phase of a SOAP API call (client-side phases for encoding and decoding, network-transport phases, and server-side phase).</p>
+
+		<p>For an example of how to use the enhancements, see the MultiThread sample (C:\Program Files\eBay\SDKInstallDir\Samples\C#\MultiThread). </p>
+
+		<h4>Multi-Call Test Programs Added for Leaving Feedback and Getting Item Transactions</h4>
+		<p>Multi-call test programs for leaving feedback and getting item transactions have been added to the SDK.</p>
+		<p>To run the test programs, use the following solution file: C:\Program Files\eBay\SDKInstallDir\Source\SanityTest\testscenarios\SanityTestScenarios.sln.</p>
+		<p>The folders of the new programs are in the following folder: C:\Program Files\eBay\SDKInstallDir\Source\SanityTest\testscenarios.
+		The new program that shows one way to test LeaveFeedbackCall is in the SanityTestSNR2 folder.
+		The new program that shows one way to test GetItemTransactionsCall is in the SanityTestSNR3 folder.</p>
+
+		<h4>AddMemberMessage Removed from WSDL</h4>
+		<p>AddMemberMessage was removed from the WSDL on version 481. As previously announced, this call has been replaced by AddMemberMessageAAQToPartner, AddMemberMessageRTQ, and AddMemberMessagesAAQToBidder. For information about schema changes, please see the Trading API Release Notes (which contain tables showing the schema changes that occur every two weeks) at the <a href="http://developer.ebay.com/support/docs/" target="_blank">Developer Documentation Center</a>.</p>
+
+<hr>
+<a href="#top"><span class="Small c1">Back to top</span></a>
+<!-- ################################# -->
+<!-- ################################# -->
+
+<a name=479></a>
+<h3>SDK Version 479 and Subsequent Point Releases</h3>
+
+		<h4>Attributes Library Updated</h4>
+		<p>The validation rule logic in the Attributes Library (C:\Program Files\eBay\SDKInstallDir\Source\eBay.Service.SDK.Attribute) has been updated to match the current site logic. For information about updates to the Attributes Library, see <a href="#AttributesLibraryNotes">Attributes Library Notes</a>. The next release of the <a href="http://developer.ebay.com/support/docs/" target="_blank">Trading API documentation</a> will be updated to reflect the same changes.</p>
+
+		<h4>Sanity Test Suite Improved</h4>
+		<p>The reliability of the Sanity Test suite (under the Source\SanityTest folder) has been improved. You can use the <a href="#CodeGen">Sanity Test suite</a> for simple testing after you change code in the SDK.</p>
+
+		<h4>Recent API Feature Updates</h4>
+		<p> The eBay SDK for .NET contains wrapper classes and other updates that facilitate your use of recent features of the API. </p>
+
+		<h4>Database Sample Removed</h4>
+		<p>The eBay SDK for .NET no longer includes the database sample. In past releases, the database sample was installed at the following location: C:\Program Files\eBay\SDKInstallDir\Samples\C#\DatabaseSample. Additionally, references in other samples to the database sample have been removed. However, the compiled version of the database sample, eBay.Service.SDK.Integration.dll, is available in the following location: C:\Program Files\eBay\SDKInstallDir\eBay.Service.SDK.Integration.dll. In pre-459 releases, the database sample files were referred to as the "integration library." Please note that if you regenerate eBay.snk and then rebuild ebay.Service.dll, errors can occur if you compile and run a sample that depends on the database sample.
+		</p>
+
+<hr>
+<a href="#top"><span class="Small c1">Back to top</span></a>
+<!-- ################################# -->
+<!-- ################################# -->
+
+<a name=471></a>
+<h3>SDK Version 471 and Subsequent Point Releases</h3>
+
+		<h4>Commands for Registering Some Files Were Moved</h4>
+		<p>Commands in C:\Program Files\eBay\SDKInstallDir\RegSDK.bat for registering eBay.Service.SDK.Integration.dll and AttributeBulkEditBox.dll have been moved to C:\Program Files\eBay\SDKInstallDir\Samples\C#\RegSDKSample.bat.</p>
+
+		<h4>Multi-Call Test Program Added</h4>
+		<p>A multi-call test program demonstrates a scenario that uses 8 different API calls involving data of a single item listing. To run the multi-call test program, use the following solution file: C:\Program Files\eBay\SDKInstallDir\Source\SanityTest\testscenarios\SanityTestScenarios.sln.</p>
+
+		<h4>Call Retry for HTTP Errors</h4>
+		<p>You can use updates to the CallRetry and ApiException classes to detect HTTP errors and subsequently perform call retry. Specifically, you can implement call retry in response to 502 HTTP errors, 404 HTTP errors, and related HTTP errors from a web server. In the SoapApiDemo sample, at C:\Program Files\eBay\SDKInstallDir\Samples\C#\SoapApiDemo, updates to FrmGetItem.cs, including a GetCallRetry method, show one way to use the new functionality of the CallRetry class.</p>
+
+		<h4>StoresFixedPrice Tag To Be Obsolete</h4>
+		<p>The StoresFixedPrice tag, currently available for international sites, will soon be obsolete. The 471 API schema released in late July contained additions to ItemTypeFilterCodeType that apply to searches with GetSearchResults and GetCategoryListings. The additions to ItemTypeFilterCodeType must be used instead of the StoresFixedPrice tag. For more information, please see the Trading API Release Notes (which contain tables showing schema changes that occur every two weeks) at the <a href="http://developer.ebay.com/support/docs/" target="_blank">Developer Documentation Center</a>.</p>
+
+<hr>
+<a href="#top"><span class="Small c1">Back to top</span></a>
+<!-- ################################# -->
+<!-- ################################# -->
+
+<a name=465></a>
+<h3>SDK Version 465 and Subsequent Point Releases</h3>
+
+		<h4>AddItemCall, Other Calls Store Images in a PictureDetails Container</h4>
+		<p>The following wrapper classes now store images in a PictureDetails container, by default: AddItemCall, VerifyAddItemCall, RelistItemCall, and AddLiveAuctionItemCall. Formerly, a SiteHostedPicture container was used. If you want your application to continue using a SiteHostedPicture container, set the UseDeprecatedPictureStructure property of the wrapper class to true. Note that SiteHostedPicture is deprecated. Applications eventually will have to use PictureDetails because with API version 439 and higher, PictureDetails is used for pictures associated with an item.</p>
+
+		<h4>Class for Specifying Time Values Improved</h4>
+		<p>The following properties are added to the
+		TimeFilter class: TimeFilter.TimeFromUTC and TimeFilter.TimeToUTC. For more information,
+		see <a href="#TimeValues">Note About Time Values</a>.</p>
+
+		<h4>Invalid Codetype Values Provided</h4>
+		<p>An exception resulting from an invalid codetype value now includes the text of the specific value that caused the exception.</p>
+
+<hr>
+<a href="#top"><span class="Small c1">Back to top</span></a>
+<!-- ################################# -->
+<!-- ################################# -->
+
+<a name=459></a>
+<h3>SDK Version 459 and Subsequent Point Releases</h3>
+
+		<h4>Name of Integration Library Changed</h4>
+		<p>The name of the integration library has been changed to "Database Sample." The name change includes a change to the name of the folder containing the sample; the name of the <i>eBay.Service.SDK.Integration</i> folder has been changed to <i>DatabaseSample</i>. The sample is meant solely to show one way to store and access eBay data.</p>
+
+<hr>
+<a href="#top"><span class="Small c1">Back to top</span></a>
+<!-- ################################# -->
+<!-- ################################# -->
+
+<a name=pre-459></a>
+<h3>Pre-Version-459 of the SDK</h3>
+
+		<h4>Pre-Version-459 Changes</h4>
+		<p>Please see the Past Releases section of the Release Notes in the following GZ file: <a href="http://developer.ebay.com/DevZone/WindowsSDK/docs/eBayDotNETSDKAPIAllDocs459.tar.gz" target="_blank">eBayDotNETSDKAPIAllDocs459.tar.gz</a>.</p>
+
+<hr>
+<a href="#top"><span class="Small c1">Back to top</span></a>
+<!-- ################################# -->
+<!-- ################################# -->
+
+
+<a name=GeneralInformation></a>
+<h2>General Information for the eBay SDK for .NET</h2>
+
+<table cellspacing="2">
+
+<tr>
+    <td class="version"><a href="#DevelopmentEnvironments">Development Environments and Compatibility</a></td>
+</tr>
+<tr>
+    <td class="version"><a href="#PostInstall">Post-Installation Configuration</a></td>
+</tr>
+<tr>
+    <td class="version"><a href="#Links">SDK-Related Links</a></td>
+</tr>
+<tr>
+    <td class="version"><a href="#SDKDocumentation">SDK Documentation</a></td>
+</tr>
+<tr>
+    <td class="version"><a href="#WSDLLocations">WSDL Locations</a></td>
+</tr>
+<tr>
+    <td class="version"><a href="#CodeGen">Code Generation and Testing</a></td>
+</tr>
+<tr>
+    <td class="version"><a href="#ClientEnvironments">Supported Client Environments</a></td>
+</tr>
+
+
+<tr>
+    <td class="version"><a href="#Samples">Samples</a></td>
+</tr>
+<tr>
+    <td class="version"><a href="#AttributesLibraryNotes">Attributes Library Notes</a></td>
+</tr>
+<tr>
+    <td class="version"><a href="#TimeValues">Notes About Time Values</a></td>
+</tr>
+</table>
+
+<a name=DevelopmentEnvironments></a>
+<h3><b>Development Environments and Compatibility</b></h3>
+	<ul>
+		<li>Please note that updates to applications using new WSDL versions should always be done in a test environment.
+		<br>In some cases, SDK releases are not backward-compatible with previous SDK versions. For example,
+		SDK version 459 is not backward-compatible.</li>
+		<i>Additionally, in schema version 499, deprecated objects in the schema were deleted, creating backward incompatibility. Please see the
+		<a href="http://developer.ebay.com/DevZone/XML/docs/WebHelp/ReleaseNotes.html" target="_blank">Trading API Release Notes</a> for ongoing updates to the schema (including occasional removals of schema elements).</i>
+		<li>You must have the <a href="http://msdn.microsoft.com/netframework/">Microsoft .NET Framework Version 2.0</a> installed before you install the eBay SDK for .NET. Additionally, before using the SDK, please see <a href="#PostInstall">Post-Installation Configuration</a>.</li>
+		<li>Every SDK release uses the eBay SOAP API and is based on a WSDL version. For example, the eBay SDK 459 for .NET uses the eBay SOAP API and contains the wrapper classes available in the 459 WSDL. </li>
+	</ul>
+
+<hr>
+<a href="#top"><span class="Small c1">Back to top</span></a>
+<!-- ################################# -->
+<!-- ################################# -->
+
+
+<a name=PostInstall></a>
+<h3>Post-Installation Configuration</h3>
+	<ul>
+		<li>HTTP compression support:
+		<br>When you use the ApiCall class of the eBay SDK for .NET to execute a request to the eBay API, HTTP compression is on by default. This HTTP compression markedly reduces the size of response data from the API. HTTP compression is especially advantageous for calls such as GetCategories that return large amounts of data. To turn HTTP compression on or off, use the EnableCompression property of the ApiCall class. </li>
+
+		<li>To use the full functionality of the eBay SDK for Windows, after you install the Microsoft .NET Framework, add the path to the Microsoft .NET Framework Version 2.0 to your PATH variable, e.g. C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727.</li>
+	</ul>
+
+
+<hr>
+<a href="#top"><span class="Small c1">Back to top</span></a>
+<!-- ################################# -->
+<!-- ################################# -->
+
+
+<a name=Links></a>
+<h3>SDK-Related Links</h3>
+	<ul>
+		<li><a href="http://developer.ebay.com/support/docs/" target="_blank">API Documentation (including the Trading API Release Notes, which contain tables showing API schema changes)</a></li>
+		<li><a href="http://developer.ebay.com/DevZone/support/KnowledgeBase.asp" target="_blank">Knowledge Base</a></li>
+		<li><a href="http://developer.ebay.com/developercenter/windows/" target="_blank">Windows Developer Center</a></li>
+		<li><a href="http://developer.ebay.com/community/forums" target="_blank">System Announcements and Forums</a></li>
+	</ul>
+
+<hr>
+<a href="#top"><span class="Small c1">Back to top</span></a>
+<!-- ################################# -->
+<!-- ################################# -->
+
+
+
+<a name=SDKDocumentation></a>
+<h3>SDK Documentation</h3>
+	<ul>
+		<li>The Library Reference (Generated by Sandcastle) includes documentation for the classes in the SDK and
+		is located at C:\Program Files\eBay\SDKInstallDir\docs\LibRef\eBaySDK.chm. </li>
+		<li>For information about how to build the SDK, see
+		the following file: C:\Program Files\eBay\SDKInstallDir\Source\HowToBuild.htm.
+		<br>Note that this version of the eBay SDK for .NET can be built using either Microsoft
+		Visual Studio 2005 (.NET Framework 2.0) or Microsoft Visual Studio 2008 (.NET Framework
+		2.0/3.0/3.5). You may see a conversion dialog if you are using Microsoft Visual
+		Studio 2008, because this version of the eBay SDK was built using Microsoft
+		Visual Studio 2005. Choose, "Finish" when you see the conversion dialog.</li>
+		<li>For the Trading Web Services API Guide, the Trading API Release Notes, and other
+		API documentation (such as the Input/Output Reference and information about API versions),
+		please see the
+		<a href="http://developer.ebay.com/developercenter/windows/" target="_blank">Windows
+		Developer Center</a>.</li>
+		<li>SDK-related items containing sample code are available in the
+		<a href="http://developer.ebay.com/DevZone/support/KnowledgeBase.asp"
+		target="_blank">Knowledge Base</a>, e.g.
+		<a href="https://ebay.custhelp.com/cgi-bin/ebay.cfg/php/enduser/std_adp.php?p_faqid=320"
+		target="_blank">Options for adding pictures to an Item</a>.
+		</li>
+	</ul>
+
+
+<hr>
+<a href="#top"><span class="Small c1">Back to top</span></a>
+<!-- ################################# -->
+<!-- ################################# -->
+
+
+<a name=WSDLLocations></a>
+<h3><b>WSDL Locations</b></h3>
+	<p>The WSDL is located at http://developer.ebay.com/webservices/<i>Version</i>/ebaySvc.wsdl.
+	<p><i>Version</i> in the URL means <i>latest</i> or it means <i>a numerical version</i> of a WSDL release (see the top of the particular WSDL file).
+	<p>In the case of <i>Version</i> meaning <i>latest</i>, the WSDL is the latest released version (http://developer.ebay.com/webservices/latest/ebaySvc.wsdl). If <i>Version</i> in the URL means <i>a numerical version</i> of the WSDL, <i>Version</i> is a number (for example,  http://developer.ebay.com/webservices/445/ebaySvc.wsdl).
+	<p>Hypothetically, if the latest release of the WSDL were 449, you would find that WSDL version at both http://developer.ebay.com/webservices/latest/ebaySvc.wsdl and at http://developer.ebay.com/webservices/449/ebaySvc.wsdl.</p>
+
+
+<hr>
+<a href="#top"><span class="Small c1">Back to top</span></a>
+<!-- ################################# -->
+<!-- ################################# -->
+
+
+<a name=CodeGen></a>
+<h3>Code Generation and Testing</h3>
+	<ul>
+		<li>Each version of the eBay SDK for .NET is based on a specific version of the Trading WSDL.
+		The Trading WSDL is updated regularly.</li>
+		<br>
+		<br>
+		<li>If you want to update your SDK with a more recent WSDL version (to use more recent fields and calls by updating the code stubs in your SDK),
+		please use the eBayCodeGenerator Tool, advanced users can update their SDK with a more recent WSDL file than the one delivered with the SDK.
+			<b>For more information, see the CodeGenReadme.html file in the Tools folder.</b> The source code for the eBayCodeGenerator Tool
+			is available in the Tools folder.
+		</li>
+		<br>
+		<br>
+		<li>Please note that WSDL updates should always be done in a test environment because WSDL updates can prevent you from using some of the wrapper classes delivered with the SDK. If you update your SDK with a WSDL that contains updated input fields for requests (that is, updated request types), you will need to manually update the affected wrapper classes or use the affected request objects directly, without wrappers. </li>
+		<br>
+		<br>
+		<li>To use the Sanity Test suite (under the Source\SanityTest folder) for simple testing after you change code in the SDK, you must install NUnit (Version 2.4.7, "net-2.0") from <a href="http://www.nunit.org/index.php?p=download">http://www.nunit.org/index.php?p=download</a>.
+
+        <p>
+		Note also that if the server-side prerequisites for a call are not present, a call from the Sanity Test suite will show a call failure. Additionally, some tests may fail or may show success even when there has been a failure. After you install NUnit, do the following:
+			<ol>
+			<li>If necessary, update C:\Program Files\eBay\SDKInstallDir\Source\SanityTest\UnitTests.sln based on your NUnit installation.</li>
+			<li>Build the C:\Program Files\eBay\SDK_Install_Dir\Source\SanityTest\UnitTests.sln solution.</li>
+			<li>Start NUnit and run the UnitTests.exe file.</li>
+			</ol>
+	   </p>
+	   </ul>
+
+<hr>
+<a href="#top"><span class="Small c1">Back to top</span></a>
+<!-- ################################# -->
+<!-- ################################# -->
+
+
+<a name=ClientEnvironments></a>
+<h3><b>Supported Client Environments</b></h3>
+<p>eBay has tested the eBay SDK for .NET using the following client environments:
+	<ul>
+		<li><a href="http://msdn.microsoft.com/netframework/">Microsoft .NET Framework Versions 2.0</a></li>
+	</ul>
+</p>
+
+<hr>
+<a href="#top"><span class="Small c1">Back to top</span></a>
+<!-- ################################# -->
+<!-- ################################# -->
+
+
+<a name=Samples></a>
+<h3><b>Samples</b></h3>
+<p>Samples are available in the following folder: C:\Program Files\eBay\SDKInstallDir\Samples.</p>
+<p>To view samples in the C:\Program Files\eBay\SDKInstallDir\Samples\C# folder, use the C:\Program Files\eBay\SDKInstallDir\Samples\C#\CSharp Samples.sln solution.</p>
+<p>The SoapApiDemo sample utilizes many of the wrapper classes in the SDK. For more
+information, see C:\Program Files\eBay\SDKInstallDir\Samples\C#\SoapApiDemo\Readme.htm.</p>
+<p>All files under the C:\Program Files\eBay\SDKInstallDir\Samples folder are samples; they are meant solely to show one way to store and access eBay data.
+</p>
+
+<hr>
+<a href="#top"><span class="Small c1">Back to top</span></a>
+<!-- ################################# -->
+<!-- ################################# -->
+
+
+<a name=AttributesLibraryNotes></a>
+<h3><b>Attributes Library Notes</b></h3>
+<p>With the eBay SDK 479 for .NET Full Release, the validation rule logic in the Attributes Library (C:\Program Files\eBay\SDKInstallDir\Source\eBay.Service.SDK.Attribute) has been updated to match the current site logic, as follows:
+	<ul>
+		<li>DecimalSeparatorNotAllowedRule: The SDK previously only checked for a dot separator. Rules referencing a comma as the separator now also work correctly.</li>
+		<li>ThousandsSeparatorNotAllowedRule: The SDK previously only checked for and disallowed a dot or comma separator. Now it checks for the separator specified in the rule.</li>
+		<li>UrlValidationRule: Added support for this rule. If specified, the URL must use the correct syntax (i.e., it must contain "://" and it must not contain a space); the specified Protocol must be used; and the host must not contain the InvalidHost value (if any), although it can contain the InvalidHostOverride value, if any. As a theoretical example, we might generally disallow ebay.com (InvalidHost), but allow certain xxxx.ebay.com values (InvalidHostOverride).</li>
+		<li>VinValidationRule: Added support for this rule. If the year is 1981 or later, checks that the VIN is 17 characters (all uppercase) and performs detailed checks to confirm that the value is a valid VIN.</li>
+		<li>MotorUKvalidationRule: Added support for this rule. (The length must be 7, and only digits and letters are allowed (i.e., [A-Za-z0-9]).</li>
+	</ul>
+</p>
+
+<hr>
+<a href="#top"><span class="Small c1">Back to top</span></a>
+<!-- ################################# -->
+<!-- ################################# -->
+
+
+<a name=TimeValues></a>
+<h3><b>Notes About Time Values</b></h3>
+<p>The following can occur with an application based on the SDK: A local time (for example, 10 a.m.) is emitted by an application, and the API will change that time to GMT (for example, to 5 p.m.). And a GMT time from the API (for example, 1 p.m.) received by an application will be converted to local time (for example, to 6 a.m.).
+For this reason, in conjunction with release of <b>eBay SDK 465 for .NET</b>, the following properties are added to the
+TimeFilter class: TimeFilter.TimeFromUTC and TimeFilter.TimeToUTC. For more information, see the topic for this class in
+the Library Reference (Generated by SandCastle) at C:\Program Files\eBay\SDKInstallDir\docs\LibRef.
+Additional information is available in the following two MSDN Library topics:
+	<ul>
+		<li><a href="http://msdn2.microsoft.com/en-us/library/ms229751.aspx">dateTimeSerialization Element</a></li>
+		<li><a href="http://msdn.microsoft.com/netframework/default.aspx?pull=/library/en-us/dndotnet/html/datetimecode.asp">Coding Best Practices Using DateTime in the .NET Framework</a></li>
+	</ul>
+</p>
+
+<hr>
+<a href="#top"><span class="Small c1">Back to top</span></a>
+<!-- ################################# -->
+<!-- ################################# -->
+
+<hr>
+<p>&copy; 2005&ndash;2010 eBay Inc. All rights reserved.</p>
+</body>
+</html>
