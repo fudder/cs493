@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
 <Properties><Property Name="Solution" Value="Northwind">
 </Property><Property Name="Solution File" Value="C:\cs493\samples\SharpArchitecture_1.5.2\src\NorthwindSample\Northwind.sln">
+<<<<<<< HEAD
 </Property><Property Name="Date" Value="Sunday, June 20, 2010">
 </Property><Property Name="Time" Value="22:43 PM">
+=======
+</Property><Property Name="Date" Value="Monday, June 21, 2010">
+</Property><Property Name="Time" Value="11:22 AM">
+>>>>>>> 4d4b463e8d7e86d5242ddfbcce7cd03ab7ecf87f
 </Property></Properties><Event ErrorLevel="0" Project="Northwind.Core" Source="app\Northwind.Core\Northwind.Core.csproj" Description="Project converted successfully">
 </Event><Event ErrorLevel="3" Project="Northwind.Core" Source="app\Northwind.Core\Northwind.Core.csproj" Description="Converted">
 </Event><Event ErrorLevel="0" Project="Northwind.Data" Source="app\Northwind.Data\Northwind.Data.csproj" Description="Project converted successfully">

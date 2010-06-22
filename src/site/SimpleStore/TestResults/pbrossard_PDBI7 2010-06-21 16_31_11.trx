@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="9b74d8bf-a2a7-4423-b074-49eb26d78f0b" name="pbrossard@PDBI7 2010-06-21 16:31:11" runUser="EKARIALLP\pbrossard" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="42ec1601-65f6-4e06-a8a2-fa366a85b571">
+    <Deployment userDeploymentRoot="C:\cs493\src\site\SimpleStore\TestResults" useDefaultDeploymentRoot="false" runDeploymentRoot="pbrossard_PDBI7 2010-06-21 16_31_11">
+      <DeploymentItem filename="C:\cs493\src\site\SimpleStore\lib\System.Data.SQLite.DLL" />
+      <DeploymentItem filename="C:\cs493\src\site\SimpleStore\lib\Iesi.Collections.dll" />
+      <DeploymentItem filename="C:\cs493\src\site\SimpleStore\lib\SharpArch.dll" />
+      <DeploymentItem filename="C:\cs493\src\site\SimpleStore\lib\NHibernate.dll" />
+      <DeploymentItem filename="C:\cs493\src\site\SimpleStore\lib\Rhino.Mocks.dll" />
+      <DeploymentItem filename="C:\cs493\src\site\SimpleStore\SimpleStore.Web\bin\SimpleStore.Web.dll" />
+      <DeploymentItem filename="C:\cs493\src\site\SimpleStore\lib\log4net.dll" />
+      <DeploymentItem filename="C:\cs493\src\site\SimpleStore\lib\FluentNHibernate.dll" />
+      <DeploymentItem filename="C:\cs493\src\site\SimpleStore\lib\Castle.Core.dll" />
+      <DeploymentItem filename="C:\cs493\src\site\SimpleStore\lib\NHibernate.Validator.dll" />
+      <DeploymentItem filename="C:\cs493\src\site\SimpleStore\Simplestore.Data\bin\Debug\Simplestore.Data.dll" />
+      <DeploymentItem filename="C:\cs493\src\site\SimpleStore\lib\NHibernate.ByteCode.Castle.dll" />
+      <DeploymentItem filename="C:\cs493\src\site\SimpleStore\lib\Castle.DynamicProxy2.dll" />
+      <DeploymentItem filename="C:\cs493\src\site\SimpleStore\lib\MvcContrib.TestHelper.dll" />
+      <DeploymentItem filename="C:\cs493\src\site\SimpleStore\lib\Newtonsoft.Json.dll" />
+      <DeploymentItem filename="C:\cs493\src\site\SimpleStore\SimpleStore.Core\bin\Debug\SimpleStore.Core.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2010-06-21T16:31:11.5343450-07:00" queuing="2010-06-21T16:31:12.5461026-07:00" start="2010-06-21T16:31:12.6505988-07:00" finish="2010-06-21T16:31:26.3034668-07:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="PDBI7" outcome="Warning" timestamp="2010-06-21T16:31:11.7970504-07:00">
+        <Text>Warning: Test Run deployment issue: The assembly or module 'Microsoft.Practices.ServiceLocation' directly or indirectly referenced by the test container 'c:\cs493\src\site\simplestore\simplestore.tests\bin\debug\simplestore.tests.dll' was not found.</Text>
+      </RunInfo>
+      <RunInfo computerName="PDBI7" outcome="Warning" timestamp="2010-06-21T16:31:11.7970504-07:00">
+        <Text>Warning: Test Run deployment issue: The assembly or module 'Antlr3.Runtime' directly or indirectly referenced by the test container 'c:\cs493\src\site\simplestore\simplestore.tests\bin\debug\simplestore.tests.dll' was not found.</Text>
+      </RunInfo>
+      <RunInfo computerName="PDBI7" outcome="Warning" timestamp="2010-06-21T16:31:11.7970504-07:00">
+        <Text>Warning: Test Run deployment issue: The assembly or module 'nunit.framework' directly or indirectly referenced by the test container 'c:\cs493\src\site\simplestore\simplestore.tests\bin\debug\simplestore.tests.dll' was not found.</Text>
+      </RunInfo>
+      <RunInfo computerName="PDBI7" outcome="Warning" timestamp="2010-06-21T16:31:11.7970504-07:00">
+        <Text>Warning: Test Run deployment issue: The assembly or module 'Castle.MicroKernel' directly or indirectly referenced by the test container 'c:\cs493\src\site\simplestore\simplestore.tests\bin\debug\simplestore.tests.dll' was not found.</Text>
+      </RunInfo>
+      <RunInfo computerName="PDBI7" outcome="Warning" timestamp="2010-06-21T16:31:11.7970504-07:00">
+        <Text>Warning: Test Run deployment issue: The assembly or module 'MvcContrib' directly or indirectly referenced by the test container 'c:\cs493\src\site\simplestore\simplestore.tests\bin\debug\simplestore.tests.dll' was not found.</Text>
+      </RunInfo>
+      <RunInfo computerName="PDBI7" outcome="Warning" timestamp="2010-06-21T16:31:11.7970504-07:00">
+        <Text>Warning: Test Run deployment issue: The assembly or module 'Castle.Windsor' directly or indirectly referenced by the test container 'c:\cs493\src\site\simplestore\simplestore.tests\bin\debug\simplestore.tests.dll' was not found.</Text>
+      </RunInfo>
+      <RunInfo computerName="PDBI7" outcome="Warning" timestamp="2010-06-21T16:31:11.7970504-07:00">
+        <Text>Warning: Test Run deployment issue: The assembly or module 'Microsoft.Web.Mvc' directly or indirectly referenced by the test container 'c:\cs493\src\site\simplestore\simplestore.tests\bin\debug\simplestore.tests.dll' was not found.</Text>
+      </RunInfo>
+      <RunInfo computerName="PDBI7" outcome="Warning" timestamp="2010-06-21T16:31:11.7970504-07:00">
+        <Text>Warning: Test Run deployment issue: The assembly or module 'MbUnit' directly or indirectly referenced by the test container 'c:\cs493\src\site\simplestore\simplestore.tests\bin\debug\simplestore.tests.dll' was not found.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="CanLoadSitesMatchingFilter" storage="c:\cs493\src\site\simplestore\simplestore.tests\bin\debug\simplestore.tests.dll" id="5c10261d-24c5-e54c-e40d-539aa284ac73">
+      <Execution id="1c306ee1-17e4-45d6-ba58-346fcdace5e1" />
+      <TestMethod codeBase="C:/cs493/src/site/SimpleStore/SimpleStore.Tests/bin/Debug/SimpleStore.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SimpleStore.Tests.Data.SiteRepositoryTests, SimpleStore.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CanLoadSitesMatchingFilter" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="5c10261d-24c5-e54c-e40d-539aa284ac73" executionId="1c306ee1-17e4-45d6-ba58-346fcdace5e1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="1c306ee1-17e4-45d6-ba58-346fcdace5e1" testId="5c10261d-24c5-e54c-e40d-539aa284ac73" testName="CanLoadSitesMatchingFilter" computerName="PDBI7" duration="00:00:12.2353295" startTime="2010-06-21T16:31:12.7443524-07:00" endTime="2010-06-21T16:31:26.2438942-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1c306ee1-17e4-45d6-ba58-346fcdace5e1">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method SimpleStore.Tests.Data.SiteRepositoryTests.CanLoadSitesMatchingFilter threw exception: 
+NHibernate.QueryException: could not resolve property: Name of: SimpleStore.Core.Site</Message>
+          <StackTrace>    at NHibernate.Persister.Entity.AbstractPropertyMapping.ToType(String propertyName)
+   at NHibernate.Persister.Entity.AbstractEntityPersister.GetSubclassPropertyTableNumber(String propertyPath)
+   at NHibernate.Persister.Entity.BasicEntityPropertyMapping.ToColumns(String alias, String propertyName)
+   at NHibernate.Persister.Entity.AbstractEntityPersister.ToColumns(String alias, String propertyName)
+   at NHibernate.Loader.Criteria.CriteriaQueryTranslator.GetColumns(String propertyName, ICriteria subcriteria)
+   at NHibernate.Loader.Criteria.CriteriaQueryTranslator.GetColumnsUsingProjection(ICriteria subcriteria, String propertyName)
+   at NHibernate.Criterion.CriterionUtil.GetColumnNamesUsingPropertyName(ICriteriaQuery criteriaQuery, ICriteria criteria, String propertyName)
+   at NHibernate.Criterion.CriterionUtil.GetColumnNames(String propertyName, IProjection projection, ICriteriaQuery criteriaQuery, ICriteria criteria, IDictionary`2 enabledFilters)
+   at NHibernate.Criterion.InsensitiveLikeExpression.ToSqlString(ICriteria criteria, ICriteriaQuery criteriaQuery, IDictionary`2 enabledFilters)
+   at NHibernate.Criterion.LogicalExpression.ToSqlString(ICriteria criteria, ICriteriaQuery criteriaQuery, IDictionary`2 enabledFilters)
+   at NHibernate.Loader.Criteria.CriteriaQueryTranslator.GetWhereCondition(IDictionary`2 enabledFilters)
+   at NHibernate.Loader.Criteria.CriteriaJoinWalker..ctor(IOuterJoinLoadable persister, CriteriaQueryTranslator translator, ISessionFactoryImplementor factory, ICriteria criteria, String rootEntityName, IDictionary`2 enabledFilters)
+   at NHibernate.Loader.Criteria.CriteriaLoader..ctor(IOuterJoinLoadable persister, ISessionFactoryImplementor factory, CriteriaImpl rootCriteria, String rootEntityName, IDictionary`2 enabledFilters)
+   at NHibernate.Impl.SessionImpl.List(CriteriaImpl criteria, IList results)
+   at NHibernate.Impl.CriteriaImpl.List(IList results)
+   at NHibernate.Impl.CriteriaImpl.List[T]()
+   at SimpleStore.Data.SiteRepository.FindAllMatching(String filter) in C:\cs493\src\site\SimpleStore\Simplestore.Data\SiteRepository.cs:line 30
+   at SimpleStore.Tests.Data.SiteRepositoryTests.CanLoadSitesMatchingFilter() in C:\cs493\src\site\SimpleStore\SimpleStore.Tests\Data\SiteRepositoryTests.cs:line 27
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>
