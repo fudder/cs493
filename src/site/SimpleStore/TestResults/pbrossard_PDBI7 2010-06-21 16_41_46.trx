@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="903f7026-ee2e-4c19-a303-ac25b548ed6b" name="pbrossard@PDBI7 2010-06-21 16:41:46" runUser="EKARIALLP\pbrossard" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="42ec1601-65f6-4e06-a8a2-fa366a85b571">
+    <Deployment userDeploymentRoot="C:\cs493\src\site\SimpleStore\TestResults" useDefaultDeploymentRoot="false" runDeploymentRoot="pbrossard_PDBI7 2010-06-21 16_41_46">
+      <DeploymentItem filename="C:\cs493\src\site\SimpleStore\lib\System.Data.SQLite.DLL" />
+      <DeploymentItem filename="C:\cs493\src\site\SimpleStore\lib\Iesi.Collections.dll" />
+      <DeploymentItem filename="C:\cs493\src\site\SimpleStore\lib\SharpArch.dll" />
+      <DeploymentItem filename="C:\cs493\src\site\SimpleStore\lib\NHibernate.dll" />
+      <DeploymentItem filename="C:\cs493\src\site\SimpleStore\lib\Rhino.Mocks.dll" />
+      <DeploymentItem filename="C:\cs493\src\site\SimpleStore\SimpleStore.Web\bin\SimpleStore.Web.dll" />
+      <DeploymentItem filename="C:\cs493\src\site\SimpleStore\lib\log4net.dll" />
+      <DeploymentItem filename="C:\cs493\src\site\SimpleStore\lib\FluentNHibernate.dll" />
+      <DeploymentItem filename="C:\cs493\src\site\SimpleStore\lib\Castle.Core.dll" />
+      <DeploymentItem filename="C:\cs493\src\site\SimpleStore\lib\NHibernate.Validator.dll" />
+      <DeploymentItem filename="C:\cs493\src\site\SimpleStore\Simplestore.Data\bin\Debug\Simplestore.Data.dll" />
+      <DeploymentItem filename="C:\cs493\src\site\SimpleStore\lib\NHibernate.ByteCode.Castle.dll" />
+      <DeploymentItem filename="C:\cs493\src\site\SimpleStore\lib\Castle.DynamicProxy2.dll" />
+      <DeploymentItem filename="C:\cs493\src\site\SimpleStore\lib\MvcContrib.TestHelper.dll" />
+      <DeploymentItem filename="C:\cs493\src\site\SimpleStore\lib\Newtonsoft.Json.dll" />
+      <DeploymentItem filename="C:\cs493\src\site\SimpleStore\SimpleStore.Core\bin\Debug\SimpleStore.Core.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2010-06-21T16:41:46.0899610-07:00" queuing="2010-06-21T16:41:46.2618426-07:00" start="2010-06-21T16:41:46.2891874-07:00" finish="2010-06-21T16:41:47.7111170-07:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="PDBI7" outcome="Warning" timestamp="2010-06-21T16:41:46.2608660-07:00">
+        <Text>Warning: Test Run deployment issue: The assembly or module 'Microsoft.Practices.ServiceLocation' directly or indirectly referenced by the test container 'c:\cs493\src\site\simplestore\simplestore.tests\bin\debug\simplestore.tests.dll' was not found.</Text>
+      </RunInfo>
+      <RunInfo computerName="PDBI7" outcome="Warning" timestamp="2010-06-21T16:41:46.2608660-07:00">
+        <Text>Warning: Test Run deployment issue: The assembly or module 'Antlr3.Runtime' directly or indirectly referenced by the test container 'c:\cs493\src\site\simplestore\simplestore.tests\bin\debug\simplestore.tests.dll' was not found.</Text>
+      </RunInfo>
+      <RunInfo computerName="PDBI7" outcome="Warning" timestamp="2010-06-21T16:41:46.2608660-07:00">
+        <Text>Warning: Test Run deployment issue: The assembly or module 'nunit.framework' directly or indirectly referenced by the test container 'c:\cs493\src\site\simplestore\simplestore.tests\bin\debug\simplestore.tests.dll' was not found.</Text>
+      </RunInfo>
+      <RunInfo computerName="PDBI7" outcome="Warning" timestamp="2010-06-21T16:41:46.2608660-07:00">
+        <Text>Warning: Test Run deployment issue: The assembly or module 'Castle.MicroKernel' directly or indirectly referenced by the test container 'c:\cs493\src\site\simplestore\simplestore.tests\bin\debug\simplestore.tests.dll' was not found.</Text>
+      </RunInfo>
+      <RunInfo computerName="PDBI7" outcome="Warning" timestamp="2010-06-21T16:41:46.2608660-07:00">
+        <Text>Warning: Test Run deployment issue: The assembly or module 'MvcContrib' directly or indirectly referenced by the test container 'c:\cs493\src\site\simplestore\simplestore.tests\bin\debug\simplestore.tests.dll' was not found.</Text>
+      </RunInfo>
+      <RunInfo computerName="PDBI7" outcome="Warning" timestamp="2010-06-21T16:41:46.2608660-07:00">
+        <Text>Warning: Test Run deployment issue: The assembly or module 'Castle.Windsor' directly or indirectly referenced by the test container 'c:\cs493\src\site\simplestore\simplestore.tests\bin\debug\simplestore.tests.dll' was not found.</Text>
+      </RunInfo>
+      <RunInfo computerName="PDBI7" outcome="Warning" timestamp="2010-06-21T16:41:46.2608660-07:00">
+        <Text>Warning: Test Run deployment issue: The assembly or module 'Microsoft.Web.Mvc' directly or indirectly referenced by the test container 'c:\cs493\src\site\simplestore\simplestore.tests\bin\debug\simplestore.tests.dll' was not found.</Text>
+      </RunInfo>
+      <RunInfo computerName="PDBI7" outcome="Warning" timestamp="2010-06-21T16:41:46.2608660-07:00">
+        <Text>Warning: Test Run deployment issue: The assembly or module 'MbUnit' directly or indirectly referenced by the test container 'c:\cs493\src\site\simplestore\simplestore.tests\bin\debug\simplestore.tests.dll' was not found.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="CanLoadSitesMatchingFilter" storage="c:\cs493\src\site\simplestore\simplestore.tests\bin\debug\simplestore.tests.dll" id="5c10261d-24c5-e54c-e40d-539aa284ac73">
+      <Execution id="42cc427a-935b-4b3f-a96f-a50f70eaf276" />
+      <TestMethod codeBase="C:/cs493/src/site/SimpleStore/SimpleStore.Tests/bin/Debug/SimpleStore.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SimpleStore.Tests.Data.SiteRepositoryTests, SimpleStore.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CanLoadSitesMatchingFilter" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="5c10261d-24c5-e54c-e40d-539aa284ac73" executionId="42cc427a-935b-4b3f-a96f-a50f70eaf276" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="42cc427a-935b-4b3f-a96f-a50f70eaf276" testId="5c10261d-24c5-e54c-e40d-539aa284ac73" testName="CanLoadSitesMatchingFilter" computerName="PDBI7" duration="00:00:01.1464906" startTime="2010-06-21T16:41:46.2960236-07:00" endTime="2010-06-21T16:41:47.6466614-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="42cc427a-935b-4b3f-a96f-a50f70eaf276">
+      <Output>
+        <ErrorInfo>
+          <Message>Initialization method SimpleStore.Tests.Data.SiteRepositoryTests.SetUp threw exception. FluentNHibernate.Cfg.FluentConfigurationException: FluentNHibernate.Cfg.FluentConfigurationException: An invalid or incomplete configuration was used while creating a SessionFactory. Check PotentialReasons collection, and InnerException for more detail.
+
+  * Database was not configured through Database method.
+ ---&gt; FluentNHibernate.Cfg.FluentConfigurationException: An invalid or incomplete configuration was used while creating a SessionFactory. Check PotentialReasons collection, and InnerException for more detail.
+
+  * Database was not configured through Database method.
+ ---&gt; FluentNHibernate.Visitors.ValidationException: The entity 'Site' doesn't have an Id mapped. Use the Id method to map your identity property. For example: Id(x =&gt; x.Id)..</Message>
+          <StackTrace>    at FluentNHibernate.Visitors.ValidationVisitor.ProcessClass(ClassMapping classMapping)
+   at FluentNHibernate.MappingModel.ClassBased.ClassMapping.AcceptVisitor(IMappingModelVisitor visitor)
+   at FluentNHibernate.Visitors.DefaultMappingModelVisitor.Visit(ClassMapping classMapping)
+   at FluentNHibernate.MappingModel.HibernateMapping.AcceptVisitor(IMappingModelVisitor visitor)
+   at FluentNHibernate.Visitors.DefaultMappingModelVisitor.&lt;Visit&gt;b__0(HibernateMapping x)
+   at FluentNHibernate.Utils.CollectionExtensions.Each[T](IEnumerable`1 enumerable, Action`1 each)
+   at FluentNHibernate.Visitors.DefaultMappingModelVisitor.Visit(IEnumerable`1 mappings)
+   at FluentNHibernate.PersistenceModel.ApplyVisitors(IEnumerable`1 mappings)
+   at FluentNHibernate.PersistenceModel.BuildMappings()
+   at FluentNHibernate.Automapping.AutoPersistenceModel.BuildMappings()
+   at FluentNHibernate.PersistenceModel.EnsureMappingsBuilt()
+   at FluentNHibernate.PersistenceModel.Configure(Configuration cfg)
+   at FluentNHibernate.Automapping.AutoPersistenceModel.Configure(Configuration configuration)
+   at FluentNHibernate.Cfg.AutoMappingsContainer.Apply(Configuration cfg)
+   at FluentNHibernate.Cfg.MappingConfiguration.Apply(Configuration cfg)
+   at FluentNHibernate.Cfg.FluentConfiguration.BuildConfiguration()
+ --- End of inner exception stack trace ---
+    at FluentNHibernate.Cfg.FluentConfiguration.BuildConfiguration()
+   at FluentNHibernate.Cfg.FluentConfiguration.BuildSessionFactory()
+ --- End of inner exception stack trace ---
+    at FluentNHibernate.Cfg.FluentConfiguration.BuildSessionFactory()
+   at SharpArch.Data.NHibernate.NHibernateSession.CreateSessionFactoryFor(String[] mappingAssemblies, AutoPersistenceModel autoPersistenceModel, Configuration cfg, IPersistenceConfigurer persistenceConfigurer) in e:\WorkSpaces\Git\SharpArchitecture\Trunk\src\SharpArch\SharpArch.Data\NHibernate\NHibernateSession.cs:line 328
+   at SharpArch.Data.NHibernate.NHibernateSession.AddConfiguration(String factoryKey, String[] mappingAssemblies, AutoPersistenceModel autoPersistenceModel, Configuration cfg, String validatorCfgFile, IPersistenceConfigurer persistenceConfigurer) in e:\WorkSpaces\Git\SharpArchitecture\Trunk\src\SharpArch\SharpArch.Data\NHibernate\NHibernateSession.cs:line 138
+   at SharpArch.Data.NHibernate.NHibernateSession.AddConfiguration(String factoryKey, String[] mappingAssemblies, AutoPersistenceModel autoPersistenceModel, String cfgFile, IDictionary`2 cfgProperties, String validatorCfgFile, IPersistenceConfigurer persistenceConfigurer) in e:\WorkSpaces\Git\SharpArchitecture\Trunk\src\SharpArch\SharpArch.Data\NHibernate\NHibernateSession.cs:line 126
+   at SharpArch.Data.NHibernate.NHibernateSession.Init(ISessionStorage storage, String[] mappingAssemblies, AutoPersistenceModel autoPersistenceModel, String cfgFile, IDictionary`2 cfgProperties, String validatorCfgFile, IPersistenceConfigurer persistenceConfigurer) in e:\WorkSpaces\Git\SharpArchitecture\Trunk\src\SharpArch\SharpArch.Data\NHibernate\NHibernateSession.cs:line 101
+   at SharpArch.Data.NHibernate.NHibernateSession.Init(ISessionStorage storage, String[] mappingAssemblies, AutoPersistenceModel autoPersistenceModel) in e:\WorkSpaces\Git\SharpArchitecture\Trunk\src\SharpArch\SharpArch.Data\NHibernate\NHibernateSession.cs:line 45
+   at SharpArch.Testing.NHibernate.RepositoryTestsHelper.InitializeNHibernateSession() in e:\WorkSpaces\Git\SharpArchitecture\Trunk\src\SharpArch\SharpArch.Testing\NHibernate\RepositoryTestsHelper.cs:line 29
+   at SharpArch.Testing.NHibernate.RepositoryTestsHelper.InitializeDatabase() in e:\WorkSpaces\Git\SharpArchitecture\Trunk\src\SharpArch\SharpArch.Testing\NHibernate\RepositoryTestsHelper.cs:line 21
+   at SimpleStore.Tests.Data.RepositoryTestsBase.SetUp() in C:\cs493\src\site\SimpleStore\SimpleStore.Tests\Data\RepositoryTestsBase.cs:line 28
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

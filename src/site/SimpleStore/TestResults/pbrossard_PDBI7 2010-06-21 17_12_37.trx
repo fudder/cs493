@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="372e224d-0238-4be8-8269-64dc846883cd" name="pbrossard@PDBI7 2010-06-21 17:12:37" runUser="EKARIALLP\pbrossard" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="cd195847-cc57-4faf-9851-ff2cce5f27a9">
+    <Deployment userDeploymentRoot="C:\cs493\src\site\SimpleStore\TestResults" useDefaultDeploymentRoot="false" runDeploymentRoot="pbrossard_PDBI7 2010-06-21 17_12_37">
+      <DeploymentItem filename="C:\cs493\src\site\SimpleStore\lib\System.Data.SQLite.DLL" />
+      <DeploymentItem filename="C:\cs493\src\site\SimpleStore\lib\Iesi.Collections.dll" />
+      <DeploymentItem filename="C:\cs493\src\site\SimpleStore\lib\SharpArch.dll" />
+      <DeploymentItem filename="C:\cs493\src\site\SimpleStore\lib\NHibernate.dll" />
+      <DeploymentItem filename="C:\cs493\src\site\SimpleStore\lib\Rhino.Mocks.dll" />
+      <DeploymentItem filename="C:\cs493\src\site\SimpleStore\SimpleStore.Web\bin\SimpleStore.Web.dll" />
+      <DeploymentItem filename="C:\cs493\src\site\SimpleStore\lib\log4net.dll" />
+      <DeploymentItem filename="C:\cs493\src\site\SimpleStore\lib\FluentNHibernate.dll" />
+      <DeploymentItem filename="C:\cs493\src\site\SimpleStore\lib\Castle.Core.dll" />
+      <DeploymentItem filename="C:\cs493\src\site\SimpleStore\lib\NHibernate.Validator.dll" />
+      <DeploymentItem filename="C:\cs493\src\site\SimpleStore\Simplestore.Data\bin\Debug\Simplestore.Data.dll" />
+      <DeploymentItem filename="C:\cs493\src\site\SimpleStore\lib\NHibernate.ByteCode.Castle.dll" />
+      <DeploymentItem filename="C:\cs493\src\site\SimpleStore\lib\Castle.DynamicProxy2.dll" />
+      <DeploymentItem filename="C:\cs493\src\site\SimpleStore\lib\MvcContrib.TestHelper.dll" />
+      <DeploymentItem filename="C:\cs493\src\site\SimpleStore\lib\Newtonsoft.Json.dll" />
+      <DeploymentItem filename="C:\cs493\src\site\SimpleStore\SimpleStore.Core\bin\Debug\SimpleStore.Core.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2010-06-21T17:12:37.0741220-07:00" queuing="2010-06-21T17:12:37.2694420-07:00" start="2010-06-21T17:12:37.2753016-07:00" finish="2010-06-21T17:12:37.9618514-07:00" />
+  <ResultSummary outcome="Warning">
+    <Counters total="2" executed="2" passed="2" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="PDBI7" outcome="Warning" timestamp="2010-06-21T17:12:37.2694420-07:00">
+        <Text>Warning: Test Run deployment issue: The assembly or module 'Microsoft.Practices.ServiceLocation' directly or indirectly referenced by the test container 'c:\cs493\src\site\simplestore\simplestore.tests\bin\debug\simplestore.tests.dll' was not found.</Text>
+      </RunInfo>
+      <RunInfo computerName="PDBI7" outcome="Warning" timestamp="2010-06-21T17:12:37.2694420-07:00">
+        <Text>Warning: Test Run deployment issue: The assembly or module 'Antlr3.Runtime' directly or indirectly referenced by the test container 'c:\cs493\src\site\simplestore\simplestore.tests\bin\debug\simplestore.tests.dll' was not found.</Text>
+      </RunInfo>
+      <RunInfo computerName="PDBI7" outcome="Warning" timestamp="2010-06-21T17:12:37.2694420-07:00">
+        <Text>Warning: Test Run deployment issue: The assembly or module 'nunit.framework' directly or indirectly referenced by the test container 'c:\cs493\src\site\simplestore\simplestore.tests\bin\debug\simplestore.tests.dll' was not found.</Text>
+      </RunInfo>
+      <RunInfo computerName="PDBI7" outcome="Warning" timestamp="2010-06-21T17:12:37.2694420-07:00">
+        <Text>Warning: Test Run deployment issue: The assembly or module 'Castle.MicroKernel' directly or indirectly referenced by the test container 'c:\cs493\src\site\simplestore\simplestore.tests\bin\debug\simplestore.tests.dll' was not found.</Text>
+      </RunInfo>
+      <RunInfo computerName="PDBI7" outcome="Warning" timestamp="2010-06-21T17:12:37.2694420-07:00">
+        <Text>Warning: Test Run deployment issue: The assembly or module 'MvcContrib' directly or indirectly referenced by the test container 'c:\cs493\src\site\simplestore\simplestore.tests\bin\debug\simplestore.tests.dll' was not found.</Text>
+      </RunInfo>
+      <RunInfo computerName="PDBI7" outcome="Warning" timestamp="2010-06-21T17:12:37.2694420-07:00">
+        <Text>Warning: Test Run deployment issue: The assembly or module 'Castle.Windsor' directly or indirectly referenced by the test container 'c:\cs493\src\site\simplestore\simplestore.tests\bin\debug\simplestore.tests.dll' was not found.</Text>
+      </RunInfo>
+      <RunInfo computerName="PDBI7" outcome="Warning" timestamp="2010-06-21T17:12:37.2694420-07:00">
+        <Text>Warning: Test Run deployment issue: The assembly or module 'Microsoft.Web.Mvc' directly or indirectly referenced by the test container 'c:\cs493\src\site\simplestore\simplestore.tests\bin\debug\simplestore.tests.dll' was not found.</Text>
+      </RunInfo>
+      <RunInfo computerName="PDBI7" outcome="Warning" timestamp="2010-06-21T17:12:37.2694420-07:00">
+        <Text>Warning: Test Run deployment issue: The assembly or module 'MbUnit' directly or indirectly referenced by the test container 'c:\cs493\src\site\simplestore\simplestore.tests\bin\debug\simplestore.tests.dll' was not found.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="CanListFilteredSites" storage="c:\cs493\src\site\simplestore\simplestore.tests\bin\debug\simplestore.tests.dll" id="ed9ac82d-8ad9-b101-7e6c-c4f1fc09839d">
+      <Execution id="7a8d49e8-dd1a-492a-ae9b-7e63fadc04bc" />
+      <TestMethod codeBase="C:/cs493/src/site/SimpleStore/SimpleStore.Tests/bin/Debug/SimpleStore.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SimpleStore.Tests.Controllers.SiteControllerTests, SimpleStore.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CanListFilteredSites" />
+    </UnitTest>
+    <UnitTest name="CannotCreateSiteWithInvalidSiteId" storage="c:\cs493\src\site\simplestore\simplestore.tests\bin\debug\simplestore.tests.dll" id="502af5dd-883a-70d9-9273-4122ca4e80a4">
+      <Execution id="84e76305-3efc-416c-a020-8b8132933fde" />
+      <TestMethod codeBase="C:/cs493/src/site/SimpleStore/SimpleStore.Tests/bin/Debug/SimpleStore.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SimpleStore.Tests.Core.SiteTests, SimpleStore.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CannotCreateSiteWithInvalidSiteId" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="502af5dd-883a-70d9-9273-4122ca4e80a4" executionId="84e76305-3efc-416c-a020-8b8132933fde" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ed9ac82d-8ad9-b101-7e6c-c4f1fc09839d" executionId="7a8d49e8-dd1a-492a-ae9b-7e63fadc04bc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="84e76305-3efc-416c-a020-8b8132933fde" testId="502af5dd-883a-70d9-9273-4122ca4e80a4" testName="CannotCreateSiteWithInvalidSiteId" computerName="PDBI7" duration="00:00:00.0126764" startTime="2010-06-21T17:12:37.2782314-07:00" endTime="2010-06-21T17:12:37.4569492-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="84e76305-3efc-416c-a020-8b8132933fde">
+    </UnitTestResult>
+    <UnitTestResult executionId="7a8d49e8-dd1a-492a-ae9b-7e63fadc04bc" testId="ed9ac82d-8ad9-b101-7e6c-c4f1fc09839d" testName="CanListFilteredSites" computerName="PDBI7" duration="00:00:00.1676155" startTime="2010-06-21T17:12:37.4706216-07:00" endTime="2010-06-21T17:12:37.6415266-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7a8d49e8-dd1a-492a-ae9b-7e63fadc04bc">
+    </UnitTestResult>
+  </Results>
+</TestRun>

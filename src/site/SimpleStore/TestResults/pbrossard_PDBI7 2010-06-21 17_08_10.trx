@@ -1,0 +1,303 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="a8937e6b-c313-408e-a683-f16a96f99785" name="pbrossard@PDBI7 2010-06-21 17:08:10" runUser="EKARIALLP\pbrossard" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="cd195847-cc57-4faf-9851-ff2cce5f27a9">
+    <Deployment runDeploymentRoot="pbrossard_PDBI7 2010-06-21 17_08_10">
+      <DeploymentItem filename="C:\cs493\src\site\SimpleStore\lib\System.Data.SQLite.DLL" />
+      <DeploymentItem filename="C:\cs493\src\site\SimpleStore\lib\Iesi.Collections.dll" />
+      <DeploymentItem filename="C:\cs493\src\site\SimpleStore\lib\SharpArch.dll" />
+      <DeploymentItem filename="C:\cs493\src\site\SimpleStore\lib\NHibernate.dll" />
+      <DeploymentItem filename="C:\cs493\src\site\SimpleStore\lib\Castle.DynamicProxy2.dll" />
+      <DeploymentItem filename="C:\cs493\src\site\SimpleStore\SimpleStore.Web\bin\SimpleStore.Web.dll" />
+      <DeploymentItem filename="C:\cs493\src\site\SimpleStore\lib\log4net.dll" />
+      <DeploymentItem filename="C:\cs493\src\site\SimpleStore\lib\NHibernate.ByteCode.Castle.dll" />
+      <DeploymentItem filename="C:\cs493\src\site\SimpleStore\lib\FluentNHibernate.dll" />
+      <DeploymentItem filename="C:\cs493\src\site\SimpleStore\lib\Castle.Core.dll" />
+      <DeploymentItem filename="C:\cs493\src\site\SimpleStore\lib\NHibernate.Validator.dll" />
+      <DeploymentItem filename="C:\cs493\src\site\SimpleStore\Simplestore.Data\bin\Debug\Simplestore.Data.dll" />
+      <DeploymentItem filename="C:\cs493\src\site\SimpleStore\lib\Rhino.Mocks.dll" />
+      <DeploymentItem filename="C:\cs493\src\site\SimpleStore\lib\Newtonsoft.Json.dll" />
+      <DeploymentItem filename="C:\cs493\src\site\SimpleStore\lib\MvcContrib.TestHelper.dll" />
+      <DeploymentItem filename="C:\cs493\src\site\SimpleStore\SimpleStore.Core\bin\Debug\SimpleStore.Core.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2010-06-21T17:08:11.0004286-07:00" queuing="2010-06-21T17:08:11.2514148-07:00" start="2010-06-21T17:08:11.2602042-07:00" finish="2010-06-21T17:08:15.4713034-07:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="24" executed="24" passed="21" error="0" failed="3" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="PDBI7" outcome="Warning" timestamp="2010-06-21T17:08:11.2514148-07:00">
+        <Text>Warning: Test Run deployment issue: The assembly or module 'Microsoft.Practices.ServiceLocation' directly or indirectly referenced by the test container 'c:\cs493\src\site\simplestore\simplestore.tests\bin\debug\simplestore.tests.dll' was not found.</Text>
+      </RunInfo>
+      <RunInfo computerName="PDBI7" outcome="Warning" timestamp="2010-06-21T17:08:11.2514148-07:00">
+        <Text>Warning: Test Run deployment issue: The assembly or module 'Antlr3.Runtime' directly or indirectly referenced by the test container 'c:\cs493\src\site\simplestore\simplestore.tests\bin\debug\simplestore.tests.dll' was not found.</Text>
+      </RunInfo>
+      <RunInfo computerName="PDBI7" outcome="Warning" timestamp="2010-06-21T17:08:11.2514148-07:00">
+        <Text>Warning: Test Run deployment issue: The assembly or module 'nunit.framework' directly or indirectly referenced by the test container 'c:\cs493\src\site\simplestore\simplestore.tests\bin\debug\simplestore.tests.dll' was not found.</Text>
+      </RunInfo>
+      <RunInfo computerName="PDBI7" outcome="Warning" timestamp="2010-06-21T17:08:11.2514148-07:00">
+        <Text>Warning: Test Run deployment issue: The assembly or module 'Castle.MicroKernel' directly or indirectly referenced by the test container 'c:\cs493\src\site\simplestore\simplestore.tests\bin\debug\simplestore.tests.dll' was not found.</Text>
+      </RunInfo>
+      <RunInfo computerName="PDBI7" outcome="Warning" timestamp="2010-06-21T17:08:11.2514148-07:00">
+        <Text>Warning: Test Run deployment issue: The assembly or module 'MvcContrib' directly or indirectly referenced by the test container 'c:\cs493\src\site\simplestore\simplestore.tests\bin\debug\simplestore.tests.dll' was not found.</Text>
+      </RunInfo>
+      <RunInfo computerName="PDBI7" outcome="Warning" timestamp="2010-06-21T17:08:11.2514148-07:00">
+        <Text>Warning: Test Run deployment issue: The assembly or module 'Castle.Windsor' directly or indirectly referenced by the test container 'c:\cs493\src\site\simplestore\simplestore.tests\bin\debug\simplestore.tests.dll' was not found.</Text>
+      </RunInfo>
+      <RunInfo computerName="PDBI7" outcome="Warning" timestamp="2010-06-21T17:08:11.2514148-07:00">
+        <Text>Warning: Test Run deployment issue: The assembly or module 'Microsoft.Web.Mvc' directly or indirectly referenced by the test container 'c:\cs493\src\site\simplestore\simplestore.tests\bin\debug\simplestore.tests.dll' was not found.</Text>
+      </RunInfo>
+      <RunInfo computerName="PDBI7" outcome="Warning" timestamp="2010-06-21T17:08:11.2514148-07:00">
+        <Text>Warning: Test Run deployment issue: The assembly or module 'MbUnit' directly or indirectly referenced by the test container 'c:\cs493\src\site\simplestore\simplestore.tests\bin\debug\simplestore.tests.dll' was not found.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="CanConfirmDatabaseMatchesMappings" storage="c:\cs493\src\site\simplestore\simplestore.tests\bin\debug\simplestore.tests.dll" id="d317ab12-5745-9585-6d77-28c64424bcd9">
+      <Execution id="87746cf3-54ab-4bc7-9574-b4eca27d8853" />
+      <TestMethod codeBase="C:/cs493/src/site/SimpleStore/SimpleStore.Tests/bin/Debug/SimpleStore.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SimpleStore.Tests.Data.MappingIntegrationTests, SimpleStore.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CanConfirmDatabaseMatchesMappings" />
+    </UnitTest>
+    <UnitTest name="LogOn_Post_ReturnsViewIfValidateUserFails" storage="c:\cs493\src\site\simplestore\simplestore.tests\bin\debug\simplestore.tests.dll" id="2d541473-552a-58da-4c5f-7f1d0176089e">
+      <Execution id="e073db45-488b-45a4-a3a0-8e263d453bd3" />
+      <TestMethod codeBase="C:/cs493/src/site/SimpleStore/SimpleStore.Tests/bin/Debug/SimpleStore.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SimpleStore.Tests.Controllers.AccountControllerTest, SimpleStore.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LogOn_Post_ReturnsViewIfValidateUserFails" />
+    </UnitTest>
+    <UnitTest name="Register_Get_ReturnsView" storage="c:\cs493\src\site\simplestore\simplestore.tests\bin\debug\simplestore.tests.dll" id="38e623f3-ef8e-425b-91a4-c1df427d2162">
+      <Execution id="7c3ac393-8f51-471d-a1e9-77faf0fe47cf" />
+      <TestMethod codeBase="C:/cs493/src/site/SimpleStore/SimpleStore.Tests/bin/Debug/SimpleStore.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SimpleStore.Tests.Controllers.AccountControllerTest, SimpleStore.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Register_Get_ReturnsView" />
+    </UnitTest>
+    <UnitTest name="CanListFilteredSites" storage="c:\cs493\src\site\simplestore\simplestore.tests\bin\debug\simplestore.tests.dll" id="ed9ac82d-8ad9-b101-7e6c-c4f1fc09839d">
+      <Execution id="214f5cb6-7f0f-4a2a-8786-f26087cffb5b" />
+      <TestMethod codeBase="C:/cs493/src/site/SimpleStore/SimpleStore.Tests/bin/Debug/SimpleStore.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SimpleStore.Tests.Controllers.SiteControllerTests, SimpleStore.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CanListFilteredSites" />
+    </UnitTest>
+    <UnitTest name="ChangePasswordSuccess_ReturnsView" storage="c:\cs493\src\site\simplestore\simplestore.tests\bin\debug\simplestore.tests.dll" id="638bf34c-71cc-4cb0-4ed8-27456b039186">
+      <Execution id="f2eca0ce-d744-4d06-a0f3-84f44f612816" />
+      <TestMethod codeBase="C:/cs493/src/site/SimpleStore/SimpleStore.Tests/bin/Debug/SimpleStore.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SimpleStore.Tests.Controllers.AccountControllerTest, SimpleStore.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ChangePasswordSuccess_ReturnsView" />
+    </UnitTest>
+    <UnitTest name="ChangePassword_Post_ReturnsViewIfModelStateIsInvalid" storage="c:\cs493\src\site\simplestore\simplestore.tests\bin\debug\simplestore.tests.dll" id="8cf08169-9e4c-fb05-fae5-b593f1368d43">
+      <Execution id="00864709-5266-43b4-a305-0b0db352b310" />
+      <TestMethod codeBase="C:/cs493/src/site/SimpleStore/SimpleStore.Tests/bin/Debug/SimpleStore.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SimpleStore.Tests.Controllers.AccountControllerTest, SimpleStore.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ChangePassword_Post_ReturnsViewIfModelStateIsInvalid" />
+    </UnitTest>
+    <UnitTest name="CanCompareSites" storage="c:\cs493\src\site\simplestore\simplestore.tests\bin\debug\simplestore.tests.dll" id="db556010-b89a-4095-5390-3c07d8a672f5">
+      <Execution id="a5c04b2e-5b64-4f7d-9a91-e8c0ee0677c7" />
+      <TestMethod codeBase="C:/cs493/src/site/SimpleStore/SimpleStore.Tests/bin/Debug/SimpleStore.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SimpleStore.Tests.Core.SiteTests, SimpleStore.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CanCompareSites" />
+    </UnitTest>
+    <UnitTest name="CanGenerateDatabaseSchema" storage="c:\cs493\src\site\simplestore\simplestore.tests\bin\debug\simplestore.tests.dll" id="026788a4-015a-53f2-b811-90ccf52f85f4">
+      <Execution id="b08718ee-324f-40cf-a407-4ec9dd7f9866" />
+      <TestMethod codeBase="C:/cs493/src/site/SimpleStore/SimpleStore.Tests/bin/Debug/SimpleStore.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SimpleStore.Tests.Data.MappingIntegrationTests, SimpleStore.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CanGenerateDatabaseSchema" />
+    </UnitTest>
+    <UnitTest name="LogOn_Post_ReturnsRedirectOnSuccess_WithReturnUrl" storage="c:\cs493\src\site\simplestore\simplestore.tests\bin\debug\simplestore.tests.dll" id="168217f1-4af3-4abc-9650-cb36213aa833">
+      <Execution id="1c36426d-7a72-4988-9ef9-e90da165ae33" />
+      <TestMethod codeBase="C:/cs493/src/site/SimpleStore/SimpleStore.Tests/bin/Debug/SimpleStore.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SimpleStore.Tests.Controllers.AccountControllerTest, SimpleStore.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LogOn_Post_ReturnsRedirectOnSuccess_WithReturnUrl" />
+    </UnitTest>
+    <UnitTest name="CanLoadSitesMatchingFilter" storage="c:\cs493\src\site\simplestore\simplestore.tests\bin\debug\simplestore.tests.dll" id="5c10261d-24c5-e54c-e40d-539aa284ac73">
+      <Execution id="ce1e639f-37e3-4498-8d11-ac2328bfebac" />
+      <TestMethod codeBase="C:/cs493/src/site/SimpleStore/SimpleStore.Tests/bin/Debug/SimpleStore.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SimpleStore.Tests.Data.SiteRepositoryTests, SimpleStore.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CanLoadSitesMatchingFilter" />
+    </UnitTest>
+    <UnitTest name="Register_Post_ReturnsRedirectOnSuccess" storage="c:\cs493\src\site\simplestore\simplestore.tests\bin\debug\simplestore.tests.dll" id="081f7d96-987b-6b7c-3063-b072ffde2200">
+      <Execution id="3bbbfb09-ed2d-4a53-bb72-bd2bda386609" />
+      <TestMethod codeBase="C:/cs493/src/site/SimpleStore/SimpleStore.Tests/bin/Debug/SimpleStore.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SimpleStore.Tests.Controllers.AccountControllerTest, SimpleStore.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Register_Post_ReturnsRedirectOnSuccess" />
+    </UnitTest>
+    <UnitTest name="LogOff_LogsOutAndRedirects" storage="c:\cs493\src\site\simplestore\simplestore.tests\bin\debug\simplestore.tests.dll" id="69ba00b6-d83e-8861-e8c2-6c8c3c73b46c">
+      <Execution id="079065df-0332-4ce8-ad98-f2ef291355b7" />
+      <TestMethod codeBase="C:/cs493/src/site/SimpleStore/SimpleStore.Tests/bin/Debug/SimpleStore.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SimpleStore.Tests.Controllers.AccountControllerTest, SimpleStore.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LogOff_LogsOutAndRedirects" />
+    </UnitTest>
+    <UnitTest name="About" storage="c:\cs493\src\site\simplestore\simplestore.tests\bin\debug\simplestore.tests.dll" id="1eabf199-b120-25cb-3ca2-43e4333d7fd5">
+      <Execution id="f361922f-71a5-4506-b852-9d3420ffc8b8" />
+      <TestMethod codeBase="C:/cs493/src/site/SimpleStore/SimpleStore.Tests/bin/Debug/SimpleStore.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SimpleStore.Tests.Controllers.HomeControllerTest, SimpleStore.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="About" />
+    </UnitTest>
+    <UnitTest name="ChangePassword_Post_ReturnsViewIfChangePasswordFails" storage="c:\cs493\src\site\simplestore\simplestore.tests\bin\debug\simplestore.tests.dll" id="4e6fa5ce-6739-e72e-739d-ce2173c2e5e0">
+      <Execution id="9915bf6d-1b22-40d3-a80e-2015ae7606e7" />
+      <TestMethod codeBase="C:/cs493/src/site/SimpleStore/SimpleStore.Tests/bin/Debug/SimpleStore.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SimpleStore.Tests.Controllers.AccountControllerTest, SimpleStore.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ChangePassword_Post_ReturnsViewIfChangePasswordFails" />
+    </UnitTest>
+    <UnitTest name="CanCreateSite" storage="c:\cs493\src\site\simplestore\simplestore.tests\bin\debug\simplestore.tests.dll" id="dc4fcd64-1de1-631b-291a-ecda8e105210">
+      <Execution id="1c7256dc-844f-44bd-bcbf-d0f04d3969b7" />
+      <TestMethod codeBase="C:/cs493/src/site/SimpleStore/SimpleStore.Tests/bin/Debug/SimpleStore.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SimpleStore.Tests.Core.SiteTests, SimpleStore.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CanCreateSite" />
+    </UnitTest>
+    <UnitTest name="ChangePassword_Post_ReturnsRedirectOnSuccess" storage="c:\cs493\src\site\simplestore\simplestore.tests\bin\debug\simplestore.tests.dll" id="de39af03-8314-0cf0-6866-c4858564fba9">
+      <Execution id="95819da5-57ec-45fb-bbc6-fb618900a56d" />
+      <TestMethod codeBase="C:/cs493/src/site/SimpleStore/SimpleStore.Tests/bin/Debug/SimpleStore.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SimpleStore.Tests.Controllers.AccountControllerTest, SimpleStore.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ChangePassword_Post_ReturnsRedirectOnSuccess" />
+    </UnitTest>
+    <UnitTest name="Register_Post_ReturnsViewIfModelStateIsInvalid" storage="c:\cs493\src\site\simplestore\simplestore.tests\bin\debug\simplestore.tests.dll" id="349fd788-f74b-33b6-247e-174c70d10df5">
+      <Execution id="11bb0bdb-ee23-4a71-9e53-78797d3c4045" />
+      <TestMethod codeBase="C:/cs493/src/site/SimpleStore/SimpleStore.Tests/bin/Debug/SimpleStore.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SimpleStore.Tests.Controllers.AccountControllerTest, SimpleStore.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Register_Post_ReturnsViewIfModelStateIsInvalid" />
+    </UnitTest>
+    <UnitTest name="LogOn_Post_ReturnsViewIfModelStateIsInvalid" storage="c:\cs493\src\site\simplestore\simplestore.tests\bin\debug\simplestore.tests.dll" id="524447c3-38f8-2290-8e03-6365a93a8859">
+      <Execution id="e3e913bd-9ab0-4216-b1cc-f9a3b76f6b5c" />
+      <TestMethod codeBase="C:/cs493/src/site/SimpleStore/SimpleStore.Tests/bin/Debug/SimpleStore.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SimpleStore.Tests.Controllers.AccountControllerTest, SimpleStore.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LogOn_Post_ReturnsViewIfModelStateIsInvalid" />
+    </UnitTest>
+    <UnitTest name="CannotCreateSiteWithInvalidSiteId" storage="c:\cs493\src\site\simplestore\simplestore.tests\bin\debug\simplestore.tests.dll" id="502af5dd-883a-70d9-9273-4122ca4e80a4">
+      <Execution id="438e04e8-ac90-46c9-b3bf-8ac80a16f973" />
+      <TestMethod codeBase="C:/cs493/src/site/SimpleStore/SimpleStore.Tests/bin/Debug/SimpleStore.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SimpleStore.Tests.Core.SiteTests, SimpleStore.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CannotCreateSiteWithInvalidSiteId" />
+    </UnitTest>
+    <UnitTest name="LogOn_Post_ReturnsRedirectOnSuccess_WithoutReturnUrl" storage="c:\cs493\src\site\simplestore\simplestore.tests\bin\debug\simplestore.tests.dll" id="64ff8775-d7c5-1cd7-55af-81e43d6767d5">
+      <Execution id="d36922e4-fbd9-4b1b-85e3-02bd222bbfce" />
+      <TestMethod codeBase="C:/cs493/src/site/SimpleStore/SimpleStore.Tests/bin/Debug/SimpleStore.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SimpleStore.Tests.Controllers.AccountControllerTest, SimpleStore.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LogOn_Post_ReturnsRedirectOnSuccess_WithoutReturnUrl" />
+    </UnitTest>
+    <UnitTest name="Register_Post_ReturnsViewIfRegistrationFails" storage="c:\cs493\src\site\simplestore\simplestore.tests\bin\debug\simplestore.tests.dll" id="b4ca1b41-87df-1081-91b8-8c8af341d8ab">
+      <Execution id="ed9458fe-4907-4673-a7bb-189be3ae204c" />
+      <TestMethod codeBase="C:/cs493/src/site/SimpleStore/SimpleStore.Tests/bin/Debug/SimpleStore.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SimpleStore.Tests.Controllers.AccountControllerTest, SimpleStore.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Register_Post_ReturnsViewIfRegistrationFails" />
+    </UnitTest>
+    <UnitTest name="ChangePassword_Get_ReturnsView" storage="c:\cs493\src\site\simplestore\simplestore.tests\bin\debug\simplestore.tests.dll" id="582231a0-10a5-12b4-61c8-563ed457fa5d">
+      <Execution id="ab183b98-6843-48d2-9684-f5642c57014a" />
+      <TestMethod codeBase="C:/cs493/src/site/SimpleStore/SimpleStore.Tests/bin/Debug/SimpleStore.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SimpleStore.Tests.Controllers.AccountControllerTest, SimpleStore.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ChangePassword_Get_ReturnsView" />
+    </UnitTest>
+    <UnitTest name="Index" storage="c:\cs493\src\site\simplestore\simplestore.tests\bin\debug\simplestore.tests.dll" id="76b9959a-9e7c-efa6-86c6-f4205bf0ba09">
+      <Execution id="22020169-399b-478d-ab07-2a2046d7a766" />
+      <TestMethod codeBase="C:/cs493/src/site/SimpleStore/SimpleStore.Tests/bin/Debug/SimpleStore.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SimpleStore.Tests.Controllers.HomeControllerTest, SimpleStore.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Index" />
+    </UnitTest>
+    <UnitTest name="LogOn_Get_ReturnsView" storage="c:\cs493\src\site\simplestore\simplestore.tests\bin\debug\simplestore.tests.dll" id="e960176c-2ca6-d591-e401-9fb7ed7aff1a">
+      <Execution id="2211e68f-5278-48f0-a716-da2a73eeb93b" />
+      <TestMethod codeBase="C:/cs493/src/site/SimpleStore/SimpleStore.Tests/bin/Debug/SimpleStore.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SimpleStore.Tests.Controllers.AccountControllerTest, SimpleStore.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LogOn_Get_ReturnsView" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="026788a4-015a-53f2-b811-90ccf52f85f4" executionId="b08718ee-324f-40cf-a407-4ec9dd7f9866" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="081f7d96-987b-6b7c-3063-b072ffde2200" executionId="3bbbfb09-ed2d-4a53-bb72-bd2bda386609" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="168217f1-4af3-4abc-9650-cb36213aa833" executionId="1c36426d-7a72-4988-9ef9-e90da165ae33" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1eabf199-b120-25cb-3ca2-43e4333d7fd5" executionId="f361922f-71a5-4506-b852-9d3420ffc8b8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2d541473-552a-58da-4c5f-7f1d0176089e" executionId="e073db45-488b-45a4-a3a0-8e263d453bd3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="349fd788-f74b-33b6-247e-174c70d10df5" executionId="11bb0bdb-ee23-4a71-9e53-78797d3c4045" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="38e623f3-ef8e-425b-91a4-c1df427d2162" executionId="7c3ac393-8f51-471d-a1e9-77faf0fe47cf" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4e6fa5ce-6739-e72e-739d-ce2173c2e5e0" executionId="9915bf6d-1b22-40d3-a80e-2015ae7606e7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="502af5dd-883a-70d9-9273-4122ca4e80a4" executionId="438e04e8-ac90-46c9-b3bf-8ac80a16f973" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="524447c3-38f8-2290-8e03-6365a93a8859" executionId="e3e913bd-9ab0-4216-b1cc-f9a3b76f6b5c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="582231a0-10a5-12b4-61c8-563ed457fa5d" executionId="ab183b98-6843-48d2-9684-f5642c57014a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5c10261d-24c5-e54c-e40d-539aa284ac73" executionId="ce1e639f-37e3-4498-8d11-ac2328bfebac" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="638bf34c-71cc-4cb0-4ed8-27456b039186" executionId="f2eca0ce-d744-4d06-a0f3-84f44f612816" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="64ff8775-d7c5-1cd7-55af-81e43d6767d5" executionId="d36922e4-fbd9-4b1b-85e3-02bd222bbfce" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="69ba00b6-d83e-8861-e8c2-6c8c3c73b46c" executionId="079065df-0332-4ce8-ad98-f2ef291355b7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="76b9959a-9e7c-efa6-86c6-f4205bf0ba09" executionId="22020169-399b-478d-ab07-2a2046d7a766" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8cf08169-9e4c-fb05-fae5-b593f1368d43" executionId="00864709-5266-43b4-a305-0b0db352b310" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b4ca1b41-87df-1081-91b8-8c8af341d8ab" executionId="ed9458fe-4907-4673-a7bb-189be3ae204c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d317ab12-5745-9585-6d77-28c64424bcd9" executionId="87746cf3-54ab-4bc7-9574-b4eca27d8853" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="db556010-b89a-4095-5390-3c07d8a672f5" executionId="a5c04b2e-5b64-4f7d-9a91-e8c0ee0677c7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="dc4fcd64-1de1-631b-291a-ecda8e105210" executionId="1c7256dc-844f-44bd-bcbf-d0f04d3969b7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="de39af03-8314-0cf0-6866-c4858564fba9" executionId="95819da5-57ec-45fb-bbc6-fb618900a56d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e960176c-2ca6-d591-e401-9fb7ed7aff1a" executionId="2211e68f-5278-48f0-a716-da2a73eeb93b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ed9ac82d-8ad9-b101-7e6c-c4f1fc09839d" executionId="214f5cb6-7f0f-4a2a-8786-f26087cffb5b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="b08718ee-324f-40cf-a407-4ec9dd7f9866" testId="026788a4-015a-53f2-b811-90ccf52f85f4" testName="CanGenerateDatabaseSchema" computerName="PDBI7" duration="00:00:01.3856220" startTime="2010-06-21T17:08:11.2621574-07:00" endTime="2010-06-21T17:08:12.8159280-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b08718ee-324f-40cf-a407-4ec9dd7f9866">
+      <Output>
+        <StdOut>if exists (select * from dbo.sysobjects where id = object_id(N'[Site]') and OBJECTPROPERTY(id, N'IsUserTable') = 1) drop table [Site]
+
+    create table [Site] (
+        SiteId INT IDENTITY NOT NULL,
+       Name NVARCHAR(255) null,
+       Tagline NVARCHAR(255) null,
+       primary key (SiteId)
+    )</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="3bbbfb09-ed2d-4a53-bb72-bd2bda386609" testId="081f7d96-987b-6b7c-3063-b072ffde2200" testName="Register_Post_ReturnsRedirectOnSuccess" computerName="PDBI7" duration="00:00:00.0119154" startTime="2010-06-21T17:08:12.8178812-07:00" endTime="2010-06-21T17:08:12.8335068-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3bbbfb09-ed2d-4a53-bb72-bd2bda386609">
+    </UnitTestResult>
+    <UnitTestResult executionId="1c36426d-7a72-4988-9ef9-e90da165ae33" testId="168217f1-4af3-4abc-9650-cb36213aa833" testName="LogOn_Post_ReturnsRedirectOnSuccess_WithReturnUrl" computerName="PDBI7" duration="00:00:00.0016726" startTime="2010-06-21T17:08:12.8354600-07:00" endTime="2010-06-21T17:08:12.8403430-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1c36426d-7a72-4988-9ef9-e90da165ae33">
+    </UnitTestResult>
+    <UnitTestResult executionId="f361922f-71a5-4506-b852-9d3420ffc8b8" testId="1eabf199-b120-25cb-3ca2-43e4333d7fd5" testName="About" computerName="PDBI7" duration="00:00:00.0021658" startTime="2010-06-21T17:08:12.8413196-07:00" endTime="2010-06-21T17:08:12.8481558-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f361922f-71a5-4506-b852-9d3420ffc8b8">
+    </UnitTestResult>
+    <UnitTestResult executionId="e073db45-488b-45a4-a3a0-8e263d453bd3" testId="2d541473-552a-58da-4c5f-7f1d0176089e" testName="LogOn_Post_ReturnsViewIfValidateUserFails" computerName="PDBI7" duration="00:00:00.0023040" startTime="2010-06-21T17:08:12.8491324-07:00" endTime="2010-06-21T17:08:12.8549920-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e073db45-488b-45a4-a3a0-8e263d453bd3">
+    </UnitTestResult>
+    <UnitTestResult executionId="11bb0bdb-ee23-4a71-9e53-78797d3c4045" testId="349fd788-f74b-33b6-247e-174c70d10df5" testName="Register_Post_ReturnsViewIfModelStateIsInvalid" computerName="PDBI7" duration="00:00:00.0009977" startTime="2010-06-21T17:08:12.8559686-07:00" endTime="2010-06-21T17:08:12.8608516-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="11bb0bdb-ee23-4a71-9e53-78797d3c4045">
+    </UnitTestResult>
+    <UnitTestResult executionId="7c3ac393-8f51-471d-a1e9-77faf0fe47cf" testId="38e623f3-ef8e-425b-91a4-c1df427d2162" testName="Register_Get_ReturnsView" computerName="PDBI7" duration="00:00:00.0003389" startTime="2010-06-21T17:08:12.8628048-07:00" endTime="2010-06-21T17:08:12.8667112-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7c3ac393-8f51-471d-a1e9-77faf0fe47cf">
+    </UnitTestResult>
+    <UnitTestResult executionId="9915bf6d-1b22-40d3-a80e-2015ae7606e7" testId="4e6fa5ce-6739-e72e-739d-ce2173c2e5e0" testName="ChangePassword_Post_ReturnsViewIfChangePasswordFails" computerName="PDBI7" duration="00:00:00.0023380" startTime="2010-06-21T17:08:12.8676878-07:00" endTime="2010-06-21T17:08:12.8735474-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9915bf6d-1b22-40d3-a80e-2015ae7606e7">
+    </UnitTestResult>
+    <UnitTestResult executionId="438e04e8-ac90-46c9-b3bf-8ac80a16f973" testId="502af5dd-883a-70d9-9273-4122ca4e80a4" testName="CannotCreateSiteWithInvalidSiteId" computerName="PDBI7" duration="00:00:00.0093691" startTime="2010-06-21T17:08:12.8745240-07:00" endTime="2010-06-21T17:08:12.8881964-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="438e04e8-ac90-46c9-b3bf-8ac80a16f973">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method SimpleStore.Tests.Core.SiteTests.CannotCreateSiteWithInvalidSiteId did not throw expected exception SharpArch.Core.PreconditionException.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="e3e913bd-9ab0-4216-b1cc-f9a3b76f6b5c" testId="524447c3-38f8-2290-8e03-6365a93a8859" testName="LogOn_Post_ReturnsViewIfModelStateIsInvalid" computerName="PDBI7" duration="00:00:00.0002601" startTime="2010-06-21T17:08:12.8891730-07:00" endTime="2010-06-21T17:08:12.8930794-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e3e913bd-9ab0-4216-b1cc-f9a3b76f6b5c">
+    </UnitTestResult>
+    <UnitTestResult executionId="ab183b98-6843-48d2-9684-f5642c57014a" testId="582231a0-10a5-12b4-61c8-563ed457fa5d" testName="ChangePassword_Get_ReturnsView" computerName="PDBI7" duration="00:00:00.0003425" startTime="2010-06-21T17:08:12.8950326-07:00" endTime="2010-06-21T17:08:12.8989390-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ab183b98-6843-48d2-9684-f5642c57014a">
+    </UnitTestResult>
+    <UnitTestResult executionId="ce1e639f-37e3-4498-8d11-ac2328bfebac" testId="5c10261d-24c5-e54c-e40d-539aa284ac73" testName="CanLoadSitesMatchingFilter" computerName="PDBI7" duration="00:00:00.1783534" startTime="2010-06-21T17:08:12.8999156-07:00" endTime="2010-06-21T17:08:13.0815632-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ce1e639f-37e3-4498-8d11-ac2328bfebac">
+      <Output>
+        <StdOut>NHibernate: INSERT INTO "Site" (Name, Tagline) VALUES (@p0, @p1); select last_insert_rowid();@p0 = 'CS493', @p1 = 'Senior Capstone Project'
+NHibernate: INSERT INTO "Site" (Name, Tagline) VALUES (@p0, @p1); select last_insert_rowid();@p0 = 'Test Site', @p1 = 'This is for testing'
+NHibernate: INSERT INTO "Site" (Name, Tagline) VALUES (@p0, @p1); select last_insert_rowid();@p0 = 'Senior Frogs', @p1 = 'Senior Frog's House of Tasty Snacks'
+NHibernate: INSERT INTO "Site" (Name, Tagline) VALUES (@p0, @p1); select last_insert_rowid();@p0 = 'The Arboretum', @p1 = 'A premier retirement facility for the discerning senior'
+NHibernate: SELECT this_.SiteId as SiteId2_0_, this_.Name as Name2_0_, this_.Tagline as Tagline2_0_ FROM "Site" this_ WHERE (lower(this_.Name) like @p0 or lower(this_.Tagline) like @p1) ORDER BY this_.Name asc;@p0 = '%senior%', @p1 = '%senior%'</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="f2eca0ce-d744-4d06-a0f3-84f44f612816" testId="638bf34c-71cc-4cb0-4ed8-27456b039186" testName="ChangePasswordSuccess_ReturnsView" computerName="PDBI7" duration="00:00:00.0002243" startTime="2010-06-21T17:08:13.0835164-07:00" endTime="2010-06-21T17:08:13.0874228-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f2eca0ce-d744-4d06-a0f3-84f44f612816">
+    </UnitTestResult>
+    <UnitTestResult executionId="d36922e4-fbd9-4b1b-85e3-02bd222bbfce" testId="64ff8775-d7c5-1cd7-55af-81e43d6767d5" testName="LogOn_Post_ReturnsRedirectOnSuccess_WithoutReturnUrl" computerName="PDBI7" duration="00:00:00.0003057" startTime="2010-06-21T17:08:13.0903526-07:00" endTime="2010-06-21T17:08:13.0942590-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d36922e4-fbd9-4b1b-85e3-02bd222bbfce">
+    </UnitTestResult>
+    <UnitTestResult executionId="079065df-0332-4ce8-ad98-f2ef291355b7" testId="69ba00b6-d83e-8861-e8c2-6c8c3c73b46c" testName="LogOff_LogsOutAndRedirects" computerName="PDBI7" duration="00:00:00.0003958" startTime="2010-06-21T17:08:13.0952356-07:00" endTime="2010-06-21T17:08:13.1001186-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="079065df-0332-4ce8-ad98-f2ef291355b7">
+    </UnitTestResult>
+    <UnitTestResult executionId="22020169-399b-478d-ab07-2a2046d7a766" testId="76b9959a-9e7c-efa6-86c6-f4205bf0ba09" testName="Index" computerName="PDBI7" duration="00:00:00.0002385" startTime="2010-06-21T17:08:13.1010952-07:00" endTime="2010-06-21T17:08:13.1050016-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="22020169-399b-478d-ab07-2a2046d7a766">
+    </UnitTestResult>
+    <UnitTestResult executionId="00864709-5266-43b4-a305-0b0db352b310" testId="8cf08169-9e4c-fb05-fae5-b593f1368d43" testName="ChangePassword_Post_ReturnsViewIfModelStateIsInvalid" computerName="PDBI7" duration="00:00:00.0004125" startTime="2010-06-21T17:08:13.1059782-07:00" endTime="2010-06-21T17:08:13.1108612-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="00864709-5266-43b4-a305-0b0db352b310">
+    </UnitTestResult>
+    <UnitTestResult executionId="ed9458fe-4907-4673-a7bb-189be3ae204c" testId="b4ca1b41-87df-1081-91b8-8c8af341d8ab" testName="Register_Post_ReturnsViewIfRegistrationFails" computerName="PDBI7" duration="00:00:00.0004716" startTime="2010-06-21T17:08:13.1128144-07:00" endTime="2010-06-21T17:08:13.1167208-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ed9458fe-4907-4673-a7bb-189be3ae204c">
+    </UnitTestResult>
+    <UnitTestResult executionId="87746cf3-54ab-4bc7-9574-b4eca27d8853" testId="d317ab12-5745-9585-6d77-28c64424bcd9" testName="CanConfirmDatabaseMatchesMappings" computerName="PDBI7" duration="00:00:00.2432303" startTime="2010-06-21T17:08:13.1186740-07:00" endTime="2010-06-21T17:08:13.3647772-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="87746cf3-54ab-4bc7-9574-b4eca27d8853">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method SimpleStore.Tests.Data.MappingIntegrationTests.CanConfirmDatabaseMatchesMappings threw exception: 
+NHibernate.ADOException: could not execute query
+[ SELECT top 0 this_.SiteId as SiteId3_0_, this_.Name as Name3_0_, this_.Tagline as Tagline3_0_ FROM [Site] this_ ]
+[SQL: SELECT top 0 this_.SiteId as SiteId3_0_, this_.Name as Name3_0_, this_.Tagline as Tagline3_0_ FROM [Site] this_] ---&gt; System.Data.SqlClient.SqlException: Invalid column name 'Tagline'.</Message>
+          <StackTrace>    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   at NHibernate.AdoNet.AbstractBatcher.ExecuteReader(IDbCommand cmd)
+   at NHibernate.Loader.Loader.GetResultSet(IDbCommand st, Boolean autoDiscoverTypes, Boolean callable, RowSelection selection, ISessionImplementor session)
+   at NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+ --- End of inner exception stack trace ---
+    at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.List(ISessionImplementor session, QueryParameters queryParameters, ISet`1 querySpaces, IType[] resultTypes)
+   at NHibernate.Loader.Criteria.CriteriaLoader.List(ISessionImplementor session)
+   at NHibernate.Impl.SessionImpl.List(CriteriaImpl criteria, IList results)
+   at NHibernate.Impl.CriteriaImpl.List(IList results)
+   at NHibernate.Impl.CriteriaImpl.List()
+   at SimpleStore.Tests.Data.MappingIntegrationTests.CanConfirmDatabaseMatchesMappings() in C:\cs493\src\site\SimpleStore\SimpleStore.Tests\Data\MappingIntegrationTests.cs:line 51
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="a5c04b2e-5b64-4f7d-9a91-e8c0ee0677c7" testId="db556010-b89a-4095-5390-3c07d8a672f5" testName="CanCompareSites" computerName="PDBI7" duration="00:00:00.0107656" startTime="2010-06-21T17:08:13.3764964-07:00" endTime="2010-06-21T17:08:13.3921220-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a5c04b2e-5b64-4f7d-9a91-e8c0ee0677c7">
+    </UnitTestResult>
+    <UnitTestResult executionId="1c7256dc-844f-44bd-bcbf-d0f04d3969b7" testId="dc4fcd64-1de1-631b-291a-ecda8e105210" testName="CanCreateSite" computerName="PDBI7" duration="00:00:00.0004326" startTime="2010-06-21T17:08:13.3960284-07:00" endTime="2010-06-21T17:08:13.4018880-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1c7256dc-844f-44bd-bcbf-d0f04d3969b7">
+    </UnitTestResult>
+    <UnitTestResult executionId="95819da5-57ec-45fb-bbc6-fb618900a56d" testId="de39af03-8314-0cf0-6866-c4858564fba9" testName="ChangePassword_Post_ReturnsRedirectOnSuccess" computerName="PDBI7" duration="00:00:00.0006146" startTime="2010-06-21T17:08:13.4048178-07:00" endTime="2010-06-21T17:08:13.4116540-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="95819da5-57ec-45fb-bbc6-fb618900a56d">
+    </UnitTestResult>
+    <UnitTestResult executionId="2211e68f-5278-48f0-a716-da2a73eeb93b" testId="e960176c-2ca6-d591-e401-9fb7ed7aff1a" testName="LogOn_Get_ReturnsView" computerName="PDBI7" duration="00:00:00.0002192" startTime="2010-06-21T17:08:13.4145838-07:00" endTime="2010-06-21T17:08:13.4184902-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2211e68f-5278-48f0-a716-da2a73eeb93b">
+    </UnitTestResult>
+    <UnitTestResult executionId="214f5cb6-7f0f-4a2a-8786-f26087cffb5b" testId="ed9ac82d-8ad9-b101-7e6c-c4f1fc09839d" testName="CanListFilteredSites" computerName="PDBI7" duration="00:00:00.1575842" startTime="2010-06-21T17:08:13.4204434-07:00" endTime="2010-06-21T17:08:13.5806058-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="214f5cb6-7f0f-4a2a-8786-f26087cffb5b">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method SimpleStore.Tests.Controllers.SiteControllerTests.CanListFilteredSites threw exception: 
+MvcContrib.TestHelper.ActionResultAssertionException: Expected view name 'ListSitesMatchingFilter', actual was 'MatchingFilter'</Message>
+          <StackTrace>    at MvcContrib.TestHelper.ActionResultHelper.ForView(ViewResult result, String viewName)
+   at SimpleStore.Tests.Controllers.SiteControllerTests.CanListFilteredSites() in C:\cs493\src\site\SimpleStore\SimpleStore.Tests\Controllers\SiteControllerTests.cs:line 75
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

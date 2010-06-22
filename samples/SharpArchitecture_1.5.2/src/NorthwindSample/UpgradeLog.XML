@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Northwind">
+</Property><Property Name="Solution File" Value="C:\cs493\samples\SharpArchitecture_1.5.2\src\NorthwindSample\Northwind.sln">
+</Property><Property Name="Date" Value="Monday, June 21, 2010">
+</Property><Property Name="Time" Value="11:22 AM">
+</Property></Properties><Event ErrorLevel="0" Project="Northwind.Core" Source="app\Northwind.Core\Northwind.Core.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Northwind.Core" Source="app\Northwind.Core\Northwind.Core.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Northwind.Data" Source="app\Northwind.Data\Northwind.Data.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Northwind.Data" Source="app\Northwind.Data\Northwind.Data.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Northwind.Web" Source="app\Northwind.Web\Northwind.Web.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Northwind.Web" Source="app\Northwind.Web\Northwind.Web.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Northwind.Tests" Source="tests\Northwind.Tests\Northwind.Tests.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Northwind.Tests" Source="tests\Northwind.Tests\Northwind.Tests.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Northwind.TestsUsingDevelopmentDatabase" Source="tests\Northwind.TestsUsingDevelopmentDatabase\Northwind.TestsUsingDevelopmentDatabase.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Northwind.TestsUsingDevelopmentDatabase" Source="tests\Northwind.TestsUsingDevelopmentDatabase\Northwind.TestsUsingDevelopmentDatabase.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="CrudScaffolding" Source="tools\CrudScaffolding\CrudScaffolding.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="CrudScaffolding" Source="tools\CrudScaffolding\CrudScaffolding.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Northwind.Web.Controllers" Source="app\Northwind.Web.Controllers\Northwind.Web.Controllers.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Northwind.Web.Controllers" Source="app\Northwind.Web.Controllers\Northwind.Web.Controllers.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Northwind.ApplicationServices" Source="app\Northwind.ApplicationServices\Northwind.ApplicationServices.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Northwind.ApplicationServices" Source="app\Northwind.ApplicationServices\Northwind.ApplicationServices.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Northwind.Wcf" Source="app\Northwind.Wcf\Northwind.Wcf.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Northwind.Wcf" Source="app\Northwind.Wcf\Northwind.Wcf.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Northwind.Wcf.Web" Source="app\Northwind.Wcf.Web\Northwind.Wcf.Web.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Northwind.Wcf.Web" Source="app\Northwind.Wcf.Web\Northwind.Wcf.Web.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="Northwind.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="Northwind.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="CrudScaffolding" Source="tools\CrudScaffolding\CrudScaffolding.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="Northwind.Core" Source="app\Northwind.Core\Northwind.Core.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="Northwind.Data" Source="app\Northwind.Data\Northwind.Data.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="Northwind.Web" Source="app\Northwind.Web\Northwind.Web.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="Northwind.Tests" Source="tests\Northwind.Tests\Northwind.Tests.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="Northwind.TestsUsingDevelopmentDatabase" Source="tests\Northwind.TestsUsingDevelopmentDatabase\Northwind.TestsUsingDevelopmentDatabase.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="Northwind.Web.Controllers" Source="app\Northwind.Web.Controllers\Northwind.Web.Controllers.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="Northwind.ApplicationServices" Source="app\Northwind.ApplicationServices\Northwind.ApplicationServices.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="Northwind.Wcf" Source="app\Northwind.Wcf\Northwind.Wcf.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="Northwind.Wcf.Web" Source="app\Northwind.Wcf.Web\Northwind.Wcf.Web.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>
