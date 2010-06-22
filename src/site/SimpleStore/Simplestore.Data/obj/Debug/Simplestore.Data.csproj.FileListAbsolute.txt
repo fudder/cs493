@@ -21,3 +21,13 @@ C:\cs493\src\site\SimpleStore\Simplestore.Data\bin\Debug\Newtonsoft.Json.xml
 C:\cs493\src\site\SimpleStore\Simplestore.Data\bin\Debug\log4net.xml
 C:\cs493\src\site\SimpleStore\Simplestore.Data\bin\Debug\Castle.Core.dll
 C:\cs493\src\site\SimpleStore\Simplestore.Data\bin\Debug\Castle.Core.xml
+C:\cs493\src\site\SimpleStore\Simplestore.Data\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\cs493\src\site\SimpleStore\Simplestore.Data\bin\Debug\nunit.framework.dll
+C:\cs493\src\site\SimpleStore\Simplestore.Data\bin\Debug\Castle.MicroKernel.dll
+C:\cs493\src\site\SimpleStore\Simplestore.Data\bin\Debug\MvcContrib.dll
+C:\cs493\src\site\SimpleStore\Simplestore.Data\bin\Debug\Castle.Windsor.dll
+C:\cs493\src\site\SimpleStore\Simplestore.Data\bin\Debug\Castle.DynamicProxy2.dll
+C:\cs493\src\site\SimpleStore\Simplestore.Data\bin\Debug\nunit.framework.xml
+C:\cs493\src\site\SimpleStore\Simplestore.Data\bin\Debug\Castle.MicroKernel.xml
+C:\cs493\src\site\SimpleStore\Simplestore.Data\bin\Debug\Castle.Windsor.xml
+C:\cs493\src\site\SimpleStore\Simplestore.Data\bin\Debug\Castle.DynamicProxy2.xml

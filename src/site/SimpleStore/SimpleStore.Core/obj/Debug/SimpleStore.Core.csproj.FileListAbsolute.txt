@@ -19,3 +19,13 @@ C:\cs493\src\site\SimpleStore\SimpleStore.Core\bin\Debug\NHibernate.Validator.dl
 C:\cs493\src\site\SimpleStore\SimpleStore.Core\bin\Debug\NHibernate.Validator.xml
 C:\cs493\src\site\SimpleStore\SimpleStore.Core\bin\Debug\Castle.Core.dll
 C:\cs493\src\site\SimpleStore\SimpleStore.Core\bin\Debug\Castle.Core.xml
+C:\cs493\src\site\SimpleStore\SimpleStore.Core\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\cs493\src\site\SimpleStore\SimpleStore.Core\bin\Debug\nunit.framework.dll
+C:\cs493\src\site\SimpleStore\SimpleStore.Core\bin\Debug\Castle.MicroKernel.dll
+C:\cs493\src\site\SimpleStore\SimpleStore.Core\bin\Debug\MvcContrib.dll
+C:\cs493\src\site\SimpleStore\SimpleStore.Core\bin\Debug\Castle.Windsor.dll
+C:\cs493\src\site\SimpleStore\SimpleStore.Core\bin\Debug\Castle.DynamicProxy2.dll
+C:\cs493\src\site\SimpleStore\SimpleStore.Core\bin\Debug\nunit.framework.xml
+C:\cs493\src\site\SimpleStore\SimpleStore.Core\bin\Debug\Castle.MicroKernel.xml
+C:\cs493\src\site\SimpleStore\SimpleStore.Core\bin\Debug\Castle.Windsor.xml
+C:\cs493\src\site\SimpleStore\SimpleStore.Core\bin\Debug\Castle.DynamicProxy2.xml
