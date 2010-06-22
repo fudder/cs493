@@ -1,0 +1,14 @@
+C:\cs493\samples\ebay_sdk\Samples\C#\SampleShippingServiceApplication\bin\Debug\SampleShippingServiceApplication.exe.config
+C:\cs493\samples\ebay_sdk\Samples\C#\SampleShippingServiceApplication\bin\Debug\SampleShippingServiceApplication.exe
+C:\cs493\samples\ebay_sdk\Samples\C#\SampleShippingServiceApplication\bin\Debug\SampleShippingServiceApplication.pdb
+C:\cs493\samples\ebay_sdk\Samples\C#\SampleShippingServiceApplication\bin\Debug\eBay.Service.dll
+C:\cs493\samples\ebay_sdk\Samples\C#\SampleShippingServiceApplication\bin\Debug\Samples.Helper.dll
+C:\cs493\samples\ebay_sdk\Samples\C#\SampleShippingServiceApplication\bin\Debug\eBay.Service.xml
+C:\cs493\samples\ebay_sdk\Samples\C#\SampleShippingServiceApplication\bin\Debug\Samples.Helper.xml
+C:\cs493\samples\ebay_sdk\Samples\C#\SampleShippingServiceApplication\obj\Debug\ResolveAssemblyReference.cache
+C:\cs493\samples\ebay_sdk\Samples\C#\SampleShippingServiceApplication\obj\Debug\SampleShippingServiceApplication.FormMain.resources
+C:\cs493\samples\ebay_sdk\Samples\C#\SampleShippingServiceApplication\obj\Debug\SampleShippingServiceApplication.ProgressBar.resources
+C:\cs493\samples\ebay_sdk\Samples\C#\SampleShippingServiceApplication\obj\Debug\ResGen.read.1.tlog
+C:\cs493\samples\ebay_sdk\Samples\C#\SampleShippingServiceApplication\obj\Debug\ResGen.write.1.tlog
+C:\cs493\samples\ebay_sdk\Samples\C#\SampleShippingServiceApplication\obj\Debug\SampleShippingServiceApplication.exe
+C:\cs493\samples\ebay_sdk\Samples\C#\SampleShippingServiceApplication\obj\Debug\SampleShippingServiceApplication.pdb

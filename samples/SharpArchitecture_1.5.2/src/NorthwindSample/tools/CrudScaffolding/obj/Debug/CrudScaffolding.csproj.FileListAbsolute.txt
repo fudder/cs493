@@ -1,0 +1,5 @@
+C:\cs493\samples\SharpArchitecture_1.5.2\src\NorthwindSample\tools\CrudScaffolding\bin\Debug\SharpArch.Scaffolding.dll
+C:\cs493\samples\SharpArchitecture_1.5.2\src\NorthwindSample\tools\CrudScaffolding\bin\Debug\SharpArch.Scaffolding.pdb
+C:\cs493\samples\SharpArchitecture_1.5.2\src\NorthwindSample\tools\CrudScaffolding\obj\Debug\ResolveAssemblyReference.cache
+C:\cs493\samples\SharpArchitecture_1.5.2\src\NorthwindSample\tools\CrudScaffolding\obj\Debug\SharpArch.Scaffolding.dll
+C:\cs493\samples\SharpArchitecture_1.5.2\src\NorthwindSample\tools\CrudScaffolding\obj\Debug\SharpArch.Scaffolding.pdb

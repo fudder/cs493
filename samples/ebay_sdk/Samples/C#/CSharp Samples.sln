@@ -1,15 +1,15 @@
-Microsoft Visual Studio Solution File, Format Version 9.00
-# Visual Studio 2005
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{309F574E-F5A2-4B63-BD14-7DF7F213A603}"
+	ProjectSection(SolutionItems) = preProject
+		Readme.htm = Readme.htm
+	EndProjectSection
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleShippingServiceApplication", "SampleShippingServiceApplication\SampleShippingServiceApplication.csproj", "{889F984B-6EC4-418F-8903-77B4123D7BDE}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleSetup", "SimpleSetup\SimpleSetup.csproj", "{3B9D6A22-52D2-4475-862D-7B78375C192D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoapApiDemo", "SoapApiDemo\SoapApiDemo.csproj", "{1E409339-E9E1-4BD4-9A7F-B939BCD7CADB}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{309F574E-F5A2-4B63-BD14-7DF7F213A603}"
-	ProjectSection(SolutionItems) = preProject
-		Readme.htm = Readme.htm
-	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AttributesDemo", "AttributesDemo\AttributesDemo.csproj", "{FF74477C-A462-4314-B953-E5931B4A598B}"
 EndProject

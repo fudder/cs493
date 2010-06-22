@@ -1,0 +1,35 @@
+[6/20/2010 1:16:40 AM, Informational]
+https://api.sandbox.ebay.com/wsapi?callname=GeteBayOfficialTime&siteid=0&client=netsoap
+
+[6/20/2010 1:16:41 AM, Informational]
+Http Compression - decompressed gzip-encoded response data: CompressedSize=366 OriginalSize=590
+
+[6/20/2010 1:16:42 AM, Informational]
+<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <soap:Header>
+    <RequesterCredentials xmlns="urn:ebay:apis:eBLBaseComponents">
+      <eBayAuthToken>******</eBayAuthToken>
+    </RequesterCredentials>
+  </soap:Header>
+  <soap:Body>
+    <GeteBayOfficialTimeRequest xmlns="urn:ebay:apis:eBLBaseComponents">
+      <MessageID>0c4f009c-c622-4739-ad5b-213146d48cd9</MessageID>
+      <Version>661</Version>
+    </GeteBayOfficialTimeRequest>
+  </soap:Body>
+</soap:Envelope>
+
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <soapenv:Body>
+    <GeteBayOfficialTimeResponse xmlns="urn:ebay:apis:eBLBaseComponents">
+      <Timestamp>2010-06-20T08:16:36.541Z</Timestamp>
+      <Ack>Success</Ack>
+      <CorrelationID>0c4f009c-c622-4739-ad5b-213146d48cd9</CorrelationID>
+      <Version>673</Version>
+      <Build>E673_CORE_BUNDLED_11372481_R1</Build>
+    </GeteBayOfficialTimeResponse>
+  </soapenv:Body>
+</soapenv:Envelope>
+
