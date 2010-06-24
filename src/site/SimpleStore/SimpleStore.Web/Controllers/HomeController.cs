@@ -4,6 +4,8 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
+using SimpleStore.Services.eBay;
+
 namespace SimpleStore.Web.Controllers
 {
     [HandleError]
@@ -11,7 +13,11 @@ namespace SimpleStore.Web.Controllers
     {
         public ActionResult Index()
         {
-            ViewData["Message"] = "Welcome to ASP.NET MVC!";
+
+            eBayManager ebay = new eBayManager();
+            List<string> titles = ebay.GetSales();
+
+            ViewData["items"] = titles;
 
             return View();
         }

@@ -47,3 +47,9 @@ C:\cs493\src\site\SimpleStore\SimpleStore.Tests\bin\Debug\Castle.Windsor.xml
 C:\cs493\src\site\SimpleStore\SimpleStore.Tests\bin\Debug\CommonServiceLocator.WindsorAdapter.dll
 C:\cs493\src\site\SimpleStore\SimpleStore.Tests\bin\Debug\MvcContrib.Castle.dll
 C:\cs493\src\site\SimpleStore\SimpleStore.Tests\bin\Debug\MvcContrib.Castle.xml
+C:\cs493\src\site\SimpleStore\SimpleStore.Tests\bin\Debug\SimpleStore.Services.dll
+C:\cs493\src\site\SimpleStore\SimpleStore.Tests\bin\Debug\eBay.Service.dll
+C:\cs493\src\site\SimpleStore\SimpleStore.Tests\bin\Debug\Samples.Helper.dll
+C:\cs493\src\site\SimpleStore\SimpleStore.Tests\bin\Debug\SimpleStore.Services.pdb
+C:\cs493\src\site\SimpleStore\SimpleStore.Tests\bin\Debug\eBay.Service.xml
+C:\cs493\src\site\SimpleStore\SimpleStore.Tests\bin\Debug\Samples.Helper.xml

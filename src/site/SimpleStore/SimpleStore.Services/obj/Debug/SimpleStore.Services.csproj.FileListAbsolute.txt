@@ -1,0 +1,11 @@
+C:\cs493\src\site\SimpleStore\SimpleStore.Services\obj\Debug\ResolveAssemblyReference.cache
+C:\cs493\src\site\SimpleStore\SimpleStore.Services\bin\Debug\SimpleStore.Services.dll
+C:\cs493\src\site\SimpleStore\SimpleStore.Services\bin\Debug\SimpleStore.Services.pdb
+C:\cs493\src\site\SimpleStore\SimpleStore.Services\bin\Debug\eBay.Service.dll
+C:\cs493\src\site\SimpleStore\SimpleStore.Services\bin\Debug\eBay.Service.SDK.Attribute.dll
+C:\cs493\src\site\SimpleStore\SimpleStore.Services\bin\Debug\Samples.Helper.dll
+C:\cs493\src\site\SimpleStore\SimpleStore.Services\bin\Debug\eBay.Service.xml
+C:\cs493\src\site\SimpleStore\SimpleStore.Services\bin\Debug\eBay.Service.SDK.Attribute.xml
+C:\cs493\src\site\SimpleStore\SimpleStore.Services\bin\Debug\Samples.Helper.xml
+C:\cs493\src\site\SimpleStore\SimpleStore.Services\obj\Debug\SimpleStore.Services.dll
+C:\cs493\src\site\SimpleStore\SimpleStore.Services\obj\Debug\SimpleStore.Services.pdb

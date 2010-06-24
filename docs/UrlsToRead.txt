@@ -1,0 +1,9 @@
+https://developer.ebay.com/devzone/account/
+http://cgi.sandbox.ebay.com/ws/eBayISAPI.dll?ViewItem&item=110048018545&ssPageName=STRK:MESELX:IT#ht_500wt_1154
+http://msdn.microsoft.com/en-us/magazine/dd419655.aspx
+http://geekswithblogs.net/Billy/archive/2006/05/10/77820.aspx
+http://www.dofactory.com/Patterns/PatternProxy.aspx
+http://devlicio.us/blogs/billy_mccafferty/archive/2008/10/30/refactoring-service-dependencies-to-separated-interface.aspx
+http://www.martinfowler.com/eaaCatalog/separatedInterface.html
+http://www.martinfowler.com/articles/mocksArentStubs.html
+http://www.codeproject.com/KB/architecture/DependencyInjection.aspx

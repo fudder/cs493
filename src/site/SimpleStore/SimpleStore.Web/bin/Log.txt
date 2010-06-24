@@ -1,0 +1,220 @@
+[6/24/2010 2:02:58 AM, Informational]
+https://api.sandbox.ebay.com/wsapi?callname=GetMyeBaySelling&siteid=0&client=netsoap
+
+[6/24/2010 2:02:59 AM, Informational]
+Http Compression - decompressed gzip-encoded response data: CompressedSize=1067 OriginalSize=2515
+
+[6/24/2010 2:02:59 AM, Informational]
+<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <soap:Header>
+    <RequesterCredentials xmlns="urn:ebay:apis:eBLBaseComponents">
+      <eBayAuthToken>******</eBayAuthToken>
+    </RequesterCredentials>
+  </soap:Header>
+  <soap:Body>
+    <GetMyeBaySellingRequest xmlns="urn:ebay:apis:eBLBaseComponents">
+      <MessageID>edfde323-ff0b-4519-85ae-c8d8d4f8e2f8</MessageID>
+      <Version>661</Version>
+      <ScheduledList>
+        <Sort>EndTime</Sort>
+        <Pagination>
+          <EntriesPerPage>100</EntriesPerPage>
+        </Pagination>
+      </ScheduledList>
+      <ActiveList>
+        <Sort>EndTime</Sort>
+        <Pagination>
+          <EntriesPerPage>100</EntriesPerPage>
+        </Pagination>
+      </ActiveList>
+      <SoldList>
+        <Sort>EndTime</Sort>
+        <Pagination>
+          <EntriesPerPage>100</EntriesPerPage>
+        </Pagination>
+      </SoldList>
+      <UnsoldList>
+        <Sort>EndTime</Sort>
+        <Pagination>
+          <EntriesPerPage>100</EntriesPerPage>
+        </Pagination>
+      </UnsoldList>
+    </GetMyeBaySellingRequest>
+  </soap:Body>
+</soap:Envelope>
+
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <soapenv:Body>
+    <GetMyeBaySellingResponse xmlns="urn:ebay:apis:eBLBaseComponents">
+      <Timestamp>2010-06-24T09:02:58.699Z</Timestamp>
+      <Ack>Warning</Ack>
+      <CorrelationID>edfde323-ff0b-4519-85ae-c8d8d4f8e2f8</CorrelationID>
+      <Errors>
+        <ShortMessage>Invalid Sort.</ShortMessage>
+        <LongMessage>Sort in ScheduledList is invalid. Please see API documentation for valid sort values.</LongMessage>
+        <ErrorCode>21362</ErrorCode>
+        <SeverityCode>Warning</SeverityCode>
+        <ErrorParameters ParamID="0">
+          <Value>ScheduledList</Value>
+        </ErrorParameters>
+        <ErrorClassification>RequestError</ErrorClassification>
+      </Errors>
+      <Version>673</Version>
+      <Build>E673_CORE_BUNDLED_11372481_R1</Build>
+      <ActiveList>
+        <ItemArray>
+          <Item>
+            <BuyItNowPrice currencyID="USD">149.99</BuyItNowPrice>
+            <ItemID>110048018545</ItemID>
+            <ListingDetails>
+              <StartTime>2010-06-24T08:00:12.000Z</StartTime>
+              <ViewItemURL>http://cgi.sandbox.ebay.com/ws/eBayISAPI.dll?ViewItem&amp;item=110048018545&amp;category=3925</ViewItemURL>
+              <ExpressListing>false</ExpressListing>
+            </ListingDetails>
+            <ListingDuration>Days_7</ListingDuration>
+            <ListingType>Chinese</ListingType>
+            <Quantity>1</Quantity>
+            <ReservePrice currencyID="USD">0.0</ReservePrice>
+            <SellingStatus>
+              <CurrentPrice currencyID="USD">0.99</CurrentPrice>
+              <ReserveMet>true</ReserveMet>
+            </SellingStatus>
+            <ShippingDetails>
+              <ShippingServiceOptions>
+                <ShippingServiceCost currencyID="USD">8.0</ShippingServiceCost>
+              </ShippingServiceOptions>
+            </ShippingDetails>
+            <StartPrice currencyID="USD">0.99</StartPrice>
+            <TimeLeft>P6DT22H57M14S</TimeLeft>
+            <Title>Pavlov's Stein</Title>
+            <QuantityAvailable>1</QuantityAvailable>
+            <PictureDetails>
+              <GalleryURL>http://thumbs.sandbox.ebaystatic.com/pict/1100480185456464.jpg</GalleryURL>
+            </PictureDetails>
+            <ClassifiedAdPayPerLeadFee currencyID="USD">0.0</ClassifiedAdPayPerLeadFee>
+          </Item>
+        </ItemArray>
+        <PaginationResult>
+          <TotalNumberOfPages>1</TotalNumberOfPages>
+          <TotalNumberOfEntries>1</TotalNumberOfEntries>
+        </PaginationResult>
+      </ActiveList>
+    </GetMyeBaySellingResponse>
+  </soapenv:Body>
+</soapenv:Envelope>
+
+[6/24/2010 2:02:59 AM, Warning]
+Sort in ScheduledList is invalid. Please see API documentation for valid sort values.
+
+[6/24/2010 2:08:08 AM, Informational]
+https://api.sandbox.ebay.com/wsapi?callname=GetMyeBaySelling&siteid=0&client=netsoap
+
+[6/24/2010 2:08:08 AM, Informational]
+Http Compression - decompressed gzip-encoded response data: CompressedSize=1066 OriginalSize=2514
+
+[6/24/2010 2:08:09 AM, Informational]
+<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <soap:Header>
+    <RequesterCredentials xmlns="urn:ebay:apis:eBLBaseComponents">
+      <eBayAuthToken>******</eBayAuthToken>
+    </RequesterCredentials>
+  </soap:Header>
+  <soap:Body>
+    <GetMyeBaySellingRequest xmlns="urn:ebay:apis:eBLBaseComponents">
+      <MessageID>be7ca687-80da-487f-b704-8678b28909ab</MessageID>
+      <Version>661</Version>
+      <ScheduledList>
+        <Sort>EndTime</Sort>
+        <Pagination>
+          <EntriesPerPage>100</EntriesPerPage>
+        </Pagination>
+      </ScheduledList>
+      <ActiveList>
+        <Sort>EndTime</Sort>
+        <Pagination>
+          <EntriesPerPage>100</EntriesPerPage>
+        </Pagination>
+      </ActiveList>
+      <SoldList>
+        <Sort>EndTime</Sort>
+        <Pagination>
+          <EntriesPerPage>100</EntriesPerPage>
+        </Pagination>
+      </SoldList>
+      <UnsoldList>
+        <Sort>EndTime</Sort>
+        <Pagination>
+          <EntriesPerPage>100</EntriesPerPage>
+        </Pagination>
+      </UnsoldList>
+    </GetMyeBaySellingRequest>
+  </soap:Body>
+</soap:Envelope>
+
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <soapenv:Body>
+    <GetMyeBaySellingResponse xmlns="urn:ebay:apis:eBLBaseComponents">
+      <Timestamp>2010-06-24T09:08:08.702Z</Timestamp>
+      <Ack>Warning</Ack>
+      <CorrelationID>be7ca687-80da-487f-b704-8678b28909ab</CorrelationID>
+      <Errors>
+        <ShortMessage>Invalid Sort.</ShortMessage>
+        <LongMessage>Sort in ScheduledList is invalid. Please see API documentation for valid sort values.</LongMessage>
+        <ErrorCode>21362</ErrorCode>
+        <SeverityCode>Warning</SeverityCode>
+        <ErrorParameters ParamID="0">
+          <Value>ScheduledList</Value>
+        </ErrorParameters>
+        <ErrorClassification>RequestError</ErrorClassification>
+      </Errors>
+      <Version>673</Version>
+      <Build>E673_CORE_BUNDLED_11372481_R1</Build>
+      <ActiveList>
+        <ItemArray>
+          <Item>
+            <BuyItNowPrice currencyID="USD">149.99</BuyItNowPrice>
+            <ItemID>110048018545</ItemID>
+            <ListingDetails>
+              <StartTime>2010-06-24T08:00:12.000Z</StartTime>
+              <ViewItemURL>http://cgi.sandbox.ebay.com/ws/eBayISAPI.dll?ViewItem&amp;item=110048018545&amp;category=3925</ViewItemURL>
+              <ExpressListing>false</ExpressListing>
+            </ListingDetails>
+            <ListingDuration>Days_7</ListingDuration>
+            <ListingType>Chinese</ListingType>
+            <Quantity>1</Quantity>
+            <ReservePrice currencyID="USD">0.0</ReservePrice>
+            <SellingStatus>
+              <CurrentPrice currencyID="USD">0.99</CurrentPrice>
+              <ReserveMet>true</ReserveMet>
+            </SellingStatus>
+            <ShippingDetails>
+              <ShippingServiceOptions>
+                <ShippingServiceCost currencyID="USD">8.0</ShippingServiceCost>
+              </ShippingServiceOptions>
+            </ShippingDetails>
+            <StartPrice currencyID="USD">0.99</StartPrice>
+            <TimeLeft>P6DT22H52M4S</TimeLeft>
+            <Title>Pavlov's Stein</Title>
+            <QuantityAvailable>1</QuantityAvailable>
+            <PictureDetails>
+              <GalleryURL>http://thumbs.sandbox.ebaystatic.com/pict/1100480185456464.jpg</GalleryURL>
+            </PictureDetails>
+            <ClassifiedAdPayPerLeadFee currencyID="USD">0.0</ClassifiedAdPayPerLeadFee>
+          </Item>
+        </ItemArray>
+        <PaginationResult>
+          <TotalNumberOfPages>1</TotalNumberOfPages>
+          <TotalNumberOfEntries>1</TotalNumberOfEntries>
+        </PaginationResult>
+      </ActiveList>
+    </GetMyeBaySellingResponse>
+  </soapenv:Body>
+</soapenv:Envelope>
+
+[6/24/2010 2:08:09 AM, Warning]
+Sort in ScheduledList is invalid. Please see API documentation for valid sort values.
+

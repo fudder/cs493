@@ -8,3 +8,12 @@ Token: AgAAAA**AQAAAA**aAAAAA**A84dTA**nY+sHZ2PrBmdj6wVnY+sEZ2PrA2dj6wFk4CoAJODo
 Dev Key: 5c3b682d-dfb9-4446-80de-c2f989f1b632
 App Key: Cardogra-a816-494e-ad4c-878f8d7a4c53
 Cert Key: 47bc1aff-9740-4857-868b-3a994bdc9886
+
+
+Prototypes:
+
+Ebay category browser
+
+Add a listing
+
+View all seller's listings

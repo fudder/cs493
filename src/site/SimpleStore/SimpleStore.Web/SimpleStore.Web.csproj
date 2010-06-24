@@ -119,6 +119,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\doc_bg.gif" />
+    <Content Include="Content\doc_bottom.gif" />
+    <Content Include="Content\doc_top.gif" />
     <Content Include="Global.asax" />
     <Content Include="Views\Site\MatchingFilter.aspx" />
     <Content Include="Web.config" />
@@ -163,6 +166,10 @@
     <ProjectReference Include="..\Simplestore.Data\SimpleStore.Data.csproj">
       <Project>{4B039F7D-0AC2-4F79-93BA-C52B40331B55}</Project>
       <Name>SimpleStore.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SimpleStore.Services\SimpleStore.Services.csproj">
+      <Project>{000B13DC-4BFC-4E5D-B2C5-5D13413281A0}</Project>
+      <Name>SimpleStore.Services</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
