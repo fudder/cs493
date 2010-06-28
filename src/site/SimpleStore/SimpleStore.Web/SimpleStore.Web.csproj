@@ -49,6 +49,10 @@
     <Reference Include="CommonServiceLocator.WindsorAdapter">
       <HintPath>..\lib\CommonServiceLocator.WindsorAdapter.dll</HintPath>
     </Reference>
+    <Reference Include="eBay.Service, Version=3.661.0.0, Culture=neutral, PublicKeyToken=1d9d786a5932eaf0, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\lib\eBay.Service.dll</HintPath>
+    </Reference>
     <Reference Include="FluentNHibernate, Version=1.0.0.636, Culture=neutral, PublicKeyToken=8aa435e3cb308880, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\lib\FluentNHibernate.dll</HintPath>
@@ -110,12 +114,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\eBayController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\SiteController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\AccountModels.cs" />
+    <Compile Include="Models\eBayCategoryModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -123,6 +129,7 @@
     <Content Include="Content\doc_bottom.gif" />
     <Content Include="Content\doc_top.gif" />
     <Content Include="Global.asax" />
+    <Content Include="Views\eBay\Category.aspx" />
     <Content Include="Views\Site\MatchingFilter.aspx" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">

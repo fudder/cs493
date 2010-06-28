@@ -9,9 +9,5 @@
     <p>
         To learn more about ASP.NET MVC visit <a href="http://asp.net/mvc" title="ASP.NET MVC Website">http://asp.net/mvc</a>.
 
-        <% foreach (string foo in ViewData["items"] as IEnumerable)
-           {  %>
-           <%= foo %>
-        <% } %>
     </p>
 </asp:Content>

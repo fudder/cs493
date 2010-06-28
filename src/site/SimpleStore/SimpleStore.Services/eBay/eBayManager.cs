@@ -30,7 +30,7 @@ namespace SimpleStore.Services.eBay
             LoggingProperties logProps = AppSettingHelper.GetLoggingProperties();
             ctx.ApiLogManager.ApiLoggerList.Add(new eBaySvc.Util.FileLogger("Log.txt", true, true, true));
             ctx.ApiLogManager.EnableLogging = true;
-            ctx.ApiLogManager.MessageLoggingFilter = getExceptionFilter(logProps);
+            ctx.ApiLogManager.MessageLoggingFilter = GetExceptionFilter(logProps);
             ctx.Site = eBaySvc.Core.Soap.SiteCodeType.US;
 
             ctx.ApiCredential = new ApiCredential(token);
@@ -45,7 +45,7 @@ namespace SimpleStore.Services.eBay
             return ctx;
         }
 
-        public List<string> GetSales()
+        public List<ItemType> GetSales()
         {
             GetMyeBaySellingCall apicall = new GetMyeBaySellingCall(GetContext());
 
@@ -71,7 +71,7 @@ namespace SimpleStore.Services.eBay
 
             apicall.GetMyeBaySelling();
 
-            List<string> Items = new List<string>();
+            List<ItemType> Items = new List<ItemType>();
 
             if (apicall.ActiveListReturn != null &&
                     apicall.ActiveListReturn.ItemArray != null &&
@@ -79,14 +79,109 @@ namespace SimpleStore.Services.eBay
             {
                 foreach (ItemType actitem in apicall.ActiveListReturn.ItemArray)
                 {
-                    Items.Add(actitem.Title);
+                    Items.Add(actitem);
                 }
             }
 
             return Items;
         }
 
-        private ExceptionFilter getExceptionFilter(LoggingProperties logProps)
+        public List<eBaySvc.Core.Soap.CategoryType> GetCategories(int parentId, int level)
+        {
+            GetCategoriesCall apicall = new GetCategoriesCall(GetContext());
+
+            // Enable HTTP compression to reduce the download size.
+            apicall.EnableCompression = true;
+
+            apicall.DetailLevelList.Add(DetailLevelCodeType.ReturnAll);
+            apicall.ViewAllNodes = true;
+            apicall.LevelLimit = level;
+            apicall.CategoryParent = new StringCollection();
+
+            if (parentId > 0)
+                apicall.CategoryParent.Add(parentId.ToString());
+
+            CategoryTypeCollection cats = apicall.GetCategories();
+
+            List<CategoryType> Items = new List<CategoryType>();
+
+            foreach (CategoryType category in cats)
+			{
+                Items.Add(category);
+            }
+
+            if (Items[0].CategoryID == parentId.ToString())
+                Items.RemoveAt(0);
+
+            return Items;
+        }
+
+        public List<eBaySvc.Core.Soap.CategoryType> GetCategoryBreadCrumb(int categoryId)
+        {
+            GetCategoriesCall apicall = new GetCategoriesCall(GetContext());
+
+            // Enable HTTP compression to reduce the download size.
+            apicall.EnableCompression = true;
+
+            int level = 1;
+            int parentId = 0;
+
+            apicall.DetailLevelList.Add(DetailLevelCodeType.ReturnAll);
+            apicall.ViewAllNodes = true;
+            apicall.LevelLimit = level;
+            apicall.CategoryParent = new StringCollection();
+            apicall.CategoryParent.Add(categoryId.ToString());
+
+            List<CategoryType> Items = new List<CategoryType>();
+
+            while (parentId == 0 && level < 10) // arbitrary bailout at 10
+            {
+                CategoryTypeCollection cats = apicall.GetCategories();
+                if (cats.Count == 1)
+                {
+                    // Add current cat
+                    Items.Add(cats[0]);
+                    // Find any parents
+                    parentId = Convert.ToInt32(cats[0].CategoryParentID[0]);
+                }
+                else
+                {
+                    level++;
+                    apicall.LevelLimit = level;
+                }
+            }
+
+            while (level > 0 && parentId != categoryId)
+            {
+                apicall.LevelLimit = level;
+                apicall.CategoryParent = new StringCollection();
+                apicall.CategoryParent.Add(parentId.ToString());
+
+                CategoryTypeCollection cats = apicall.GetCategories();
+
+                if (cats.Count > 0)
+                {
+                    Items.Add(cats[0]);
+                    if (cats[0].CategoryParentID.Count > 0)
+                    {
+                        if (parentId == Convert.ToInt32(cats[0].CategoryParentID[0]))
+                            break;
+                        else
+                            parentId = Convert.ToInt32(cats[0].CategoryParentID[0]);
+                    }
+                    else
+                        break;
+                }
+
+                level--;
+            }
+
+            Items.Reverse();
+            
+            return Items;
+        }
+
+        private ExceptionFilter GetExceptionFilter(LoggingProperties logProps)
         {
             if (logProps.LogPayloadErrorCodes == null && logProps.LogPayloadExceptions == null && logProps.LogPayloadHttpStatusCodes == null)
                 return null;
