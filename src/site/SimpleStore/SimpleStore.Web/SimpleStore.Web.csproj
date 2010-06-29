@@ -130,6 +130,9 @@
     <Content Include="Content\doc_top.gif" />
     <Content Include="Global.asax" />
     <Content Include="Views\eBay\Category.aspx" />
+    <Content Include="Views\Home\Product.aspx" />
+    <Content Include="Views\Home\Project.aspx" />
+    <Content Include="Views\Home\Prototype.aspx" />
     <Content Include="Views\Site\MatchingFilter.aspx" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">

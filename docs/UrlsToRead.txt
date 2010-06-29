@@ -7,3 +7,4 @@ http://devlicio.us/blogs/billy_mccafferty/archive/2008/10/30/refactoring-service
 http://www.martinfowler.com/eaaCatalog/separatedInterface.html
 http://www.martinfowler.com/articles/mocksArentStubs.html
 http://www.codeproject.com/KB/architecture/DependencyInjection.aspx
+http://www.pcworld.com/article/199919/microsoft_windows_acure_and_amazon_ec2_on_collision_course.html?tk=rss_news

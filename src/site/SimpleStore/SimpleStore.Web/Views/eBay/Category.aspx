@@ -8,7 +8,7 @@
 
     <h2>eBay Category Hierachy Navigation Prototype</h2>
 
-    &gt; <a href="0">Root</a>
+    &gt; <a href="/eBay/Category">Root</a>
     <% foreach (eBay.Service.Core.Soap.CategoryType cat in Model.BreadCrumb)
        {  %>
             &gt; <a href="<%=cat.CategoryID %>"><%=cat.CategoryName%></a>
@@ -24,7 +24,7 @@
             <% }
                else
                { %>
-                <a href="<%=cat.CategoryID %>"><%=cat.CategoryName%></a>
+                <a href="/eBay/Category/<%=cat.CategoryID %>"><%=cat.CategoryName%></a>
            <%  } %>
            <br />
     <% } %>

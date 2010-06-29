@@ -18,5 +18,20 @@ namespace SimpleStore.Web.Controllers
         {
             return View();
         }
+
+        public ActionResult Project()
+        {
+            return View();
+        }
+
+        public ActionResult Product()
+        {
+            return View();
+        }
+
+        public ActionResult Prototype()
+        {
+            return View();
+        }
     }
 }

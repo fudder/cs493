@@ -13,6 +13,13 @@
 
         <div id="title_bar"><h1>CS493 SENIOR CAPSTONE</h1></div>
 
+        <div id="nav_bar">
+            [ <a href="/">Home</a> ]  &nbsp;&nbsp;
+            [ <a href="/Home/Project">Project Deliverables</a> ]  &nbsp;&nbsp;
+            [ <a href="/Home/Product">Capstone Product</a> ]  &nbsp;&nbsp;
+            [ <a href="/Home/Prototype">Prototypes</a> ]
+        </div>
+
         <div id="doc">
 
             <div id="main">
@@ -24,7 +31,8 @@
 </div>
 <div id="footer_container">
     <div id="footer">
-        This is the footer content
+        <br />
+        CS493 · Senior Capstone · Regis.edu · Patrick Brossard · Due 7/2/2010
     </div>
 </div>
 </body>

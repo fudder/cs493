@@ -5,9 +5,15 @@
 </asp:Content>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
-    <h2>SIMPLE STORE PROJECT</h2>
+    <h2>Simple Store Project</h2>
     <p>
-        To learn more about ASP.NET MVC visit <a href="http://asp.net/mvc" title="ASP.NET MVC Website">http://asp.net/mvc</a>.
-
+        Welcome to the Simple Store project site. This website has been developed to accompany the standard project deliverables required by the CS493 course. 
+        In fact, I recommend reviewing this site <i>instead</i> of the standard deliverables for a more interactive experience.
+    </p>
+    <p>
+        What is SimpleStore...
+    </p>
+    <p>
+        Next steps...
     </p>
 </asp:Content>
