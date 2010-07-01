@@ -116,6 +116,7 @@
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\eBayController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\SellerController.cs" />
     <Compile Include="Controllers\SiteController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -134,6 +135,10 @@
     <Content Include="Views\Home\Product.aspx" />
     <Content Include="Views\Home\Project.aspx" />
     <Content Include="Views\Home\Prototype.aspx" />
+    <Content Include="Views\Seller\Create.aspx" />
+    <Content Include="Views\Seller\Edit.aspx" />
+    <Content Include="Views\Seller\Index.aspx" />
+    <Content Include="Views\Shared\ErrorBlock.ascx" />
     <Content Include="Views\Site\MatchingFilter.aspx" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">

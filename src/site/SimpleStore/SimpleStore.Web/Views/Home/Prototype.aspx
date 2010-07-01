@@ -16,7 +16,7 @@
         <li><b>Site Architecture: <a href="/Seller">CRUD Functions on Seller entities</a></b><br />
             This prototype test standard Entity create/read/update/delete functionality.<br />
         </li>
-        <li><b>Site Architecture: <a href="/Site/MatchingFilter">Database call to return matching products</a></b><br />
+        <li><b>Site Architecture: <a href="/Site/MatchingFilter?filter=senior">Database call to return matching products</a></b><br />
             This prototype tests a non-standard Entity Repository selection from the database.
         </li>
         <li><b>eBay Integration: <a href="/eBay/Category">Browse eBay's category hiearchy</a></b><br />

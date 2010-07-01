@@ -17,10 +17,19 @@ namespace SimpleStore.Data.NHibernateMaps
         {
             var mappings = new AutoPersistenceModel();
             mappings.AddEntityAssembly(typeof(Site).Assembly).Where(GetAutoMappingFilter);
+        //    mappings.Setup(GetSetup());
             mappings.IgnoreBase<Entity>();
             mappings.IgnoreBase(typeof(EntityWithTypedId<>));
             mappings.UseOverridesFromAssemblyOf<AutoPersistenceModelGenerator>();
             return mappings;
+        }
+
+        private Action<AutoMappingExpressions> GetSetup()
+        {
+            return c =>
+            {
+                c.FindIdentity = type => type.Name == (type.Name + "Id");
+            };
         }
 
         /// <summary>

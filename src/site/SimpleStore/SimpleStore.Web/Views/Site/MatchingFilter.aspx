@@ -30,7 +30,7 @@
             <% foreach (Site s in ViewData.Model)
        {  %>
         <tr>
-            <td><%: s.Id %></a></td>
+            <td><%: s.SiteId %></td>
 			<td><%: s.Name%></td>
 			<td><%: s.Tagline%></td>
 			<td><%: s.Created %></td>
