@@ -14,6 +14,7 @@ namespace SimpleStore.Core
         public virtual int SiteId { get; protected set; }
         public virtual string Name { get; set; }
         public virtual string Tagline { get; set; }
+        public virtual DateTime Created { get; set; }
 
         public Site() { } // NH Requirement
 

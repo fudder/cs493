@@ -37,5 +37,11 @@ namespace SimpleStore.Web.Controllers
             return View(viewModel);
         }
 
+        public ActionResult Selling()
+        {
+            eBayManager ebay = new eBayManager();
+            return View(ebay.GetSales());
+        }
+
     }
 }

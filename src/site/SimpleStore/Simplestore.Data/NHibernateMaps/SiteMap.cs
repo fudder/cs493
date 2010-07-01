@@ -16,6 +16,7 @@ namespace SimpleStore.Data.NHibernateMaps
             Id(x => x.SiteId);
             Map(x => x.Name);
             Map(x => x.Tagline);
+            Map(x => x.Created);
         }
     }
 }

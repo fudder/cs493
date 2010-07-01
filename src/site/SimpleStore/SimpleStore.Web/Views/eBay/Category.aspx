@@ -11,7 +11,7 @@
     &gt; <a href="/eBay/Category">Root</a>
     <% foreach (eBay.Service.Core.Soap.CategoryType cat in Model.BreadCrumb)
        {  %>
-            &gt; <a href="<%=cat.CategoryID %>"><%=cat.CategoryName%></a>
+            &gt; <a href="<%: cat.CategoryID %>"><%: cat.CategoryName%></a>
     <% } %>
 
     <br /><br />
@@ -20,11 +20,11 @@
        {  %>
             <% if (cat.LeafCategory)
                { %>
-               <%=cat.CategoryName%>
+               <%: cat.CategoryName%>
             <% }
                else
                { %>
-                <a href="/eBay/Category/<%=cat.CategoryID %>"><%=cat.CategoryName%></a>
+                <a href="/eBay/Category/<%: cat.CategoryID %>"><%: cat.CategoryName%></a>
            <%  } %>
            <br />
     <% } %>

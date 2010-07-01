@@ -83,6 +83,9 @@ namespace SimpleStore.Services.eBay
                 }
             }
 
+            foreach (ItemType actitem in Items)
+                actitem.TimeLeft = FormatTimeLeft(actitem.TimeLeft);
+
             return Items;
         }
 
@@ -188,6 +191,17 @@ namespace SimpleStore.Services.eBay
             else
                 return new ExceptionFilter(logProps.LogPayloadErrorCodes, logProps.LogPayloadExceptions, logProps.LogPayloadHttpStatusCodes);
 
+        }
+
+        private string FormatTimeLeft(string timeLeft)
+        {
+            timeLeft = timeLeft.Replace("P", "");
+            timeLeft = timeLeft.Replace("T", "");
+            timeLeft = timeLeft.Replace("D", " days, ");
+            timeLeft = timeLeft.Replace("H", " hours, ");
+            timeLeft = timeLeft.Replace("M", " minutes, ");
+            timeLeft = timeLeft.Replace("S", " seconds");
+            return timeLeft;
         }
     }
 }

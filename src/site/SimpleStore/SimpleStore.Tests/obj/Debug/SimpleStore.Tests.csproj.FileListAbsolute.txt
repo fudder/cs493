@@ -38,10 +38,8 @@ C:\cs493\src\site\SimpleStore\SimpleStore.Tests\bin\Debug\Castle.Core.xml
 C:\cs493\src\site\SimpleStore\SimpleStore.Tests\bin\Debug\NHibernate.config
 C:\cs493\src\site\SimpleStore\SimpleStore.Tests\bin\Debug\MvcContrib.dll
 C:\cs493\src\site\SimpleStore\SimpleStore.Tests\bin\Debug\Microsoft.Practices.ServiceLocation.dll
-C:\cs493\src\site\SimpleStore\SimpleStore.Tests\bin\Debug\nunit.framework.dll
 C:\cs493\src\site\SimpleStore\SimpleStore.Tests\bin\Debug\Castle.MicroKernel.dll
 C:\cs493\src\site\SimpleStore\SimpleStore.Tests\bin\Debug\Castle.Windsor.dll
-C:\cs493\src\site\SimpleStore\SimpleStore.Tests\bin\Debug\nunit.framework.xml
 C:\cs493\src\site\SimpleStore\SimpleStore.Tests\bin\Debug\Castle.MicroKernel.xml
 C:\cs493\src\site\SimpleStore\SimpleStore.Tests\bin\Debug\Castle.Windsor.xml
 C:\cs493\src\site\SimpleStore\SimpleStore.Tests\bin\Debug\CommonServiceLocator.WindsorAdapter.dll
@@ -51,5 +49,4 @@ C:\cs493\src\site\SimpleStore\SimpleStore.Tests\bin\Debug\SimpleStore.Services.d
 C:\cs493\src\site\SimpleStore\SimpleStore.Tests\bin\Debug\eBay.Service.dll
 C:\cs493\src\site\SimpleStore\SimpleStore.Tests\bin\Debug\Samples.Helper.dll
 C:\cs493\src\site\SimpleStore\SimpleStore.Tests\bin\Debug\SimpleStore.Services.pdb
-C:\cs493\src\site\SimpleStore\SimpleStore.Tests\bin\Debug\eBay.Service.xml
 C:\cs493\src\site\SimpleStore\SimpleStore.Tests\bin\Debug\Samples.Helper.xml

@@ -52,6 +52,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="NHibernateMaps\AutoPersistenceModelGenerator.cs" />
+    <Compile Include="NHibernateMaps\SellerMap.cs" />
     <Compile Include="NHibernateMaps\SiteMap.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SiteRepository.cs" />

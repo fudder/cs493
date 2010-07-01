@@ -104,3 +104,7 @@ h2 {font-family: Georgia,Arial,sans-serif; color: #335479; font-size: 1.6em; fon
 .clear { clear: both; width: 1px; height: 1px; margin: 0; padding: 0; }
 
 li { margin: 10px;}
+
+
+thead { font-weight: bold; }
+td { padding: 3px; border-bottom: 1px solid #D1CBB5; }

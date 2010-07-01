@@ -1,229 +1,724 @@
-2010-06-28 21:28:25,146 [21] NHibernate.Cfg.Environment..cctor(:0) - NHibernate 2.1.2.4000 (2.1.2.4000)
+2010-06-30 17:24:32,269 [5] NHibernate.Cfg.Environment..cctor(:0) - NHibernate 2.1.2.4000 (2.1.2.4000)
 
-2010-06-28 21:28:25,159 [21] NHibernate.Cfg.Environment.LoadGlobalPropertiesFromAppConfig(:0) - hibernate-configuration section not found in application configuration file
+2010-06-30 17:24:32,281 [5] NHibernate.Cfg.Environment.LoadGlobalPropertiesFromAppConfig(:0) - hibernate-configuration section not found in application configuration file
 
-2010-06-28 21:28:25,159 [21] NHibernate.Cfg.Environment.BuildBytecodeProvider(:0) - Bytecode provider name : lcg
+2010-06-30 17:24:32,281 [5] NHibernate.Cfg.Environment.BuildBytecodeProvider(:0) - Bytecode provider name : lcg
 
-2010-06-28 21:28:25,160 [21] NHibernate.Cfg.Environment..cctor(:0) - Using reflection optimizer
+2010-06-30 17:24:32,281 [5] NHibernate.Cfg.Environment..cctor(:0) - Using reflection optimizer
 
-2010-06-28 21:28:25,184 [21] NHibernate.Cfg.Configuration.AddProperties(:0) - connection.connection_string=Data Source=.\sqlexpress;Database=SimpleStore;Integrated Security=SSPI;
+2010-06-30 17:24:32,304 [5] NHibernate.Cfg.Configuration.AddProperties(:0) - connection.connection_string=Data Source=.\sqlexpress;Database=SimpleStore;Integrated Security=SSPI;
 
-2010-06-28 21:28:25,185 [21] NHibernate.Cfg.Configuration.AddProperties(:0) - dialect=NHibernate.Dialect.MsSql2008Dialect
+2010-06-30 17:24:32,305 [5] NHibernate.Cfg.Configuration.AddProperties(:0) - dialect=NHibernate.Dialect.MsSql2008Dialect
 
-2010-06-28 21:28:25,185 [21] NHibernate.Cfg.Configuration.AddProperties(:0) - connection.provider=NHibernate.Connection.DriverConnectionProvider
+2010-06-30 17:24:32,305 [5] NHibernate.Cfg.Configuration.AddProperties(:0) - connection.provider=NHibernate.Connection.DriverConnectionProvider
 
-2010-06-28 21:28:25,185 [21] NHibernate.Cfg.Configuration.AddProperties(:0) - connection.driver_class=NHibernate.Driver.SqlClientDriver
+2010-06-30 17:24:32,305 [5] NHibernate.Cfg.Configuration.AddProperties(:0) - connection.driver_class=NHibernate.Driver.SqlClientDriver
 
-2010-06-28 21:28:25,185 [21] NHibernate.Cfg.Configuration.AddProperties(:0) - show_sql=false
+2010-06-30 17:24:32,305 [5] NHibernate.Cfg.Configuration.AddProperties(:0) - show_sql=false
 
-2010-06-28 21:28:25,185 [21] NHibernate.Cfg.Configuration.AddProperties(:0) - connection.release_mode=auto
+2010-06-30 17:24:32,305 [5] NHibernate.Cfg.Configuration.AddProperties(:0) - connection.release_mode=auto
 
-2010-06-28 21:28:25,185 [21] NHibernate.Cfg.Configuration.AddProperties(:0) - adonet.batch_size=500
+2010-06-30 17:24:32,305 [5] NHibernate.Cfg.Configuration.AddProperties(:0) - adonet.batch_size=500
 
-2010-06-28 21:28:25,186 [21] NHibernate.Cfg.Configuration.AddProperties(:0) - proxyfactory.factory_class=NHibernate.ByteCode.Castle.ProxyFactoryFactory, NHibernate.ByteCode.Castle
+2010-06-30 17:24:32,306 [5] NHibernate.Cfg.Configuration.AddProperties(:0) - proxyfactory.factory_class=NHibernate.ByteCode.Castle.ProxyFactoryFactory, NHibernate.ByteCode.Castle
 
-2010-06-28 21:28:25,186 [21] NHibernate.Cfg.Configuration.DoConfigure(:0) - properties: System.Collections.Generic.Dictionary`2[System.String,System.String]
+2010-06-30 17:24:32,306 [5] NHibernate.Cfg.Configuration.DoConfigure(:0) - properties: System.Collections.Generic.Dictionary`2[System.String,System.String]
 
-2010-06-28 21:28:25,192 [21] NHibernate.Cfg.Configuration.AddAssembly(:0) - No mapped documents found in assembly: SimpleStore.Data, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2010-06-30 17:24:32,312 [5] NHibernate.Cfg.Configuration.AddAssembly(:0) - No mapped documents found in assembly: SimpleStore.Data, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
 
-2010-06-28 21:28:25,309 [21] NHibernate.Cfg.Configuration.AddDocument(:0) - Mapping XML:
-<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" default-access="property" auto-import="true" default-cascade="none" default-lazy="true"><class xmlns="urn:nhibernate-mapping-2.2" mutable="true" name="SimpleStore.Core.Site, SimpleStore.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" table="`Site`"><id name="SiteId" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><column name="SiteId" /><generator class="identity" /></id><property name="Name" type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><column name="Name" /></property><property name="Tagline" type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><column name="Tagline" /></property></class></hibernate-mapping>
+2010-06-30 17:24:32,424 [5] NHibernate.Cfg.Configuration.AddDocument(:0) - Mapping XML:
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" default-access="property" auto-import="true" default-cascade="none" default-lazy="true"><class xmlns="urn:nhibernate-mapping-2.2" mutable="true" name="SimpleStore.Core.Site, SimpleStore.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" table="`Site`"><id name="SiteId" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><column name="SiteId" /><generator class="identity" /></id><property name="Name" type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><column name="Name" /></property><property name="Tagline" type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><column name="Tagline" /></property><property name="Created" type="System.DateTime, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><column name="Created" /></property></class></hibernate-mapping>
 
-2010-06-28 21:28:25,331 [21] NHibernate.Dialect.Dialect..ctor(:0) - Using dialect: NHibernate.Dialect.MsSql2008Dialect
+2010-06-30 17:24:32,450 [5] NHibernate.Dialect.Dialect..ctor(:0) - Using dialect: NHibernate.Dialect.MsSql2008Dialect
 
-2010-06-28 21:28:26,218 [21] NHibernate.Cfg.XmlHbmBinding.RootClassBinder.Bind(:0) - Mapping class: SimpleStore.Core.Site -> Site
+2010-06-30 17:24:33,292 [5] NHibernate.Cfg.XmlHbmBinding.RootClassBinder.Bind(:0) - Mapping class: SimpleStore.Core.Site -> Site
 
-2010-06-28 21:28:26,237 [21] NHibernate.Cfg.XmlHbmBinding.ClassBinder.LogMappedProperty(:0) - Mapped property: SiteId -> SiteId, type: Int32
+2010-06-30 17:24:33,311 [5] NHibernate.Cfg.XmlHbmBinding.ClassBinder.LogMappedProperty(:0) - Mapped property: SiteId -> SiteId, type: Int32
 
-2010-06-28 21:28:26,250 [21] NHibernate.Cfg.XmlHbmBinding.ClassBinder.BindProperty(:0) - Mapped property: Name -> Name, type: String
+2010-06-30 17:24:33,323 [5] NHibernate.Cfg.XmlHbmBinding.ClassBinder.BindProperty(:0) - Mapped property: Name -> Name, type: String
 
-2010-06-28 21:28:26,251 [21] NHibernate.Cfg.XmlHbmBinding.ClassBinder.BindProperty(:0) - Mapped property: Tagline -> Tagline, type: String
+2010-06-30 17:24:33,324 [5] NHibernate.Cfg.XmlHbmBinding.ClassBinder.BindProperty(:0) - Mapped property: Tagline -> Tagline, type: String
 
-2010-06-28 21:28:26,277 [21] NHibernate.Cfg.Configuration.SecondPassCompile(:0) - checking mappings queue
+2010-06-30 17:24:33,324 [5] NHibernate.Cfg.XmlHbmBinding.ClassBinder.BindProperty(:0) - Mapped property: Created -> Created, type: DateTime
 
-2010-06-28 21:28:26,277 [21] NHibernate.Cfg.Configuration.SecondPassCompile(:0) - processing one-to-many association mappings
+2010-06-30 17:24:33,328 [5] NHibernate.Cfg.Configuration.AddDocument(:0) - Mapping XML:
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" default-access="property" auto-import="true" default-cascade="none" default-lazy="true"><class xmlns="urn:nhibernate-mapping-2.2" mutable="true" name="SimpleStore.Core.Seller, SimpleStore.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" table="`Seller`"><id name="SellerId" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><column name="SellerId" /><generator class="identity" /></id><property name="Email" type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><column name="Email" /></property><property name="EbayUser" type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><column name="EbayUser" /></property><property name="Created" type="System.DateTime, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><column name="Created" /></property></class></hibernate-mapping>
 
-2010-06-28 21:28:26,278 [21] NHibernate.Cfg.Configuration.SecondPassCompile(:0) - processing one-to-one association property references
+2010-06-30 17:24:33,332 [5] NHibernate.Dialect.Dialect..ctor(:0) - Using dialect: NHibernate.Dialect.MsSql2008Dialect
 
-2010-06-28 21:28:26,278 [21] NHibernate.Cfg.Configuration.SecondPassCompile(:0) - processing foreign key constraints
+2010-06-30 17:24:33,333 [5] NHibernate.Cfg.XmlHbmBinding.RootClassBinder.Bind(:0) - Mapping class: SimpleStore.Core.Seller -> Seller
 
-2010-06-28 21:28:26,279 [21] NHibernate.Cfg.Configuration.SecondPassCompile(:0) - processing filters (second pass)
+2010-06-30 17:24:33,333 [5] NHibernate.Cfg.XmlHbmBinding.ClassBinder.LogMappedProperty(:0) - Mapped property: SellerId -> SellerId, type: Int32
 
-2010-06-28 21:28:26,293 [21] NHibernate.Dialect.Dialect..ctor(:0) - Using dialect: NHibernate.Dialect.MsSql2008Dialect
+2010-06-30 17:24:33,333 [5] NHibernate.Cfg.XmlHbmBinding.ClassBinder.BindProperty(:0) - Mapped property: Email -> Email, type: String
 
-2010-06-28 21:28:26,294 [21] NHibernate.Exceptions.SQLExceptionConverterFactory.BuildSQLExceptionConverter(:0) - Using dialect defined converter
+2010-06-30 17:24:33,333 [5] NHibernate.Cfg.XmlHbmBinding.ClassBinder.BindProperty(:0) - Mapped property: EbayUser -> EbayUser, type: String
 
-2010-06-28 21:28:26,295 [21] NHibernate.Cfg.SettingsFactory.BuildSettings(:0) - Generate SQL with comments: disabled
+2010-06-30 17:24:33,334 [5] NHibernate.Cfg.XmlHbmBinding.ClassBinder.BindProperty(:0) - Mapped property: Created -> Created, type: DateTime
 
-2010-06-28 21:28:26,295 [21] NHibernate.Connection.ConnectionProviderFactory.NewConnectionProvider(:0) - Initializing connection provider: NHibernate.Connection.DriverConnectionProvider
+2010-06-30 17:24:33,359 [5] NHibernate.Cfg.Configuration.SecondPassCompile(:0) - checking mappings queue
 
-2010-06-28 21:28:26,296 [21] NHibernate.Connection.ConnectionProvider.Configure(:0) - Configuring ConnectionProvider
+2010-06-30 17:24:33,359 [5] NHibernate.Cfg.Configuration.SecondPassCompile(:0) - processing one-to-many association mappings
 
-2010-06-28 21:28:26,297 [21] NHibernate.Cfg.SettingsFactory.CreateTransactionFactory(:0) - Transaction factory: NHibernate.Transaction.AdoNetWithDistrubtedTransactionFactory
+2010-06-30 17:24:33,359 [5] NHibernate.Cfg.Configuration.SecondPassCompile(:0) - processing one-to-one association property references
 
-2010-06-28 21:28:26,298 [21] NHibernate.Cfg.SettingsFactory.BuildSettings(:0) - Optimize cache for minimal puts: False
+2010-06-30 17:24:33,360 [5] NHibernate.Cfg.Configuration.SecondPassCompile(:0) - processing foreign key constraints
 
-2010-06-28 21:28:26,298 [21] NHibernate.Cfg.SettingsFactory.BuildSettings(:0) - Connection release mode: auto
+2010-06-30 17:24:33,361 [5] NHibernate.Cfg.Configuration.SecondPassCompile(:0) - processing filters (second pass)
 
-2010-06-28 21:28:26,298 [21] NHibernate.Cfg.SettingsFactory.BuildSettings(:0) - Default batch fetch size: 1
+2010-06-30 17:24:33,373 [5] NHibernate.Dialect.Dialect..ctor(:0) - Using dialect: NHibernate.Dialect.MsSql2008Dialect
 
-2010-06-28 21:28:26,299 [21] NHibernate.Cfg.SettingsFactory.BuildSettings(:0) - Statistics: disabled
+2010-06-30 17:24:33,374 [5] NHibernate.Exceptions.SQLExceptionConverterFactory.BuildSQLExceptionConverter(:0) - Using dialect defined converter
 
-2010-06-28 21:28:26,299 [21] NHibernate.Cfg.SettingsFactory.BuildSettings(:0) - Deleted entity synthetic identifier rollback: disabled
+2010-06-30 17:24:33,375 [5] NHibernate.Cfg.SettingsFactory.BuildSettings(:0) - Generate SQL with comments: disabled
 
-2010-06-28 21:28:26,299 [21] NHibernate.Cfg.SettingsFactory.CreateQueryTranslatorFactory(:0) - Query translator: NHibernate.Hql.Ast.ANTLR.ASTQueryTranslatorFactory
+2010-06-30 17:24:33,375 [5] NHibernate.Connection.ConnectionProviderFactory.NewConnectionProvider(:0) - Initializing connection provider: NHibernate.Connection.DriverConnectionProvider
 
-2010-06-28 21:28:26,300 [21] NHibernate.Cfg.SettingsFactory.BuildSettings(:0) - Query language substitutions: {}
+2010-06-30 17:24:33,376 [5] NHibernate.Connection.ConnectionProvider.Configure(:0) - Configuring ConnectionProvider
 
-2010-06-28 21:28:26,301 [21] NHibernate.Cfg.SettingsFactory.CreateCacheProvider(:0) - cache provider: NHibernate.Cache.NoCacheProvider, NHibernate, Version=2.1.2.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+2010-06-30 17:24:33,377 [5] NHibernate.Cfg.SettingsFactory.CreateTransactionFactory(:0) - Transaction factory: NHibernate.Transaction.AdoNetWithDistrubtedTransactionFactory
 
-2010-06-28 21:28:26,301 [21] NHibernate.Cfg.SettingsFactory.BuildSettings(:0) - Wrap result sets: disabled
+2010-06-30 17:24:33,378 [5] NHibernate.Cfg.SettingsFactory.BuildSettings(:0) - Optimize cache for minimal puts: False
 
-2010-06-28 21:28:26,302 [21] NHibernate.Cfg.SettingsFactory.CreateBatcherFactory(:0) - Batcher factory: NHibernate.AdoNet.SqlClientBatchingBatcherFactory, NHibernate, Version=2.1.2.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+2010-06-30 17:24:33,378 [5] NHibernate.Cfg.SettingsFactory.BuildSettings(:0) - Connection release mode: auto
 
-2010-06-28 21:28:26,303 [21] NHibernate.Cfg.SettingsFactory.BuildSettings(:0) - Default entity-mode: Poco
+2010-06-30 17:24:33,378 [5] NHibernate.Cfg.SettingsFactory.BuildSettings(:0) - Default batch fetch size: 1
 
-2010-06-28 21:28:26,303 [21] NHibernate.Cfg.SettingsFactory.BuildSettings(:0) - Named query checking : enabled
+2010-06-30 17:24:33,378 [5] NHibernate.Cfg.SettingsFactory.BuildSettings(:0) - Statistics: disabled
 
-2010-06-28 21:28:26,315 [21] NHibernate.Impl.SessionFactoryImpl..ctor(:0) - building session factory
+2010-06-30 17:24:33,379 [5] NHibernate.Cfg.SettingsFactory.BuildSettings(:0) - Deleted entity synthetic identifier rollback: disabled
 
-2010-06-28 21:28:26,316 [21] NHibernate.Impl.SessionFactoryImpl..ctor(:0) - Session factory constructed with filter configurations : {}
+2010-06-30 17:24:33,379 [5] NHibernate.Cfg.SettingsFactory.CreateQueryTranslatorFactory(:0) - Query translator: NHibernate.Hql.Ast.ANTLR.ASTQueryTranslatorFactory
 
-2010-06-28 21:28:26,317 [21] NHibernate.Impl.SessionFactoryImpl..ctor(:0) - instantiating session factory with properties: {'use_reflection_optimizer'='True', 'connection.connection_string'='Data Source=.\sqlexpress;Database=SimpleStore;Integrated Security=SSPI;', 'dialect'='NHibernate.Dialect.MsSql2008Dialect', 'connection.provider'='NHibernate.Connection.DriverConnectionProvider', 'connection.driver_class'='NHibernate.Driver.SqlClientDriver', 'show_sql'='false', 'connection.release_mode'='auto', 'adonet.batch_size'='500', 'proxyfactory.factory_class'='NHibernate.ByteCode.Castle.ProxyFactoryFactory, NHibernate.ByteCode.Castle'}
+2010-06-30 17:24:33,380 [5] NHibernate.Cfg.SettingsFactory.BuildSettings(:0) - Query language substitutions: {}
 
-2010-06-28 21:28:26,318 [21] NHibernate.Connection.DriverConnectionProvider.GetConnection(:0) - Obtaining IDbConnection from Driver
+2010-06-30 17:24:33,380 [5] NHibernate.Cfg.SettingsFactory.CreateCacheProvider(:0) - cache provider: NHibernate.Cache.NoCacheProvider, NHibernate, Version=2.1.2.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
 
-2010-06-28 21:28:26,329 [21] NHibernate.Connection.ConnectionProvider.CloseConnection(:0) - Closing connection
+2010-06-30 17:24:33,381 [5] NHibernate.Cfg.SettingsFactory.BuildSettings(:0) - Wrap result sets: disabled
 
-2010-06-28 21:28:26,381 [21] NHibernate.Tuple.Entity.AbstractEntityTuplizer..ctor(:0) - No custom accessors found for entity: SimpleStore.Core.Site
+2010-06-30 17:24:33,382 [5] NHibernate.Cfg.SettingsFactory.CreateBatcherFactory(:0) - Batcher factory: NHibernate.AdoNet.SqlClientBatchingBatcherFactory, NHibernate, Version=2.1.2.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
 
-2010-06-28 21:28:26,385 [21] NHibernate.Tuple.Entity.AbstractEntityTuplizer..ctor(:0) - No custom accessors found for entity: SimpleStore.Core.Site
+2010-06-30 17:24:33,382 [5] NHibernate.Cfg.SettingsFactory.BuildSettings(:0) - Default entity-mode: Poco
 
-2010-06-28 21:28:26,394 [21] NHibernate.Tuple.Entity.PocoEntityTuplizer.BuildInstantiator(:0) - Create Instantiator using optimizer for:SimpleStore.Core.Site
+2010-06-30 17:24:33,382 [5] NHibernate.Cfg.SettingsFactory.BuildSettings(:0) - Named query checking : enabled
 
-2010-06-28 21:28:26,444 [21] NHibernate.Persister.Entity.AbstractEntityPersister.LogStaticSQL(:0) - Static SQL for entity: SimpleStore.Core.Site
+2010-06-30 17:24:33,394 [5] NHibernate.Impl.SessionFactoryImpl..ctor(:0) - building session factory
 
-2010-06-28 21:28:26,444 [21] NHibernate.Persister.Entity.AbstractEntityPersister.LogStaticSQL(:0) -  Version select: SELECT SiteId FROM [Site] WHERE SiteId = ?
+2010-06-30 17:24:33,395 [5] NHibernate.Impl.SessionFactoryImpl..ctor(:0) - Session factory constructed with filter configurations : {}
 
-2010-06-28 21:28:26,444 [21] NHibernate.Persister.Entity.AbstractEntityPersister.LogStaticSQL(:0) -  Snapshot select: SELECT site_.SiteId, site_.Name as Name0_, site_.Tagline as Tagline0_ FROM [Site] site_ WHERE site_.SiteId=?
+2010-06-30 17:24:33,395 [5] NHibernate.Impl.SessionFactoryImpl..ctor(:0) - instantiating session factory with properties: {'use_reflection_optimizer'='True', 'connection.connection_string'='Data Source=.\sqlexpress;Database=SimpleStore;Integrated Security=SSPI;', 'dialect'='NHibernate.Dialect.MsSql2008Dialect', 'connection.provider'='NHibernate.Connection.DriverConnectionProvider', 'connection.driver_class'='NHibernate.Driver.SqlClientDriver', 'show_sql'='false', 'connection.release_mode'='auto', 'adonet.batch_size'='500', 'proxyfactory.factory_class'='NHibernate.ByteCode.Castle.ProxyFactoryFactory, NHibernate.ByteCode.Castle'}
 
-2010-06-28 21:28:26,445 [21] NHibernate.Persister.Entity.AbstractEntityPersister.LogStaticSQL(:0) -  Insert 0: INSERT INTO [Site] (Name, Tagline, SiteId) VALUES (?, ?, ?)
+2010-06-30 17:24:33,396 [5] NHibernate.Connection.DriverConnectionProvider.GetConnection(:0) - Obtaining IDbConnection from Driver
 
-2010-06-28 21:28:26,445 [21] NHibernate.Persister.Entity.AbstractEntityPersister.LogStaticSQL(:0) -  Update 0: UPDATE [Site] SET Name = ?, Tagline = ? WHERE SiteId = ?
+2010-06-30 17:24:33,407 [5] NHibernate.Connection.ConnectionProvider.CloseConnection(:0) - Closing connection
 
-2010-06-28 21:28:26,445 [21] NHibernate.Persister.Entity.AbstractEntityPersister.LogStaticSQL(:0) -  Delete 0: DELETE FROM [Site] WHERE SiteId = ?
+2010-06-30 17:24:33,455 [5] NHibernate.Tuple.Entity.AbstractEntityTuplizer..ctor(:0) - No custom accessors found for entity: SimpleStore.Core.Site
 
-2010-06-28 21:28:26,445 [21] NHibernate.Persister.Entity.AbstractEntityPersister.LogStaticSQL(:0) -  Identity insert: INSERT INTO [Site] (Name, Tagline) VALUES (?, ?); select SCOPE_IDENTITY()
+2010-06-30 17:24:33,459 [5] NHibernate.Tuple.Entity.AbstractEntityTuplizer..ctor(:0) - No custom accessors found for entity: SimpleStore.Core.Site
 
-2010-06-28 21:28:26,484 [21] NHibernate.Loader.Entity.EntityLoader..ctor(:0) - Static select for entity SimpleStore.Core.Site: SELECT site0_.SiteId as SiteId0_0_, site0_.Name as Name0_0_, site0_.Tagline as Tagline0_0_ FROM [Site] site0_ WHERE site0_.SiteId=?
+2010-06-30 17:24:33,468 [5] NHibernate.Tuple.Entity.PocoEntityTuplizer.BuildInstantiator(:0) - Create Instantiator using optimizer for:SimpleStore.Core.Site
 
-2010-06-28 21:28:26,485 [21] NHibernate.Loader.Entity.EntityLoader..ctor(:0) - Static select for entity SimpleStore.Core.Site: SELECT site0_.SiteId as SiteId0_0_, site0_.Name as Name0_0_, site0_.Tagline as Tagline0_0_ FROM [Site] site0_ WHERE site0_.SiteId=?
+2010-06-30 17:24:33,487 [5] NHibernate.Tuple.Entity.AbstractEntityTuplizer..ctor(:0) - No custom accessors found for entity: SimpleStore.Core.Seller
 
-2010-06-28 21:28:26,485 [21] NHibernate.Loader.Entity.EntityLoader..ctor(:0) - Static select for entity SimpleStore.Core.Site: SELECT site0_.SiteId as SiteId0_0_, site0_.Name as Name0_0_, site0_.Tagline as Tagline0_0_ FROM [Site] site0_ with (updlock, rowlock) WHERE site0_.SiteId=?
+2010-06-30 17:24:33,488 [5] NHibernate.Tuple.Entity.AbstractEntityTuplizer..ctor(:0) - No custom accessors found for entity: SimpleStore.Core.Seller
 
-2010-06-28 21:28:26,485 [21] NHibernate.Loader.Entity.EntityLoader..ctor(:0) - Static select for entity SimpleStore.Core.Site: SELECT site0_.SiteId as SiteId0_0_, site0_.Name as Name0_0_, site0_.Tagline as Tagline0_0_ FROM [Site] site0_ with (updlock, rowlock) WHERE site0_.SiteId=?
+2010-06-30 17:24:33,488 [5] NHibernate.Tuple.Entity.PocoEntityTuplizer.BuildInstantiator(:0) - Create Instantiator using optimizer for:SimpleStore.Core.Seller
 
-2010-06-28 21:28:26,486 [21] NHibernate.Loader.Entity.EntityLoader..ctor(:0) - Static select for entity SimpleStore.Core.Site: SELECT site0_.SiteId as SiteId0_0_, site0_.Name as Name0_0_, site0_.Tagline as Tagline0_0_ FROM [Site] site0_ with (updlock, rowlock) WHERE site0_.SiteId=?
+2010-06-30 17:24:33,516 [5] NHibernate.Persister.Entity.AbstractEntityPersister.LogStaticSQL(:0) - Static SQL for entity: SimpleStore.Core.Site
 
-2010-06-28 21:28:26,486 [21] NHibernate.Loader.Entity.CascadeEntityLoader..ctor(:0) - Static select for action NHibernate.Engine.CascadingAction+MergeCascadingAction on entity SimpleStore.Core.Site: SELECT site0_.SiteId as SiteId0_0_, site0_.Name as Name0_0_, site0_.Tagline as Tagline0_0_ FROM [Site] site0_ WHERE site0_.SiteId=?
+2010-06-30 17:24:33,516 [5] NHibernate.Persister.Entity.AbstractEntityPersister.LogStaticSQL(:0) -  Version select: SELECT SiteId FROM [Site] WHERE SiteId = ?
 
-2010-06-28 21:28:26,487 [21] NHibernate.Loader.Entity.CascadeEntityLoader..ctor(:0) - Static select for action NHibernate.Engine.CascadingAction+RefreshCascadingAction on entity SimpleStore.Core.Site: SELECT site0_.SiteId as SiteId0_0_, site0_.Name as Name0_0_, site0_.Tagline as Tagline0_0_ FROM [Site] site0_ WHERE site0_.SiteId=?
+2010-06-30 17:24:33,516 [5] NHibernate.Persister.Entity.AbstractEntityPersister.LogStaticSQL(:0) -  Snapshot select: SELECT site_.SiteId, site_.Name as Name0_, site_.Tagline as Tagline0_, site_.Created as Created0_ FROM [Site] site_ WHERE site_.SiteId=?
 
-2010-06-28 21:28:26,488 [21] NHibernate.Impl.SessionFactoryObjectFactory..cctor(:0) - initializing class SessionFactoryObjectFactory
+2010-06-30 17:24:33,516 [5] NHibernate.Persister.Entity.AbstractEntityPersister.LogStaticSQL(:0) -  Insert 0: INSERT INTO [Site] (Name, Tagline, Created, SiteId) VALUES (?, ?, ?, ?)
 
-2010-06-28 21:28:26,488 [21] NHibernate.Impl.SessionFactoryObjectFactory.AddInstance(:0) - registered: 10b9b728a4a9461ab719ec85bf102896(unnamed)
+2010-06-30 17:24:33,517 [5] NHibernate.Persister.Entity.AbstractEntityPersister.LogStaticSQL(:0) -  Update 0: UPDATE [Site] SET Name = ?, Tagline = ?, Created = ? WHERE SiteId = ?
 
-2010-06-28 21:28:26,488 [21] NHibernate.Impl.SessionFactoryObjectFactory.AddInstance(:0) - no name configured
+2010-06-30 17:24:33,517 [5] NHibernate.Persister.Entity.AbstractEntityPersister.LogStaticSQL(:0) -  Delete 0: DELETE FROM [Site] WHERE SiteId = ?
 
-2010-06-28 21:28:26,489 [21] NHibernate.Impl.SessionFactoryImpl..ctor(:0) - Instantiated session factory
+2010-06-30 17:24:33,517 [5] NHibernate.Persister.Entity.AbstractEntityPersister.LogStaticSQL(:0) -  Identity insert: INSERT INTO [Site] (Name, Tagline, Created) VALUES (?, ?, ?); select SCOPE_IDENTITY()
 
-2010-06-28 21:28:26,491 [21] NHibernate.Impl.SessionFactoryImpl.CheckNamedQueries(:0) - Checking 0 named HQL queries
+2010-06-30 17:24:33,537 [5] NHibernate.Loader.Entity.EntityLoader..ctor(:0) - Static select for entity SimpleStore.Core.Site: SELECT site0_.SiteId as SiteId0_0_, site0_.Name as Name0_0_, site0_.Tagline as Tagline0_0_, site0_.Created as Created0_0_ FROM [Site] site0_ WHERE site0_.SiteId=?
 
-2010-06-28 21:28:26,491 [21] NHibernate.Impl.SessionFactoryImpl.CheckNamedQueries(:0) - Checking 0 named SQL queries
+2010-06-30 17:24:33,537 [5] NHibernate.Loader.Entity.EntityLoader..ctor(:0) - Static select for entity SimpleStore.Core.Site: SELECT site0_.SiteId as SiteId0_0_, site0_.Name as Name0_0_, site0_.Tagline as Tagline0_0_, site0_.Created as Created0_0_ FROM [Site] site0_ WHERE site0_.SiteId=?
 
-2010-06-28 21:34:53,637 [27] NHibernate.Impl.SessionImpl..ctor(:0) - [session-id=dc7f6788-7eca-4876-80e9-68cbfe143c88] opened session at timestamp: 634133576935, for session factory: [/10b9b728a4a9461ab719ec85bf102896]
+2010-06-30 17:24:33,537 [5] NHibernate.Loader.Entity.EntityLoader..ctor(:0) - Static select for entity SimpleStore.Core.Site: SELECT site0_.SiteId as SiteId0_0_, site0_.Name as Name0_0_, site0_.Tagline as Tagline0_0_, site0_.Created as Created0_0_ FROM [Site] site0_ with (updlock, rowlock) WHERE site0_.SiteId=?
 
-2010-06-28 21:34:53,660 [27] NHibernate.Loader.Criteria.CriteriaQueryTranslator.CreateCriteriaSQLAliasMap(:0) - put criteria=(Name ilike %% or Tagline ilike %%)
+2010-06-30 17:24:33,538 [5] NHibernate.Loader.Entity.EntityLoader..ctor(:0) - Static select for entity SimpleStore.Core.Site: SELECT site0_.SiteId as SiteId0_0_, site0_.Name as Name0_0_, site0_.Tagline as Tagline0_0_, site0_.Created as Created0_0_ FROM [Site] site0_ with (updlock, rowlock) WHERE site0_.SiteId=?
+
+2010-06-30 17:24:33,538 [5] NHibernate.Loader.Entity.EntityLoader..ctor(:0) - Static select for entity SimpleStore.Core.Site: SELECT site0_.SiteId as SiteId0_0_, site0_.Name as Name0_0_, site0_.Tagline as Tagline0_0_, site0_.Created as Created0_0_ FROM [Site] site0_ with (updlock, rowlock) WHERE site0_.SiteId=?
+
+2010-06-30 17:24:33,538 [5] NHibernate.Loader.Entity.CascadeEntityLoader..ctor(:0) - Static select for action NHibernate.Engine.CascadingAction+MergeCascadingAction on entity SimpleStore.Core.Site: SELECT site0_.SiteId as SiteId0_0_, site0_.Name as Name0_0_, site0_.Tagline as Tagline0_0_, site0_.Created as Created0_0_ FROM [Site] site0_ WHERE site0_.SiteId=?
+
+2010-06-30 17:24:33,539 [5] NHibernate.Loader.Entity.CascadeEntityLoader..ctor(:0) - Static select for action NHibernate.Engine.CascadingAction+RefreshCascadingAction on entity SimpleStore.Core.Site: SELECT site0_.SiteId as SiteId0_0_, site0_.Name as Name0_0_, site0_.Tagline as Tagline0_0_, site0_.Created as Created0_0_ FROM [Site] site0_ WHERE site0_.SiteId=?
+
+2010-06-30 17:24:33,539 [5] NHibernate.Persister.Entity.AbstractEntityPersister.LogStaticSQL(:0) - Static SQL for entity: SimpleStore.Core.Seller
+
+2010-06-30 17:24:33,539 [5] NHibernate.Persister.Entity.AbstractEntityPersister.LogStaticSQL(:0) -  Version select: SELECT SellerId FROM [Seller] WHERE SellerId = ?
+
+2010-06-30 17:24:33,540 [5] NHibernate.Persister.Entity.AbstractEntityPersister.LogStaticSQL(:0) -  Snapshot select: SELECT seller_.SellerId, seller_.Email as Email1_, seller_.EbayUser as EbayUser1_, seller_.Created as Created1_ FROM [Seller] seller_ WHERE seller_.SellerId=?
+
+2010-06-30 17:24:33,540 [5] NHibernate.Persister.Entity.AbstractEntityPersister.LogStaticSQL(:0) -  Insert 0: INSERT INTO [Seller] (Email, EbayUser, Created, SellerId) VALUES (?, ?, ?, ?)
+
+2010-06-30 17:24:33,540 [5] NHibernate.Persister.Entity.AbstractEntityPersister.LogStaticSQL(:0) -  Update 0: UPDATE [Seller] SET Email = ?, EbayUser = ?, Created = ? WHERE SellerId = ?
+
+2010-06-30 17:24:33,540 [5] NHibernate.Persister.Entity.AbstractEntityPersister.LogStaticSQL(:0) -  Delete 0: DELETE FROM [Seller] WHERE SellerId = ?
+
+2010-06-30 17:24:33,540 [5] NHibernate.Persister.Entity.AbstractEntityPersister.LogStaticSQL(:0) -  Identity insert: INSERT INTO [Seller] (Email, EbayUser, Created) VALUES (?, ?, ?); select SCOPE_IDENTITY()
+
+2010-06-30 17:24:33,541 [5] NHibernate.Loader.Entity.EntityLoader..ctor(:0) - Static select for entity SimpleStore.Core.Seller: SELECT seller0_.SellerId as SellerId1_0_, seller0_.Email as Email1_0_, seller0_.EbayUser as EbayUser1_0_, seller0_.Created as Created1_0_ FROM [Seller] seller0_ WHERE seller0_.SellerId=?
+
+2010-06-30 17:24:33,541 [5] NHibernate.Loader.Entity.EntityLoader..ctor(:0) - Static select for entity SimpleStore.Core.Seller: SELECT seller0_.SellerId as SellerId1_0_, seller0_.Email as Email1_0_, seller0_.EbayUser as EbayUser1_0_, seller0_.Created as Created1_0_ FROM [Seller] seller0_ WHERE seller0_.SellerId=?
+
+2010-06-30 17:24:33,541 [5] NHibernate.Loader.Entity.EntityLoader..ctor(:0) - Static select for entity SimpleStore.Core.Seller: SELECT seller0_.SellerId as SellerId1_0_, seller0_.Email as Email1_0_, seller0_.EbayUser as EbayUser1_0_, seller0_.Created as Created1_0_ FROM [Seller] seller0_ with (updlock, rowlock) WHERE seller0_.SellerId=?
+
+2010-06-30 17:24:33,541 [5] NHibernate.Loader.Entity.EntityLoader..ctor(:0) - Static select for entity SimpleStore.Core.Seller: SELECT seller0_.SellerId as SellerId1_0_, seller0_.Email as Email1_0_, seller0_.EbayUser as EbayUser1_0_, seller0_.Created as Created1_0_ FROM [Seller] seller0_ with (updlock, rowlock) WHERE seller0_.SellerId=?
+
+2010-06-30 17:24:33,541 [5] NHibernate.Loader.Entity.EntityLoader..ctor(:0) - Static select for entity SimpleStore.Core.Seller: SELECT seller0_.SellerId as SellerId1_0_, seller0_.Email as Email1_0_, seller0_.EbayUser as EbayUser1_0_, seller0_.Created as Created1_0_ FROM [Seller] seller0_ with (updlock, rowlock) WHERE seller0_.SellerId=?
+
+2010-06-30 17:24:33,542 [5] NHibernate.Loader.Entity.CascadeEntityLoader..ctor(:0) - Static select for action NHibernate.Engine.CascadingAction+MergeCascadingAction on entity SimpleStore.Core.Seller: SELECT seller0_.SellerId as SellerId1_0_, seller0_.Email as Email1_0_, seller0_.EbayUser as EbayUser1_0_, seller0_.Created as Created1_0_ FROM [Seller] seller0_ WHERE seller0_.SellerId=?
+
+2010-06-30 17:24:33,542 [5] NHibernate.Loader.Entity.CascadeEntityLoader..ctor(:0) - Static select for action NHibernate.Engine.CascadingAction+RefreshCascadingAction on entity SimpleStore.Core.Seller: SELECT seller0_.SellerId as SellerId1_0_, seller0_.Email as Email1_0_, seller0_.EbayUser as EbayUser1_0_, seller0_.Created as Created1_0_ FROM [Seller] seller0_ WHERE seller0_.SellerId=?
+
+2010-06-30 17:24:33,543 [5] NHibernate.Impl.SessionFactoryObjectFactory..cctor(:0) - initializing class SessionFactoryObjectFactory
+
+2010-06-30 17:24:33,543 [5] NHibernate.Impl.SessionFactoryObjectFactory.AddInstance(:0) - registered: 4b3b87ab5b0b4a4bb50742bfd9ea715f(unnamed)
+
+2010-06-30 17:24:33,543 [5] NHibernate.Impl.SessionFactoryObjectFactory.AddInstance(:0) - no name configured
+
+2010-06-30 17:24:33,544 [5] NHibernate.Impl.SessionFactoryImpl..ctor(:0) - Instantiated session factory
+
+2010-06-30 17:24:33,546 [5] NHibernate.Impl.SessionFactoryImpl.CheckNamedQueries(:0) - Checking 0 named HQL queries
+
+2010-06-30 17:24:33,546 [5] NHibernate.Impl.SessionFactoryImpl.CheckNamedQueries(:0) - Checking 0 named SQL queries
+
+2010-06-30 17:24:33,697 [5] NHibernate.Impl.SessionImpl..ctor(:0) - [session-id=6e8a5fa3-e039-48a5-948a-9a8c78e04101] opened session at timestamp: 634135154736, for session factory: [/4b3b87ab5b0b4a4bb50742bfd9ea715f]
+
+2010-06-30 17:24:33,715 [5] NHibernate.Loader.Criteria.CriteriaQueryTranslator.CreateCriteriaSQLAliasMap(:0) - put criteria=(Name ilike %test% or Tagline ilike %test%)
 Name asc alias=this0_
 
-2010-06-28 21:34:53,668 [27] NHibernate.Loader.Criteria.CriteriaQueryTranslator.GetSQLAlias(:0) - returning alias=this_ for criteria=(Name ilike %% or Tagline ilike %%)
+2010-06-30 17:24:33,721 [5] NHibernate.Loader.Criteria.CriteriaQueryTranslator.GetSQLAlias(:0) - returning alias=this_ for criteria=(Name ilike %test% or Tagline ilike %test%)
 Name asc
 
-2010-06-28 21:34:53,672 [27] NHibernate.Loader.Criteria.CriteriaQueryTranslator.GetSQLAlias(:0) - returning alias=this_ for criteria=(Name ilike %% or Tagline ilike %%)
+2010-06-30 17:24:33,724 [5] NHibernate.Loader.Criteria.CriteriaQueryTranslator.GetSQLAlias(:0) - returning alias=this_ for criteria=(Name ilike %test% or Tagline ilike %test%)
 Name asc
 
-2010-06-28 21:34:53,673 [27] NHibernate.Loader.Criteria.CriteriaQueryTranslator.GetSQLAlias(:0) - returning alias=this_ for criteria=(Name ilike %% or Tagline ilike %%)
+2010-06-30 17:24:33,725 [5] NHibernate.Loader.Criteria.CriteriaQueryTranslator.GetSQLAlias(:0) - returning alias=this_ for criteria=(Name ilike %test% or Tagline ilike %test%)
 Name asc
 
-2010-06-28 21:34:53,674 [27] NHibernate.SqlCommand.SqlSelectBuilder.ToSqlString(:0) - The initial capacity was set too low at: 8 for the SelectSqlBuilder that needed a capacity of: 22 for the table [Site] this_
+2010-06-30 17:24:33,726 [5] NHibernate.SqlCommand.SqlSelectBuilder.ToSqlString(:0) - The initial capacity was set too low at: 8 for the SelectSqlBuilder that needed a capacity of: 22 for the table [Site] this_
 
-2010-06-28 21:34:53,727 [27] NHibernate.AdoNet.AbstractBatcher.LogOpenPreparedCommand(:0) - Opened new IDbCommand, open IDbCommands: 1
+2010-06-30 17:24:33,742 [5] NHibernate.AdoNet.AbstractBatcher.LogOpenPreparedCommand(:0) - Opened new IDbCommand, open IDbCommands: 1
 
-2010-06-28 21:34:53,727 [27] NHibernate.AdoNet.AbstractBatcher.Generate(:0) - Building an IDbCommand object for the SqlString: SELECT this_.SiteId as SiteId0_0_, this_.Name as Name0_0_, this_.Tagline as Tagline0_0_ FROM [Site] this_ WHERE (lower(this_.Name) like ? or lower(this_.Tagline) like ?) ORDER BY this_.Name asc
+2010-06-30 17:24:33,742 [5] NHibernate.AdoNet.AbstractBatcher.Generate(:0) - Building an IDbCommand object for the SqlString: SELECT this_.SiteId as SiteId0_0_, this_.Name as Name0_0_, this_.Tagline as Tagline0_0_, this_.Created as Created0_0_ FROM [Site] this_ WHERE (lower(this_.Name) like ? or lower(this_.Tagline) like ?) ORDER BY this_.Name asc
 
-2010-06-28 21:34:53,729 [27] NHibernate.Engine.QueryParameters.BindParameters(:0) - BindParameters(Named:NHibernate.Type.StringType) %% -> [0]
+2010-06-30 17:24:33,743 [5] NHibernate.Engine.QueryParameters.BindParameters(:0) - BindParameters(Named:NHibernate.Type.StringType) %test% -> [0]
 
-2010-06-28 21:34:53,730 [27] NHibernate.Type.NullableType.NullSafeSet(:0) - binding '%%' to parameter: 0
+2010-06-30 17:24:33,743 [5] NHibernate.Type.NullableType.NullSafeSet(:0) - binding '%test%' to parameter: 0
 
-2010-06-28 21:34:53,730 [27] NHibernate.Engine.QueryParameters.BindParameters(:0) - BindParameters(Named:NHibernate.Type.StringType) %% -> [1]
+2010-06-30 17:24:33,744 [5] NHibernate.Engine.QueryParameters.BindParameters(:0) - BindParameters(Named:NHibernate.Type.StringType) %test% -> [1]
 
-2010-06-28 21:34:53,730 [27] NHibernate.Type.NullableType.NullSafeSet(:0) - binding '%%' to parameter: 1
+2010-06-30 17:24:33,744 [5] NHibernate.Type.NullableType.NullSafeSet(:0) - binding '%test%' to parameter: 1
 
-2010-06-28 21:34:53,731 [27] NHibernate.Loader.Loader.GetResultSet(:0) - SELECT this_.SiteId as SiteId0_0_, this_.Name as Name0_0_, this_.Tagline as Tagline0_0_ FROM [Site] this_ WHERE (lower(this_.Name) like @p0 or lower(this_.Tagline) like @p1) ORDER BY this_.Name asc
+2010-06-30 17:24:33,744 [5] NHibernate.Loader.Loader.GetResultSet(:0) - SELECT this_.SiteId as SiteId0_0_, this_.Name as Name0_0_, this_.Tagline as Tagline0_0_, this_.Created as Created0_0_ FROM [Site] this_ WHERE (lower(this_.Name) like @p0 or lower(this_.Tagline) like @p1) ORDER BY this_.Name asc
 
-2010-06-28 21:34:53,735 [27] NHibernate.AdoNet.Util.SqlStatementLogger.LogCommand(:0) - SELECT this_.SiteId as SiteId0_0_, this_.Name as Name0_0_, this_.Tagline as Tagline0_0_ FROM [Site] this_ WHERE (lower(this_.Name) like @p0 or lower(this_.Tagline) like @p1) ORDER BY this_.Name asc;@p0 = '%%', @p1 = '%%'
+2010-06-30 17:24:33,748 [5] NHibernate.AdoNet.Util.SqlStatementLogger.LogCommand(:0) - SELECT this_.SiteId as SiteId0_0_, this_.Name as Name0_0_, this_.Tagline as Tagline0_0_, this_.Created as Created0_0_ FROM [Site] this_ WHERE (lower(this_.Name) like @p0 or lower(this_.Tagline) like @p1) ORDER BY this_.Name asc;@p0 = '%test%', @p1 = '%test%'
 
-2010-06-28 21:34:53,736 [27] NHibernate.Connection.DriverConnectionProvider.GetConnection(:0) - Obtaining IDbConnection from Driver
+2010-06-30 17:24:33,749 [5] NHibernate.Connection.DriverConnectionProvider.GetConnection(:0) - Obtaining IDbConnection from Driver
 
-2010-06-28 21:34:54,494 [27] NHibernate.AdoNet.AbstractBatcher.ExecuteReader(:0) - ExecuteReader took 753 ms
+2010-06-30 17:24:33,752 [5] NHibernate.AdoNet.AbstractBatcher.ExecuteReader(:0) - ExecuteReader took 2 ms
 
-2010-06-28 21:34:54,495 [27] NHibernate.AdoNet.AbstractBatcher.LogOpenReader(:0) - Opened IDataReader, open IDataReaders: 1
+2010-06-30 17:24:33,753 [5] NHibernate.AdoNet.AbstractBatcher.LogOpenReader(:0) - Opened IDataReader, open IDataReaders: 1
 
-2010-06-28 21:34:54,515 [27] NHibernate.Loader.Loader.DoQuery(:0) - processing result set
+2010-06-30 17:24:33,754 [5] NHibernate.Loader.Loader.DoQuery(:0) - processing result set
 
-2010-06-28 21:34:54,516 [27] NHibernate.Loader.Loader.DoQuery(:0) - result set row: 0
+2010-06-30 17:24:33,754 [5] NHibernate.Loader.Loader.DoQuery(:0) - result set row: 0
 
-2010-06-28 21:34:54,536 [27] NHibernate.Type.NullableType.NullSafeGet(:0) - returning '1' as column: SiteId0_0_
+2010-06-30 17:24:33,756 [5] NHibernate.Type.NullableType.NullSafeGet(:0) - returning '6' as column: SiteId0_0_
 
-2010-06-28 21:34:54,539 [27] NHibernate.Loader.Loader.GetRow(:0) - result row: EntityKey[SimpleStore.Core.Site#1]
+2010-06-30 17:24:33,759 [5] NHibernate.Loader.Loader.GetRow(:0) - result row: EntityKey[SimpleStore.Core.Site#6]
 
-2010-06-28 21:34:54,543 [27] NHibernate.Loader.Loader.LoadFromResultSet(:0) - Initializing object from DataReader: [SimpleStore.Core.Site#1]
+2010-06-30 17:24:33,763 [5] NHibernate.Loader.Loader.LoadFromResultSet(:0) - Initializing object from DataReader: [SimpleStore.Core.Site#6]
 
-2010-06-28 21:34:54,548 [27] NHibernate.Persister.Entity.AbstractEntityPersister.Hydrate(:0) - Hydrating entity: [SimpleStore.Core.Site#1]
+2010-06-30 17:24:33,767 [5] NHibernate.Persister.Entity.AbstractEntityPersister.Hydrate(:0) - Hydrating entity: [SimpleStore.Core.Site#6]
 
-2010-06-28 21:34:54,549 [27] NHibernate.Type.NullableType.NullSafeGet(:0) - returning 'CS493' as column: Name0_0_
+2010-06-30 17:24:33,767 [5] NHibernate.Type.NullableType.NullSafeGet(:0) - returning 'Hank's Battle Hardened Mercenaries' as column: Name0_0_
 
-2010-06-28 21:34:54,549 [27] NHibernate.Type.NullableType.NullSafeGet(:0) - returning 'Senior Capstone Project' as column: Tagline0_0_
+2010-06-30 17:24:33,768 [5] NHibernate.Type.NullableType.NullSafeGet(:0) - returning 'Tested in the field, and found to be 'ard as nails!' as column: Tagline0_0_
 
-2010-06-28 21:34:54,551 [27] NHibernate.Loader.Loader.DoQuery(:0) - done processing result set (1 rows)
+2010-06-30 17:24:33,768 [5] NHibernate.Type.NullableType.NullSafeGet(:0) - returning '6/30/2010 5:21:28 PM' as column: Created0_0_
 
-2010-06-28 21:34:54,553 [27] NHibernate.Driver.NHybridDataReader.Dispose(:0) - running NHybridDataReader.Dispose()
+2010-06-30 17:24:33,770 [5] NHibernate.Loader.Loader.DoQuery(:0) - result set row: 1
 
-2010-06-28 21:34:54,553 [27] NHibernate.AdoNet.AbstractBatcher.LogCloseReader(:0) - Closed IDataReader, open IDataReaders :0
+2010-06-30 17:24:33,770 [5] NHibernate.Type.NullableType.NullSafeGet(:0) - returning '3' as column: SiteId0_0_
 
-2010-06-28 21:34:54,553 [27] NHibernate.AdoNet.AbstractBatcher.CloseReader(:0) - DataReader was closed after 814 ms
+2010-06-30 17:24:33,770 [5] NHibernate.Loader.Loader.GetRow(:0) - result row: EntityKey[SimpleStore.Core.Site#3]
 
-2010-06-28 21:34:54,554 [27] NHibernate.AdoNet.AbstractBatcher.LogClosePreparedCommand(:0) - Closed IDbCommand, open IDbCommands: 0
+2010-06-30 17:24:33,771 [5] NHibernate.Loader.Loader.LoadFromResultSet(:0) - Initializing object from DataReader: [SimpleStore.Core.Site#3]
 
-2010-06-28 21:34:54,555 [27] NHibernate.AdoNet.ConnectionManager.AggressiveRelease(:0) - aggressively releasing database connection
+2010-06-30 17:24:33,771 [5] NHibernate.Persister.Entity.AbstractEntityPersister.Hydrate(:0) - Hydrating entity: [SimpleStore.Core.Site#3]
 
-2010-06-28 21:34:54,555 [27] NHibernate.Connection.ConnectionProvider.CloseConnection(:0) - Closing connection
+2010-06-30 17:24:33,771 [5] NHibernate.Type.NullableType.NullSafeGet(:0) - returning 'Test Site' as column: Name0_0_
 
-2010-06-28 21:34:54,556 [27] NHibernate.Loader.Loader.InitializeEntitiesAndCollections(:0) - total objects hydrated: 1
+2010-06-30 17:24:33,771 [5] NHibernate.Type.NullableType.NullSafeGet(:0) - returning 'Not a Senior Capstone Project' as column: Tagline0_0_
 
-2010-06-28 21:34:54,559 [27] NHibernate.Engine.TwoPhaseLoad.InitializeEntity(:0) - resolving associations for [SimpleStore.Core.Site#1]
+2010-06-30 17:24:33,771 [5] NHibernate.Type.NullableType.NullSafeGet(:0) - returning '6/30/2010 5:20:23 PM' as column: Created0_0_
 
-2010-06-28 21:34:54,562 [27] NHibernate.Engine.TwoPhaseLoad.InitializeEntity(:0) - done materializing entity [SimpleStore.Core.Site#1]
+2010-06-30 17:24:33,772 [5] NHibernate.Loader.Loader.DoQuery(:0) - done processing result set (2 rows)
 
-2010-06-28 21:34:54,563 [27] NHibernate.Engine.StatefulPersistenceContext.InitializeNonLazyCollections(:0) - initializing non-lazy collections
+2010-06-30 17:24:33,773 [5] NHibernate.Driver.NHybridDataReader.Dispose(:0) - running NHybridDataReader.Dispose()
 
-2010-06-28 21:34:54,564 [27] NHibernate.AdoNet.ConnectionManager.AfterNonTransactionalQuery(:0) - after autocommit
+2010-06-30 17:24:33,773 [5] NHibernate.AdoNet.AbstractBatcher.LogCloseReader(:0) - Closed IDataReader, open IDataReaders :0
 
-2010-06-28 21:34:54,565 [27] NHibernate.Impl.SessionImpl.AfterTransactionCompletion(:0) - transaction completion
+2010-06-30 17:24:33,773 [5] NHibernate.AdoNet.AbstractBatcher.CloseReader(:0) - DataReader was closed after 23 ms
 
-2010-06-28 21:34:54,565 [27] NHibernate.AdoNet.ConnectionManager.AggressiveRelease(:0) - aggressively releasing database connection
+2010-06-30 17:24:33,774 [5] NHibernate.AdoNet.AbstractBatcher.LogClosePreparedCommand(:0) - Closed IDbCommand, open IDbCommands: 0
 
-2010-06-28 21:34:54,861 [27] NHibernate.Impl.SessionImpl.Close(:0) - closing session
+2010-06-30 17:24:33,775 [5] NHibernate.AdoNet.ConnectionManager.AggressiveRelease(:0) - aggressively releasing database connection
 
-2010-06-28 21:34:54,861 [27] NHibernate.AdoNet.AbstractBatcher.Dispose(:0) - running BatcherImpl.Dispose(true)
+2010-06-30 17:24:33,775 [5] NHibernate.Connection.ConnectionProvider.CloseConnection(:0) - Closing connection
+
+2010-06-30 17:24:33,776 [5] NHibernate.Loader.Loader.InitializeEntitiesAndCollections(:0) - total objects hydrated: 2
+
+2010-06-30 17:24:33,778 [5] NHibernate.Engine.TwoPhaseLoad.InitializeEntity(:0) - resolving associations for [SimpleStore.Core.Site#6]
+
+2010-06-30 17:24:33,781 [5] NHibernate.Engine.TwoPhaseLoad.InitializeEntity(:0) - done materializing entity [SimpleStore.Core.Site#6]
+
+2010-06-30 17:24:33,782 [5] NHibernate.Engine.TwoPhaseLoad.InitializeEntity(:0) - resolving associations for [SimpleStore.Core.Site#3]
+
+2010-06-30 17:24:33,782 [5] NHibernate.Engine.TwoPhaseLoad.InitializeEntity(:0) - done materializing entity [SimpleStore.Core.Site#3]
+
+2010-06-30 17:24:33,782 [5] NHibernate.Engine.StatefulPersistenceContext.InitializeNonLazyCollections(:0) - initializing non-lazy collections
+
+2010-06-30 17:24:33,783 [5] NHibernate.AdoNet.ConnectionManager.AfterNonTransactionalQuery(:0) - after autocommit
+
+2010-06-30 17:24:33,784 [5] NHibernate.Impl.SessionImpl.AfterTransactionCompletion(:0) - transaction completion
+
+2010-06-30 17:24:33,784 [5] NHibernate.AdoNet.ConnectionManager.AggressiveRelease(:0) - aggressively releasing database connection
+
+2010-06-30 17:24:34,617 [5] NHibernate.Impl.SessionImpl.Close(:0) - closing session
+
+2010-06-30 17:24:34,618 [5] NHibernate.AdoNet.AbstractBatcher.Dispose(:0) - running BatcherImpl.Dispose(true)
+
+2010-06-30 17:26:59,886 [76] NHibernate.Impl.SessionImpl..ctor(:0) - [session-id=98481da2-12a3-4a42-ba12-5cb1204658ed] opened session at timestamp: 634135156198, for session factory: [/4b3b87ab5b0b4a4bb50742bfd9ea715f]
+
+2010-06-30 17:26:59,887 [76] NHibernate.Loader.Criteria.CriteriaQueryTranslator.CreateCriteriaSQLAliasMap(:0) - put criteria=(Name ilike %test% or Tagline ilike %test%)
+Name asc alias=this0_
+
+2010-06-30 17:26:59,887 [76] NHibernate.Loader.Criteria.CriteriaQueryTranslator.GetSQLAlias(:0) - returning alias=this_ for criteria=(Name ilike %test% or Tagline ilike %test%)
+Name asc
+
+2010-06-30 17:26:59,888 [76] NHibernate.Loader.Criteria.CriteriaQueryTranslator.GetSQLAlias(:0) - returning alias=this_ for criteria=(Name ilike %test% or Tagline ilike %test%)
+Name asc
+
+2010-06-30 17:26:59,888 [76] NHibernate.Loader.Criteria.CriteriaQueryTranslator.GetSQLAlias(:0) - returning alias=this_ for criteria=(Name ilike %test% or Tagline ilike %test%)
+Name asc
+
+2010-06-30 17:26:59,888 [76] NHibernate.SqlCommand.SqlSelectBuilder.ToSqlString(:0) - The initial capacity was set too low at: 8 for the SelectSqlBuilder that needed a capacity of: 22 for the table [Site] this_
+
+2010-06-30 17:26:59,889 [76] NHibernate.AdoNet.AbstractBatcher.LogOpenPreparedCommand(:0) - Opened new IDbCommand, open IDbCommands: 1
+
+2010-06-30 17:26:59,889 [76] NHibernate.AdoNet.AbstractBatcher.Generate(:0) - Building an IDbCommand object for the SqlString: SELECT this_.SiteId as SiteId0_0_, this_.Name as Name0_0_, this_.Tagline as Tagline0_0_, this_.Created as Created0_0_ FROM [Site] this_ WHERE (lower(this_.Name) like ? or lower(this_.Tagline) like ?) ORDER BY this_.Name asc
+
+2010-06-30 17:26:59,889 [76] NHibernate.Engine.QueryParameters.BindParameters(:0) - BindParameters(Named:NHibernate.Type.StringType) %test% -> [0]
+
+2010-06-30 17:26:59,890 [76] NHibernate.Type.NullableType.NullSafeSet(:0) - binding '%test%' to parameter: 0
+
+2010-06-30 17:26:59,890 [76] NHibernate.Engine.QueryParameters.BindParameters(:0) - BindParameters(Named:NHibernate.Type.StringType) %test% -> [1]
+
+2010-06-30 17:26:59,890 [76] NHibernate.Type.NullableType.NullSafeSet(:0) - binding '%test%' to parameter: 1
+
+2010-06-30 17:26:59,891 [76] NHibernate.Loader.Loader.GetResultSet(:0) - SELECT this_.SiteId as SiteId0_0_, this_.Name as Name0_0_, this_.Tagline as Tagline0_0_, this_.Created as Created0_0_ FROM [Site] this_ WHERE (lower(this_.Name) like @p0 or lower(this_.Tagline) like @p1) ORDER BY this_.Name asc
+
+2010-06-30 17:26:59,891 [76] NHibernate.AdoNet.Util.SqlStatementLogger.LogCommand(:0) - SELECT this_.SiteId as SiteId0_0_, this_.Name as Name0_0_, this_.Tagline as Tagline0_0_, this_.Created as Created0_0_ FROM [Site] this_ WHERE (lower(this_.Name) like @p0 or lower(this_.Tagline) like @p1) ORDER BY this_.Name asc;@p0 = '%test%', @p1 = '%test%'
+
+2010-06-30 17:26:59,891 [76] NHibernate.Connection.DriverConnectionProvider.GetConnection(:0) - Obtaining IDbConnection from Driver
+
+2010-06-30 17:26:59,892 [76] NHibernate.AdoNet.AbstractBatcher.ExecuteReader(:0) - ExecuteReader took 0 ms
+
+2010-06-30 17:26:59,893 [76] NHibernate.AdoNet.AbstractBatcher.LogOpenReader(:0) - Opened IDataReader, open IDataReaders: 1
+
+2010-06-30 17:26:59,893 [76] NHibernate.Loader.Loader.DoQuery(:0) - processing result set
+
+2010-06-30 17:26:59,893 [76] NHibernate.Loader.Loader.DoQuery(:0) - result set row: 0
+
+2010-06-30 17:26:59,894 [76] NHibernate.Type.NullableType.NullSafeGet(:0) - returning '6' as column: SiteId0_0_
+
+2010-06-30 17:26:59,894 [76] NHibernate.Loader.Loader.GetRow(:0) - result row: EntityKey[SimpleStore.Core.Site#6]
+
+2010-06-30 17:26:59,894 [76] NHibernate.Loader.Loader.LoadFromResultSet(:0) - Initializing object from DataReader: [SimpleStore.Core.Site#6]
+
+2010-06-30 17:26:59,895 [76] NHibernate.Persister.Entity.AbstractEntityPersister.Hydrate(:0) - Hydrating entity: [SimpleStore.Core.Site#6]
+
+2010-06-30 17:26:59,895 [76] NHibernate.Type.NullableType.NullSafeGet(:0) - returning 'Hank's Battle Hardened Mercenaries' as column: Name0_0_
+
+2010-06-30 17:26:59,895 [76] NHibernate.Type.NullableType.NullSafeGet(:0) - returning 'Tested in the field, and found to be 'ard as nails!' as column: Tagline0_0_
+
+2010-06-30 17:26:59,896 [76] NHibernate.Type.NullableType.NullSafeGet(:0) - returning '6/30/2010 5:21:28 PM' as column: Created0_0_
+
+2010-06-30 17:26:59,896 [76] NHibernate.Loader.Loader.DoQuery(:0) - result set row: 1
+
+2010-06-30 17:26:59,896 [76] NHibernate.Type.NullableType.NullSafeGet(:0) - returning '3' as column: SiteId0_0_
+
+2010-06-30 17:26:59,897 [76] NHibernate.Loader.Loader.GetRow(:0) - result row: EntityKey[SimpleStore.Core.Site#3]
+
+2010-06-30 17:26:59,897 [76] NHibernate.Loader.Loader.LoadFromResultSet(:0) - Initializing object from DataReader: [SimpleStore.Core.Site#3]
+
+2010-06-30 17:26:59,897 [76] NHibernate.Persister.Entity.AbstractEntityPersister.Hydrate(:0) - Hydrating entity: [SimpleStore.Core.Site#3]
+
+2010-06-30 17:26:59,897 [76] NHibernate.Type.NullableType.NullSafeGet(:0) - returning 'Test Site' as column: Name0_0_
+
+2010-06-30 17:26:59,898 [76] NHibernate.Type.NullableType.NullSafeGet(:0) - returning 'Not a Senior Capstone Project' as column: Tagline0_0_
+
+2010-06-30 17:26:59,898 [76] NHibernate.Type.NullableType.NullSafeGet(:0) - returning '6/30/2010 5:20:23 PM' as column: Created0_0_
+
+2010-06-30 17:26:59,898 [76] NHibernate.Loader.Loader.DoQuery(:0) - done processing result set (2 rows)
+
+2010-06-30 17:26:59,898 [76] NHibernate.Driver.NHybridDataReader.Dispose(:0) - running NHybridDataReader.Dispose()
+
+2010-06-30 17:26:59,898 [76] NHibernate.AdoNet.AbstractBatcher.LogCloseReader(:0) - Closed IDataReader, open IDataReaders :0
+
+2010-06-30 17:26:59,898 [76] NHibernate.AdoNet.AbstractBatcher.CloseReader(:0) - DataReader was closed after 7 ms
+
+2010-06-30 17:26:59,899 [76] NHibernate.AdoNet.AbstractBatcher.LogClosePreparedCommand(:0) - Closed IDbCommand, open IDbCommands: 0
+
+2010-06-30 17:26:59,899 [76] NHibernate.AdoNet.ConnectionManager.AggressiveRelease(:0) - aggressively releasing database connection
+
+2010-06-30 17:26:59,899 [76] NHibernate.Connection.ConnectionProvider.CloseConnection(:0) - Closing connection
+
+2010-06-30 17:26:59,900 [76] NHibernate.Loader.Loader.InitializeEntitiesAndCollections(:0) - total objects hydrated: 2
+
+2010-06-30 17:26:59,900 [76] NHibernate.Engine.TwoPhaseLoad.InitializeEntity(:0) - resolving associations for [SimpleStore.Core.Site#6]
+
+2010-06-30 17:26:59,900 [76] NHibernate.Engine.TwoPhaseLoad.InitializeEntity(:0) - done materializing entity [SimpleStore.Core.Site#6]
+
+2010-06-30 17:26:59,900 [76] NHibernate.Engine.TwoPhaseLoad.InitializeEntity(:0) - resolving associations for [SimpleStore.Core.Site#3]
+
+2010-06-30 17:26:59,901 [76] NHibernate.Engine.TwoPhaseLoad.InitializeEntity(:0) - done materializing entity [SimpleStore.Core.Site#3]
+
+2010-06-30 17:26:59,901 [76] NHibernate.Engine.StatefulPersistenceContext.InitializeNonLazyCollections(:0) - initializing non-lazy collections
+
+2010-06-30 17:26:59,901 [76] NHibernate.AdoNet.ConnectionManager.AfterNonTransactionalQuery(:0) - after autocommit
+
+2010-06-30 17:26:59,902 [76] NHibernate.Impl.SessionImpl.AfterTransactionCompletion(:0) - transaction completion
+
+2010-06-30 17:26:59,902 [76] NHibernate.AdoNet.ConnectionManager.AggressiveRelease(:0) - aggressively releasing database connection
+
+2010-06-30 17:27:00,214 [76] NHibernate.Impl.SessionImpl.Close(:0) - closing session
+
+2010-06-30 17:27:00,215 [76] NHibernate.AdoNet.AbstractBatcher.Dispose(:0) - running BatcherImpl.Dispose(true)
+
+2010-06-30 17:27:01,484 [2] NHibernate.Impl.SessionImpl.Dispose(:0) - [session-id=98481da2-12a3-4a42-ba12-5cb1204658ed] executing real Dispose(False)
+
+2010-06-30 17:27:01,484 [2] NHibernate.Impl.SessionImpl.Dispose(:0) - [session-id=6e8a5fa3-e039-48a5-948a-9a8c78e04101] executing real Dispose(False)
+
+2010-06-30 17:27:16,362 [76] NHibernate.Impl.SessionImpl..ctor(:0) - [session-id=223848d8-0387-4f67-bf61-1cd6a017ac2f] opened session at timestamp: 634135156363, for session factory: [/4b3b87ab5b0b4a4bb50742bfd9ea715f]
+
+2010-06-30 17:27:16,363 [76] NHibernate.Loader.Criteria.CriteriaQueryTranslator.CreateCriteriaSQLAliasMap(:0) - put criteria=(Name ilike %test% or Tagline ilike %test%)
+Name asc alias=this0_
+
+2010-06-30 17:27:16,363 [76] NHibernate.Loader.Criteria.CriteriaQueryTranslator.GetSQLAlias(:0) - returning alias=this_ for criteria=(Name ilike %test% or Tagline ilike %test%)
+Name asc
+
+2010-06-30 17:27:16,364 [76] NHibernate.Loader.Criteria.CriteriaQueryTranslator.GetSQLAlias(:0) - returning alias=this_ for criteria=(Name ilike %test% or Tagline ilike %test%)
+Name asc
+
+2010-06-30 17:27:16,364 [76] NHibernate.Loader.Criteria.CriteriaQueryTranslator.GetSQLAlias(:0) - returning alias=this_ for criteria=(Name ilike %test% or Tagline ilike %test%)
+Name asc
+
+2010-06-30 17:27:16,364 [76] NHibernate.SqlCommand.SqlSelectBuilder.ToSqlString(:0) - The initial capacity was set too low at: 8 for the SelectSqlBuilder that needed a capacity of: 22 for the table [Site] this_
+
+2010-06-30 17:27:16,365 [76] NHibernate.AdoNet.AbstractBatcher.LogOpenPreparedCommand(:0) - Opened new IDbCommand, open IDbCommands: 1
+
+2010-06-30 17:27:16,365 [76] NHibernate.AdoNet.AbstractBatcher.Generate(:0) - Building an IDbCommand object for the SqlString: SELECT this_.SiteId as SiteId0_0_, this_.Name as Name0_0_, this_.Tagline as Tagline0_0_, this_.Created as Created0_0_ FROM [Site] this_ WHERE (lower(this_.Name) like ? or lower(this_.Tagline) like ?) ORDER BY this_.Name asc
+
+2010-06-30 17:27:16,365 [76] NHibernate.Engine.QueryParameters.BindParameters(:0) - BindParameters(Named:NHibernate.Type.StringType) %test% -> [0]
+
+2010-06-30 17:27:16,366 [76] NHibernate.Type.NullableType.NullSafeSet(:0) - binding '%test%' to parameter: 0
+
+2010-06-30 17:27:16,366 [76] NHibernate.Engine.QueryParameters.BindParameters(:0) - BindParameters(Named:NHibernate.Type.StringType) %test% -> [1]
+
+2010-06-30 17:27:16,366 [76] NHibernate.Type.NullableType.NullSafeSet(:0) - binding '%test%' to parameter: 1
+
+2010-06-30 17:27:16,367 [76] NHibernate.Loader.Loader.GetResultSet(:0) - SELECT this_.SiteId as SiteId0_0_, this_.Name as Name0_0_, this_.Tagline as Tagline0_0_, this_.Created as Created0_0_ FROM [Site] this_ WHERE (lower(this_.Name) like @p0 or lower(this_.Tagline) like @p1) ORDER BY this_.Name asc
+
+2010-06-30 17:27:16,367 [76] NHibernate.AdoNet.Util.SqlStatementLogger.LogCommand(:0) - SELECT this_.SiteId as SiteId0_0_, this_.Name as Name0_0_, this_.Tagline as Tagline0_0_, this_.Created as Created0_0_ FROM [Site] this_ WHERE (lower(this_.Name) like @p0 or lower(this_.Tagline) like @p1) ORDER BY this_.Name asc;@p0 = '%test%', @p1 = '%test%'
+
+2010-06-30 17:27:16,367 [76] NHibernate.Connection.DriverConnectionProvider.GetConnection(:0) - Obtaining IDbConnection from Driver
+
+2010-06-30 17:27:16,368 [76] NHibernate.AdoNet.AbstractBatcher.ExecuteReader(:0) - ExecuteReader took 0 ms
+
+2010-06-30 17:27:16,368 [76] NHibernate.AdoNet.AbstractBatcher.LogOpenReader(:0) - Opened IDataReader, open IDataReaders: 1
+
+2010-06-30 17:27:16,369 [76] NHibernate.Loader.Loader.DoQuery(:0) - processing result set
+
+2010-06-30 17:27:16,369 [76] NHibernate.Loader.Loader.DoQuery(:0) - result set row: 0
+
+2010-06-30 17:27:16,369 [76] NHibernate.Type.NullableType.NullSafeGet(:0) - returning '6' as column: SiteId0_0_
+
+2010-06-30 17:27:16,370 [76] NHibernate.Loader.Loader.GetRow(:0) - result row: EntityKey[SimpleStore.Core.Site#6]
+
+2010-06-30 17:27:16,370 [76] NHibernate.Loader.Loader.LoadFromResultSet(:0) - Initializing object from DataReader: [SimpleStore.Core.Site#6]
+
+2010-06-30 17:27:16,370 [76] NHibernate.Persister.Entity.AbstractEntityPersister.Hydrate(:0) - Hydrating entity: [SimpleStore.Core.Site#6]
+
+2010-06-30 17:27:16,370 [76] NHibernate.Type.NullableType.NullSafeGet(:0) - returning 'Hank's Battle Hardened Mercenaries' as column: Name0_0_
+
+2010-06-30 17:27:16,371 [76] NHibernate.Type.NullableType.NullSafeGet(:0) - returning 'Tested in the field, and found to be 'ard as nails!' as column: Tagline0_0_
+
+2010-06-30 17:27:16,371 [76] NHibernate.Type.NullableType.NullSafeGet(:0) - returning '6/30/2010 5:21:28 PM' as column: Created0_0_
+
+2010-06-30 17:27:16,371 [76] NHibernate.Loader.Loader.DoQuery(:0) - result set row: 1
+
+2010-06-30 17:27:16,372 [76] NHibernate.Type.NullableType.NullSafeGet(:0) - returning '3' as column: SiteId0_0_
+
+2010-06-30 17:27:16,372 [76] NHibernate.Loader.Loader.GetRow(:0) - result row: EntityKey[SimpleStore.Core.Site#3]
+
+2010-06-30 17:27:16,372 [76] NHibernate.Loader.Loader.LoadFromResultSet(:0) - Initializing object from DataReader: [SimpleStore.Core.Site#3]
+
+2010-06-30 17:27:16,373 [76] NHibernate.Persister.Entity.AbstractEntityPersister.Hydrate(:0) - Hydrating entity: [SimpleStore.Core.Site#3]
+
+2010-06-30 17:27:16,373 [76] NHibernate.Type.NullableType.NullSafeGet(:0) - returning 'Test Site' as column: Name0_0_
+
+2010-06-30 17:27:16,373 [76] NHibernate.Type.NullableType.NullSafeGet(:0) - returning 'Not a Senior Capstone Project' as column: Tagline0_0_
+
+2010-06-30 17:27:16,374 [76] NHibernate.Type.NullableType.NullSafeGet(:0) - returning '6/30/2010 5:20:23 PM' as column: Created0_0_
+
+2010-06-30 17:27:16,374 [76] NHibernate.Loader.Loader.DoQuery(:0) - done processing result set (2 rows)
+
+2010-06-30 17:27:16,374 [76] NHibernate.Driver.NHybridDataReader.Dispose(:0) - running NHybridDataReader.Dispose()
+
+2010-06-30 17:27:16,375 [76] NHibernate.AdoNet.AbstractBatcher.LogCloseReader(:0) - Closed IDataReader, open IDataReaders :0
+
+2010-06-30 17:27:16,375 [76] NHibernate.AdoNet.AbstractBatcher.CloseReader(:0) - DataReader was closed after 7 ms
+
+2010-06-30 17:27:16,375 [76] NHibernate.AdoNet.AbstractBatcher.LogClosePreparedCommand(:0) - Closed IDbCommand, open IDbCommands: 0
+
+2010-06-30 17:27:16,375 [76] NHibernate.AdoNet.ConnectionManager.AggressiveRelease(:0) - aggressively releasing database connection
+
+2010-06-30 17:27:16,376 [76] NHibernate.Connection.ConnectionProvider.CloseConnection(:0) - Closing connection
+
+2010-06-30 17:27:16,376 [76] NHibernate.Loader.Loader.InitializeEntitiesAndCollections(:0) - total objects hydrated: 2
+
+2010-06-30 17:27:16,376 [76] NHibernate.Engine.TwoPhaseLoad.InitializeEntity(:0) - resolving associations for [SimpleStore.Core.Site#6]
+
+2010-06-30 17:27:16,377 [76] NHibernate.Engine.TwoPhaseLoad.InitializeEntity(:0) - done materializing entity [SimpleStore.Core.Site#6]
+
+2010-06-30 17:27:16,377 [76] NHibernate.Engine.TwoPhaseLoad.InitializeEntity(:0) - resolving associations for [SimpleStore.Core.Site#3]
+
+2010-06-30 17:27:16,377 [76] NHibernate.Engine.TwoPhaseLoad.InitializeEntity(:0) - done materializing entity [SimpleStore.Core.Site#3]
+
+2010-06-30 17:27:16,377 [76] NHibernate.Engine.StatefulPersistenceContext.InitializeNonLazyCollections(:0) - initializing non-lazy collections
+
+2010-06-30 17:27:16,378 [76] NHibernate.AdoNet.ConnectionManager.AfterNonTransactionalQuery(:0) - after autocommit
+
+2010-06-30 17:27:16,378 [76] NHibernate.Impl.SessionImpl.AfterTransactionCompletion(:0) - transaction completion
+
+2010-06-30 17:27:16,378 [76] NHibernate.AdoNet.ConnectionManager.AggressiveRelease(:0) - aggressively releasing database connection
+
+2010-06-30 17:27:16,700 [76] NHibernate.Impl.SessionImpl.Close(:0) - closing session
+
+2010-06-30 17:27:16,700 [76] NHibernate.AdoNet.AbstractBatcher.Dispose(:0) - running BatcherImpl.Dispose(true)
+
+2010-06-30 17:28:30,262 [68] NHibernate.Impl.SessionImpl..ctor(:0) - [session-id=68ee6623-9e25-462f-9406-d1b7682aa7bb] opened session at timestamp: 634135157102, for session factory: [/4b3b87ab5b0b4a4bb50742bfd9ea715f]
+
+2010-06-30 17:28:30,262 [68] NHibernate.Loader.Criteria.CriteriaQueryTranslator.CreateCriteriaSQLAliasMap(:0) - put criteria=(Name ilike %cs% or Tagline ilike %cs%)
+Name asc alias=this0_
+
+2010-06-30 17:28:30,263 [68] NHibernate.Loader.Criteria.CriteriaQueryTranslator.GetSQLAlias(:0) - returning alias=this_ for criteria=(Name ilike %cs% or Tagline ilike %cs%)
+Name asc
+
+2010-06-30 17:28:30,263 [68] NHibernate.Loader.Criteria.CriteriaQueryTranslator.GetSQLAlias(:0) - returning alias=this_ for criteria=(Name ilike %cs% or Tagline ilike %cs%)
+Name asc
+
+2010-06-30 17:28:30,263 [68] NHibernate.Loader.Criteria.CriteriaQueryTranslator.GetSQLAlias(:0) - returning alias=this_ for criteria=(Name ilike %cs% or Tagline ilike %cs%)
+Name asc
+
+2010-06-30 17:28:30,264 [68] NHibernate.SqlCommand.SqlSelectBuilder.ToSqlString(:0) - The initial capacity was set too low at: 8 for the SelectSqlBuilder that needed a capacity of: 22 for the table [Site] this_
+
+2010-06-30 17:28:30,264 [68] NHibernate.AdoNet.AbstractBatcher.LogOpenPreparedCommand(:0) - Opened new IDbCommand, open IDbCommands: 1
+
+2010-06-30 17:28:30,264 [68] NHibernate.AdoNet.AbstractBatcher.Generate(:0) - Building an IDbCommand object for the SqlString: SELECT this_.SiteId as SiteId0_0_, this_.Name as Name0_0_, this_.Tagline as Tagline0_0_, this_.Created as Created0_0_ FROM [Site] this_ WHERE (lower(this_.Name) like ? or lower(this_.Tagline) like ?) ORDER BY this_.Name asc
+
+2010-06-30 17:28:30,265 [68] NHibernate.Engine.QueryParameters.BindParameters(:0) - BindParameters(Named:NHibernate.Type.StringType) %cs% -> [0]
+
+2010-06-30 17:28:30,265 [68] NHibernate.Type.NullableType.NullSafeSet(:0) - binding '%cs%' to parameter: 0
+
+2010-06-30 17:28:30,265 [68] NHibernate.Engine.QueryParameters.BindParameters(:0) - BindParameters(Named:NHibernate.Type.StringType) %cs% -> [1]
+
+2010-06-30 17:28:30,266 [68] NHibernate.Type.NullableType.NullSafeSet(:0) - binding '%cs%' to parameter: 1
+
+2010-06-30 17:28:30,266 [68] NHibernate.Loader.Loader.GetResultSet(:0) - SELECT this_.SiteId as SiteId0_0_, this_.Name as Name0_0_, this_.Tagline as Tagline0_0_, this_.Created as Created0_0_ FROM [Site] this_ WHERE (lower(this_.Name) like @p0 or lower(this_.Tagline) like @p1) ORDER BY this_.Name asc
+
+2010-06-30 17:28:30,266 [68] NHibernate.AdoNet.Util.SqlStatementLogger.LogCommand(:0) - SELECT this_.SiteId as SiteId0_0_, this_.Name as Name0_0_, this_.Tagline as Tagline0_0_, this_.Created as Created0_0_ FROM [Site] this_ WHERE (lower(this_.Name) like @p0 or lower(this_.Tagline) like @p1) ORDER BY this_.Name asc;@p0 = '%cs%', @p1 = '%cs%'
+
+2010-06-30 17:28:30,266 [68] NHibernate.Connection.DriverConnectionProvider.GetConnection(:0) - Obtaining IDbConnection from Driver
+
+2010-06-30 17:28:30,267 [68] NHibernate.AdoNet.AbstractBatcher.ExecuteReader(:0) - ExecuteReader took 0 ms
+
+2010-06-30 17:28:30,268 [68] NHibernate.AdoNet.AbstractBatcher.LogOpenReader(:0) - Opened IDataReader, open IDataReaders: 1
+
+2010-06-30 17:28:30,268 [68] NHibernate.Loader.Loader.DoQuery(:0) - processing result set
+
+2010-06-30 17:28:30,268 [68] NHibernate.Loader.Loader.DoQuery(:0) - result set row: 0
+
+2010-06-30 17:28:30,268 [68] NHibernate.Type.NullableType.NullSafeGet(:0) - returning '2' as column: SiteId0_0_
+
+2010-06-30 17:28:30,269 [68] NHibernate.Loader.Loader.GetRow(:0) - result row: EntityKey[SimpleStore.Core.Site#2]
+
+2010-06-30 17:28:30,269 [68] NHibernate.Loader.Loader.LoadFromResultSet(:0) - Initializing object from DataReader: [SimpleStore.Core.Site#2]
+
+2010-06-30 17:28:30,269 [68] NHibernate.Persister.Entity.AbstractEntityPersister.Hydrate(:0) - Hydrating entity: [SimpleStore.Core.Site#2]
+
+2010-06-30 17:28:30,270 [68] NHibernate.Type.NullableType.NullSafeGet(:0) - returning 'CS493' as column: Name0_0_
+
+2010-06-30 17:28:30,270 [68] NHibernate.Type.NullableType.NullSafeGet(:0) - returning 'Senior Capstone Project' as column: Tagline0_0_
+
+2010-06-30 17:28:30,270 [68] NHibernate.Type.NullableType.NullSafeGet(:0) - returning '6/21/2010 5:14:04 PM' as column: Created0_0_
+
+2010-06-30 17:28:30,271 [68] NHibernate.Loader.Loader.DoQuery(:0) - done processing result set (1 rows)
+
+2010-06-30 17:28:30,271 [68] NHibernate.Driver.NHybridDataReader.Dispose(:0) - running NHybridDataReader.Dispose()
+
+2010-06-30 17:28:30,271 [68] NHibernate.AdoNet.AbstractBatcher.LogCloseReader(:0) - Closed IDataReader, open IDataReaders :0
+
+2010-06-30 17:28:30,272 [68] NHibernate.AdoNet.AbstractBatcher.CloseReader(:0) - DataReader was closed after 4 ms
+
+2010-06-30 17:28:30,272 [68] NHibernate.AdoNet.AbstractBatcher.LogClosePreparedCommand(:0) - Closed IDbCommand, open IDbCommands: 0
+
+2010-06-30 17:28:30,272 [68] NHibernate.AdoNet.ConnectionManager.AggressiveRelease(:0) - aggressively releasing database connection
+
+2010-06-30 17:28:30,272 [68] NHibernate.Connection.ConnectionProvider.CloseConnection(:0) - Closing connection
+
+2010-06-30 17:28:30,273 [68] NHibernate.Loader.Loader.InitializeEntitiesAndCollections(:0) - total objects hydrated: 1
+
+2010-06-30 17:28:30,273 [68] NHibernate.Engine.TwoPhaseLoad.InitializeEntity(:0) - resolving associations for [SimpleStore.Core.Site#2]
+
+2010-06-30 17:28:30,273 [68] NHibernate.Engine.TwoPhaseLoad.InitializeEntity(:0) - done materializing entity [SimpleStore.Core.Site#2]
+
+2010-06-30 17:28:30,274 [68] NHibernate.Engine.StatefulPersistenceContext.InitializeNonLazyCollections(:0) - initializing non-lazy collections
+
+2010-06-30 17:28:30,274 [68] NHibernate.AdoNet.ConnectionManager.AfterNonTransactionalQuery(:0) - after autocommit
+
+2010-06-30 17:28:30,274 [68] NHibernate.Impl.SessionImpl.AfterTransactionCompletion(:0) - transaction completion
+
+2010-06-30 17:28:30,274 [68] NHibernate.AdoNet.ConnectionManager.AggressiveRelease(:0) - aggressively releasing database connection
+
+2010-06-30 17:28:30,275 [68] NHibernate.Impl.SessionImpl.Close(:0) - closing session
+
+2010-06-30 17:28:30,275 [68] NHibernate.AdoNet.AbstractBatcher.Dispose(:0) - running BatcherImpl.Dispose(true)
+
+2010-06-30 17:28:33,789 [5] NHibernate.Impl.SessionImpl..ctor(:0) - [session-id=e8148a6b-6de0-453c-b9a7-b6d72e6acff2] opened session at timestamp: 634135157137, for session factory: [/4b3b87ab5b0b4a4bb50742bfd9ea715f]
+
+2010-06-30 17:28:33,790 [5] NHibernate.Loader.Criteria.CriteriaQueryTranslator.CreateCriteriaSQLAliasMap(:0) - put criteria=(Name ilike %test% or Tagline ilike %test%)
+Name asc alias=this0_
+
+2010-06-30 17:28:33,790 [5] NHibernate.Loader.Criteria.CriteriaQueryTranslator.GetSQLAlias(:0) - returning alias=this_ for criteria=(Name ilike %test% or Tagline ilike %test%)
+Name asc
+
+2010-06-30 17:28:33,791 [5] NHibernate.Loader.Criteria.CriteriaQueryTranslator.GetSQLAlias(:0) - returning alias=this_ for criteria=(Name ilike %test% or Tagline ilike %test%)
+Name asc
+
+2010-06-30 17:28:33,791 [5] NHibernate.Loader.Criteria.CriteriaQueryTranslator.GetSQLAlias(:0) - returning alias=this_ for criteria=(Name ilike %test% or Tagline ilike %test%)
+Name asc
+
+2010-06-30 17:28:33,791 [5] NHibernate.SqlCommand.SqlSelectBuilder.ToSqlString(:0) - The initial capacity was set too low at: 8 for the SelectSqlBuilder that needed a capacity of: 22 for the table [Site] this_
+
+2010-06-30 17:28:33,792 [5] NHibernate.AdoNet.AbstractBatcher.LogOpenPreparedCommand(:0) - Opened new IDbCommand, open IDbCommands: 1
+
+2010-06-30 17:28:33,792 [5] NHibernate.AdoNet.AbstractBatcher.Generate(:0) - Building an IDbCommand object for the SqlString: SELECT this_.SiteId as SiteId0_0_, this_.Name as Name0_0_, this_.Tagline as Tagline0_0_, this_.Created as Created0_0_ FROM [Site] this_ WHERE (lower(this_.Name) like ? or lower(this_.Tagline) like ?) ORDER BY this_.Name asc
+
+2010-06-30 17:28:33,792 [5] NHibernate.Engine.QueryParameters.BindParameters(:0) - BindParameters(Named:NHibernate.Type.StringType) %test% -> [0]
+
+2010-06-30 17:28:33,793 [5] NHibernate.Type.NullableType.NullSafeSet(:0) - binding '%test%' to parameter: 0
+
+2010-06-30 17:28:33,793 [5] NHibernate.Engine.QueryParameters.BindParameters(:0) - BindParameters(Named:NHibernate.Type.StringType) %test% -> [1]
+
+2010-06-30 17:28:33,793 [5] NHibernate.Type.NullableType.NullSafeSet(:0) - binding '%test%' to parameter: 1
+
+2010-06-30 17:28:33,793 [5] NHibernate.Loader.Loader.GetResultSet(:0) - SELECT this_.SiteId as SiteId0_0_, this_.Name as Name0_0_, this_.Tagline as Tagline0_0_, this_.Created as Created0_0_ FROM [Site] this_ WHERE (lower(this_.Name) like @p0 or lower(this_.Tagline) like @p1) ORDER BY this_.Name asc
+
+2010-06-30 17:28:33,794 [5] NHibernate.AdoNet.Util.SqlStatementLogger.LogCommand(:0) - SELECT this_.SiteId as SiteId0_0_, this_.Name as Name0_0_, this_.Tagline as Tagline0_0_, this_.Created as Created0_0_ FROM [Site] this_ WHERE (lower(this_.Name) like @p0 or lower(this_.Tagline) like @p1) ORDER BY this_.Name asc;@p0 = '%test%', @p1 = '%test%'
+
+2010-06-30 17:28:33,794 [5] NHibernate.Connection.DriverConnectionProvider.GetConnection(:0) - Obtaining IDbConnection from Driver
+
+2010-06-30 17:28:33,795 [5] NHibernate.AdoNet.AbstractBatcher.ExecuteReader(:0) - ExecuteReader took 0 ms
+
+2010-06-30 17:28:33,795 [5] NHibernate.AdoNet.AbstractBatcher.LogOpenReader(:0) - Opened IDataReader, open IDataReaders: 1
+
+2010-06-30 17:28:33,796 [5] NHibernate.Loader.Loader.DoQuery(:0) - processing result set
+
+2010-06-30 17:28:33,796 [5] NHibernate.Loader.Loader.DoQuery(:0) - result set row: 0
+
+2010-06-30 17:28:33,796 [5] NHibernate.Type.NullableType.NullSafeGet(:0) - returning '6' as column: SiteId0_0_
+
+2010-06-30 17:28:33,796 [5] NHibernate.Loader.Loader.GetRow(:0) - result row: EntityKey[SimpleStore.Core.Site#6]
+
+2010-06-30 17:28:33,797 [5] NHibernate.Loader.Loader.LoadFromResultSet(:0) - Initializing object from DataReader: [SimpleStore.Core.Site#6]
+
+2010-06-30 17:28:33,797 [5] NHibernate.Persister.Entity.AbstractEntityPersister.Hydrate(:0) - Hydrating entity: [SimpleStore.Core.Site#6]
+
+2010-06-30 17:28:33,797 [5] NHibernate.Type.NullableType.NullSafeGet(:0) - returning 'Hank's Battle Hardened Mercenaries' as column: Name0_0_
+
+2010-06-30 17:28:33,798 [5] NHibernate.Type.NullableType.NullSafeGet(:0) - returning 'Tested in the field, and found to be 'ard as nails!' as column: Tagline0_0_
+
+2010-06-30 17:28:33,798 [5] NHibernate.Type.NullableType.NullSafeGet(:0) - returning '6/30/2010 5:21:28 PM' as column: Created0_0_
+
+2010-06-30 17:28:33,798 [5] NHibernate.Loader.Loader.DoQuery(:0) - result set row: 1
+
+2010-06-30 17:28:33,799 [5] NHibernate.Type.NullableType.NullSafeGet(:0) - returning '3' as column: SiteId0_0_
+
+2010-06-30 17:28:33,799 [5] NHibernate.Loader.Loader.GetRow(:0) - result row: EntityKey[SimpleStore.Core.Site#3]
+
+2010-06-30 17:28:33,799 [5] NHibernate.Loader.Loader.LoadFromResultSet(:0) - Initializing object from DataReader: [SimpleStore.Core.Site#3]
+
+2010-06-30 17:28:33,800 [5] NHibernate.Persister.Entity.AbstractEntityPersister.Hydrate(:0) - Hydrating entity: [SimpleStore.Core.Site#3]
+
+2010-06-30 17:28:33,800 [5] NHibernate.Type.NullableType.NullSafeGet(:0) - returning 'Test Site' as column: Name0_0_
+
+2010-06-30 17:28:33,800 [5] NHibernate.Type.NullableType.NullSafeGet(:0) - returning 'Not a Senior Capstone Project' as column: Tagline0_0_
+
+2010-06-30 17:28:33,800 [5] NHibernate.Type.NullableType.NullSafeGet(:0) - returning '6/30/2010 5:20:23 PM' as column: Created0_0_
+
+2010-06-30 17:28:33,801 [5] NHibernate.Loader.Loader.DoQuery(:0) - done processing result set (2 rows)
+
+2010-06-30 17:28:33,801 [5] NHibernate.Driver.NHybridDataReader.Dispose(:0) - running NHybridDataReader.Dispose()
+
+2010-06-30 17:28:33,801 [5] NHibernate.AdoNet.AbstractBatcher.LogCloseReader(:0) - Closed IDataReader, open IDataReaders :0
+
+2010-06-30 17:28:33,802 [5] NHibernate.AdoNet.AbstractBatcher.CloseReader(:0) - DataReader was closed after 6 ms
+
+2010-06-30 17:28:33,802 [5] NHibernate.AdoNet.AbstractBatcher.LogClosePreparedCommand(:0) - Closed IDbCommand, open IDbCommands: 0
+
+2010-06-30 17:28:33,802 [5] NHibernate.AdoNet.ConnectionManager.AggressiveRelease(:0) - aggressively releasing database connection
+
+2010-06-30 17:28:33,802 [5] NHibernate.Connection.ConnectionProvider.CloseConnection(:0) - Closing connection
+
+2010-06-30 17:28:33,802 [5] NHibernate.Loader.Loader.InitializeEntitiesAndCollections(:0) - total objects hydrated: 2
+
+2010-06-30 17:28:33,802 [5] NHibernate.Engine.TwoPhaseLoad.InitializeEntity(:0) - resolving associations for [SimpleStore.Core.Site#6]
+
+2010-06-30 17:28:33,802 [5] NHibernate.Engine.TwoPhaseLoad.InitializeEntity(:0) - done materializing entity [SimpleStore.Core.Site#6]
+
+2010-06-30 17:28:33,803 [5] NHibernate.Engine.TwoPhaseLoad.InitializeEntity(:0) - resolving associations for [SimpleStore.Core.Site#3]
+
+2010-06-30 17:28:33,803 [5] NHibernate.Engine.TwoPhaseLoad.InitializeEntity(:0) - done materializing entity [SimpleStore.Core.Site#3]
+
+2010-06-30 17:28:33,803 [5] NHibernate.Engine.StatefulPersistenceContext.InitializeNonLazyCollections(:0) - initializing non-lazy collections
+
+2010-06-30 17:28:33,804 [5] NHibernate.AdoNet.ConnectionManager.AfterNonTransactionalQuery(:0) - after autocommit
+
+2010-06-30 17:28:33,804 [5] NHibernate.Impl.SessionImpl.AfterTransactionCompletion(:0) - transaction completion
+
+2010-06-30 17:28:33,804 [5] NHibernate.AdoNet.ConnectionManager.AggressiveRelease(:0) - aggressively releasing database connection
+
+2010-06-30 17:28:33,805 [5] NHibernate.Impl.SessionImpl.Close(:0) - closing session
+
+2010-06-30 17:28:33,805 [5] NHibernate.AdoNet.AbstractBatcher.Dispose(:0) - running BatcherImpl.Dispose(true)
+
+2010-06-30 17:28:34,818 [2] NHibernate.Impl.SessionImpl.Dispose(:0) - [session-id=68ee6623-9e25-462f-9406-d1b7682aa7bb] executing real Dispose(False)
+
+2010-06-30 17:28:34,818 [2] NHibernate.Impl.SessionImpl.Dispose(:0) - [session-id=e8148a6b-6de0-453c-b9a7-b6d72e6acff2] executing real Dispose(False)
+
+2010-06-30 17:28:34,818 [2] NHibernate.Impl.SessionImpl.Dispose(:0) - [session-id=223848d8-0387-4f67-bf61-1cd6a017ac2f] executing real Dispose(False)
 

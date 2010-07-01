@@ -9,12 +9,34 @@
 
     <h2>Matching Sites:</h2>
 
-    <ul>
-        <%
-        foreach (Site s in ViewData.Model) { %>
-         <li><%= s.Name %></li><%
-        }
-        %>
-    </ul>
+    <% using (Html.BeginForm())
+       { %>
+
+       Filter: <%: Html.TextBox("Filter") %> <input type="submit" value="Go" />
+
+    <% } %>
+
+    <br />
+    <table>
+        <thead>
+            <tr>
+                <td>Site Id</td>
+			    <td>Name</td>
+			    <td>Tagline</td>
+			    <td>Created</td>
+             </tr>
+        </thead>
+        <tbody>
+            <% foreach (Site s in ViewData.Model)
+       {  %>
+        <tr>
+            <td><%: s.Id %></a></td>
+			<td><%: s.Name%></td>
+			<td><%: s.Tagline%></td>
+			<td><%: s.Created %></td>
+        </tr>
+    <% } %>
+        </tbody>
+    </table>
 
 </asp:Content>
