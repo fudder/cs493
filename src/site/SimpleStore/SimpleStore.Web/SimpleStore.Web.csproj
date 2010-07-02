@@ -126,15 +126,23 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\bg.gif" />
     <Content Include="Content\doc_bg.gif" />
     <Content Include="Content\doc_bottom.gif" />
     <Content Include="Content\doc_top.gif" />
+    <Content Include="Content\NetworkArch2.gif" />
+    <Content Include="Content\pdf_icon.gif" />
+    <Content Include="Content\ppt_icon.png" />
+    <Content Include="Content\Schema.png" />
+    <Content Include="Content\visio_icon.gif" />
+    <Content Include="Content\word-icon.gif" />
     <Content Include="Global.asax" />
     <Content Include="Views\eBay\Category.aspx" />
     <Content Include="Views\eBay\Selling.aspx" />
     <Content Include="Views\Home\Product.aspx" />
     <Content Include="Views\Home\Project.aspx" />
     <Content Include="Views\Home\Prototype.aspx" />
+    <Content Include="Views\Home\Source.aspx" />
     <Content Include="Views\Seller\Create.aspx" />
     <Content Include="Views\Seller\Edit.aspx" />
     <Content Include="Views\Seller\Index.aspx" />
@@ -192,6 +200,19 @@
     <Content Include="NHibernate.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Content\Docs\AdminToolWireframes.vsd" />
+    <None Include="Content\Docs\Brossard_CapstonePresentation.pptx" />
+    <None Include="Content\Docs\Brossard_CapstoneReflectionPaper.doc" />
+    <None Include="Content\Docs\Brossard_CapstoneResearchPaper.docx" />
+    <None Include="Content\Docs\DatabaseSchema.docx" />
+    <None Include="Content\Docs\NetworkArchitecture.docx" />
+    <None Include="Content\Docs\PresentationFeedback.doc" />
+    <None Include="Content\Docs\Requirements.docx" />
+    <None Include="Content\Docs\ResearchProjectProposal_Brossard.doc" />
+    <None Include="Content\Docs\ResearchProjectProposal_Brossard.docx" />
+    <None Include="Content\Docs\Wireframes.vsd" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />

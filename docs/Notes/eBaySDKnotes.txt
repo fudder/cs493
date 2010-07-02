@@ -1,0 +1,19 @@
+eBay dev password: Normal + !
+
+Testuser:	TESTUSER_cs493
+Pwd:		Test123
+
+Token: AgAAAA**AQAAAA**aAAAAA**A84dTA**nY+sHZ2PrBmdj6wVnY+sEZ2PrA2dj6wFk4CoAJODogydj6x9nY+seQ**YVEBAA**AAMAAA**4exHm5ivwB1E6NRebim1SUGq3TDnVzkmkaiCFVKj3gWjwEq+ZlRX7FNP6OVew3mqPgpwrl9Qcu43XBBvlq+zNZ01Gkw4aNb9/108/lLYUXZDSR+bWjrPXntUOQ72pDjb9vWy7v8yvx9Q5PxxsTHp/2K4B8muarV2yyqykbTLiLOjVgTlzIi/+hc6vKzqt9BIo/FVYcg7VEAEMTo7bVI+qDg3HZncpzpMJyjteY/3Mvwn5FsHtNmUsaeqzFVFi/aMbCr83q+4T174pn0l2qmpiQ7BKf3WasPQBcWTtgadJW03XmEXrO2Zx01wD4BShYgFV940vK6UnQMDD1p0E9Q34kMYIHAKx9afro2PxHN9sFkIf/v9LHtQqTy7cXdfCIHUyApJaB3h5Dz3T/HcL5lebCs7ijk9KdGoLNJF8FFUfKFlHQ3qpmMHmbzNx8uRaBye6h4wwowJMBmVhd6l2y0uRHIER0dgHa4g5blKAVigUkW7ZvIJpq/4Ym82cGokemC1yxTCgxnmx12rwg+s1Td6ts+9fd63gIQZTUKPx0oXryA2uTVCDWjvIFGeuV/ea+bAfpAq3mGH3GPcEoSEqo/30NgNPlDcvptPdDSzbHLYx7Qx6SBtHxM9Y2pdIdVkxuemxp8gjvQk3v7HaduHAmspggkARNRaOTpE6fMLv0s9GV5kust616jWFLXX6NYa1gU1aPWOSapZSjqyL4aY7f58AWtb6TR5CB0IvfkSNE1t1XZ/Q4oI830f5UW/XogIcqJ9
+
+Dev Key: 5c3b682d-dfb9-4446-80de-c2f989f1b632
+App Key: Cardogra-a816-494e-ad4c-878f8d7a4c53
+Cert Key: 47bc1aff-9740-4857-868b-3a994bdc9886
+
+
+Prototypes:
+
+Ebay category browser
+
+Add a listing
+
+View all seller's listings

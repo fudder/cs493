@@ -33,5 +33,10 @@ namespace SimpleStore.Web.Controllers
         {
             return View();
         }
+
+        public ActionResult Source()
+        {
+            return View();
+        }
     }
 }
