@@ -1,0 +1,39 @@
+﻿<%@ Master Language="C#" Inherits="System.Web.Mvc.ViewMasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title><asp:ContentPlaceHolder ID="TitleContent" runat="server" /></title>
+    <link href="../../Content/Site.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<div id="wrapper">
+        <div id="contact">Project by <a href="mailto:bross787@regis.edu">Patrick Brossard</a></div>
+
+        <div id="title_bar"><h1>CS493 SENIOR CAPSTONE</h1></div>
+
+        <div id="nav_bar">
+            [ <a href="/">Home</a> ]  &nbsp;&nbsp;
+            [ <a href="/Home/Project">Project Deliverables</a> ]  &nbsp;&nbsp;
+            [ <a href="/Home/Product">Capstone Product</a> ]  &nbsp;&nbsp;
+            [ <a href="/Home/Prototype">Prototypes</a> ]
+        </div>
+
+        <div id="doc">
+
+            <div id="main">
+                <asp:ContentPlaceHolder ID="MainContent" runat="server" />
+            </div>
+
+        </div>
+        <p style="padding:0 0 100px;">&nbsp;</p>
+</div>
+<div id="footer_container">
+    <div id="footer">
+        <br />
+        CS493 · Senior Capstone · Regis.edu · Patrick Brossard · Due 7/2/2010
+    </div>
+</div>
+</body>
+</html>
