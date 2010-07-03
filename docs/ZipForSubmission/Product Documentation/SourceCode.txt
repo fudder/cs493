@@ -1,0 +1,7 @@
+View this url for the prototype source code: 
+
+http://github.com/fudder/cs493/tree/master/src/site/SimpleStore/
+
+This is also linked to from the main project site:
+
+http://ec2-75-101-182-98.compute-1.amazonaws.com

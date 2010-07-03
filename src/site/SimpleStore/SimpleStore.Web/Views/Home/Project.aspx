@@ -14,13 +14,18 @@
     </p>
 
     <ul>
-        <li><b>Research Paper: <a href="/Content/Brossard_CapstoneResearchPaper.docx">Brossard_CapstoneResearchPaper.docx</a></b><br />
+        <li><b>Research Paper:</b><br />
+        <a href="../../Content/Docs/Brossard_CapstoneResearchPaper.docx">Brossard_CapstoneResearchPaper.docx</a>
         </li>
-        <li><b>Presentation: <a href="/Content/Brossard_CapstonePresentation.ppt">Brossard_CapstonePresentation.ppt</a></b><br />
+        <li><b>Presentation:</b><br />
+        <a href="../../Content/Docs/Brossard_CapstonePresentation.pptx">Brossard_CapstonePresentation.pptx</a><br />
         </li>
-        <li><b>Reflection Paper: <a href="/Content/Brossard_CapstoneReflectionPaper.docx">Brossard_CapstoneReflectionPaper.docx</a></b><br />
+        <li><b>Reflection Paper:</b><br />
+        <a href="../../Content/Docs/Brossard_CapstoneReflectionPaper.doc">Brossard_CapstoneReflectionPaper.doc</a><br />
         </li>
-        <li><b>Capstone Product: <a href="/Content/Brossard_CapstoneProductDocuments.zip">Brossard_CapstoneProductDocuments.zip</a></b><br />
+        <li><b>Complete Capstone Product:</b><br />
+            Website: <%: Html.ActionLink("Product Documentation", "Product") %><br />
+            Download: <a href="../../Content/Docs/Brossard_CapstoneDeliverables.zip">Brossard_CapstoneDeliverables.zip</a><br />
         </li>
     </ul>
     

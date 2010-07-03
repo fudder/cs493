@@ -45,3 +45,5 @@ C:\cs493\src\site\SimpleStore\SimpleStore.Web\bin\Samples.Helper.dll
 C:\cs493\src\site\SimpleStore\SimpleStore.Web\bin\SimpleStore.Services.pdb
 C:\cs493\src\site\SimpleStore\SimpleStore.Web\bin\eBay.Service.xml
 C:\cs493\src\site\SimpleStore\SimpleStore.Web\bin\Samples.Helper.xml
+C:\cs493\src\site\SimpleStore\SimpleStore.Web\bin\nunit.framework.dll
+C:\cs493\src\site\SimpleStore\SimpleStore.Web\bin\nunit.framework.xml

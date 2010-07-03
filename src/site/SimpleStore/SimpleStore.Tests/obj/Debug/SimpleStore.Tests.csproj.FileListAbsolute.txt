@@ -51,3 +51,5 @@ C:\cs493\src\site\SimpleStore\SimpleStore.Tests\bin\Debug\Samples.Helper.dll
 C:\cs493\src\site\SimpleStore\SimpleStore.Tests\bin\Debug\SimpleStore.Services.pdb
 C:\cs493\src\site\SimpleStore\SimpleStore.Tests\bin\Debug\Samples.Helper.xml
 C:\cs493\src\site\SimpleStore\SimpleStore.Tests\bin\Debug\eBay.Service.xml
+C:\cs493\src\site\SimpleStore\SimpleStore.Tests\bin\Debug\nunit.framework.dll
+C:\cs493\src\site\SimpleStore\SimpleStore.Tests\bin\Debug\nunit.framework.xml

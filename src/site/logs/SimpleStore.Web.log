@@ -1,194 +1,194 @@
-2010-07-02 16:32:15,828 [19] NHibernate.Cfg.Environment..cctor(:0) - NHibernate 2.1.2.4000 (2.1.2.4000)
+2010-07-02 22:15:35,416 [260] NHibernate.Cfg.Environment..cctor(:0) - NHibernate 2.1.2.4000 (2.1.2.4000)
 
-2010-07-02 16:32:15,838 [19] NHibernate.Cfg.Environment.LoadGlobalPropertiesFromAppConfig(:0) - hibernate-configuration section not found in application configuration file
+2010-07-02 22:15:35,428 [260] NHibernate.Cfg.Environment.LoadGlobalPropertiesFromAppConfig(:0) - hibernate-configuration section not found in application configuration file
 
-2010-07-02 16:32:15,838 [19] NHibernate.Cfg.Environment.BuildBytecodeProvider(:0) - Bytecode provider name : lcg
+2010-07-02 22:15:35,429 [260] NHibernate.Cfg.Environment.BuildBytecodeProvider(:0) - Bytecode provider name : lcg
 
-2010-07-02 16:32:15,839 [19] NHibernate.Cfg.Environment..cctor(:0) - Using reflection optimizer
+2010-07-02 22:15:35,430 [260] NHibernate.Cfg.Environment..cctor(:0) - Using reflection optimizer
 
-2010-07-02 16:32:15,866 [19] NHibernate.Cfg.Configuration.AddProperties(:0) - connection.connection_string=Data Source=.\sqlexpress;Database=SimpleStore;Integrated Security=SSPI;
+2010-07-02 22:15:35,454 [260] NHibernate.Cfg.Configuration.AddProperties(:0) - connection.connection_string=Data Source=.\sqlexpress;Database=SimpleStore;Integrated Security=SSPI;
 
-2010-07-02 16:32:15,866 [19] NHibernate.Cfg.Configuration.AddProperties(:0) - dialect=NHibernate.Dialect.MsSql2008Dialect
+2010-07-02 22:15:35,455 [260] NHibernate.Cfg.Configuration.AddProperties(:0) - dialect=NHibernate.Dialect.MsSql2008Dialect
 
-2010-07-02 16:32:15,867 [19] NHibernate.Cfg.Configuration.AddProperties(:0) - connection.provider=NHibernate.Connection.DriverConnectionProvider
+2010-07-02 22:15:35,455 [260] NHibernate.Cfg.Configuration.AddProperties(:0) - connection.provider=NHibernate.Connection.DriverConnectionProvider
 
-2010-07-02 16:32:15,867 [19] NHibernate.Cfg.Configuration.AddProperties(:0) - connection.driver_class=NHibernate.Driver.SqlClientDriver
+2010-07-02 22:15:35,455 [260] NHibernate.Cfg.Configuration.AddProperties(:0) - connection.driver_class=NHibernate.Driver.SqlClientDriver
 
-2010-07-02 16:32:15,867 [19] NHibernate.Cfg.Configuration.AddProperties(:0) - show_sql=false
+2010-07-02 22:15:35,456 [260] NHibernate.Cfg.Configuration.AddProperties(:0) - show_sql=false
 
-2010-07-02 16:32:15,867 [19] NHibernate.Cfg.Configuration.AddProperties(:0) - connection.release_mode=auto
+2010-07-02 22:15:35,456 [260] NHibernate.Cfg.Configuration.AddProperties(:0) - connection.release_mode=auto
 
-2010-07-02 16:32:15,867 [19] NHibernate.Cfg.Configuration.AddProperties(:0) - adonet.batch_size=500
+2010-07-02 22:15:35,456 [260] NHibernate.Cfg.Configuration.AddProperties(:0) - adonet.batch_size=500
 
-2010-07-02 16:32:15,867 [19] NHibernate.Cfg.Configuration.AddProperties(:0) - proxyfactory.factory_class=NHibernate.ByteCode.Castle.ProxyFactoryFactory, NHibernate.ByteCode.Castle
+2010-07-02 22:15:35,456 [260] NHibernate.Cfg.Configuration.AddProperties(:0) - proxyfactory.factory_class=NHibernate.ByteCode.Castle.ProxyFactoryFactory, NHibernate.ByteCode.Castle
 
-2010-07-02 16:32:15,868 [19] NHibernate.Cfg.Configuration.DoConfigure(:0) - properties: System.Collections.Generic.Dictionary`2[System.String,System.String]
+2010-07-02 22:15:35,457 [260] NHibernate.Cfg.Configuration.DoConfigure(:0) - properties: System.Collections.Generic.Dictionary`2[System.String,System.String]
 
-2010-07-02 16:32:15,874 [19] NHibernate.Cfg.Configuration.AddAssembly(:0) - No mapped documents found in assembly: SimpleStore.Data, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2010-07-02 22:15:35,462 [260] NHibernate.Cfg.Configuration.AddAssembly(:0) - No mapped documents found in assembly: SimpleStore.Data, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
 
-2010-07-02 16:32:15,999 [19] NHibernate.Cfg.Configuration.AddDocument(:0) - Mapping XML:
+2010-07-02 22:15:35,623 [260] NHibernate.Cfg.Configuration.AddDocument(:0) - Mapping XML:
 <hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" default-access="property" auto-import="true" default-cascade="none" default-lazy="true"><class xmlns="urn:nhibernate-mapping-2.2" mutable="true" name="SimpleStore.Core.Site, SimpleStore.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" table="`Site`"><id name="SiteId" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><column name="SiteId" /><generator class="identity" /></id><property name="Name" type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><column name="Name" /></property><property name="Tagline" type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><column name="Tagline" /></property><property name="Created" type="System.DateTime, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><column name="Created" /></property></class></hibernate-mapping>
 
-2010-07-02 16:32:16,028 [19] NHibernate.Dialect.Dialect..ctor(:0) - Using dialect: NHibernate.Dialect.MsSql2008Dialect
+2010-07-02 22:15:35,645 [260] NHibernate.Dialect.Dialect..ctor(:0) - Using dialect: NHibernate.Dialect.MsSql2008Dialect
 
-2010-07-02 16:32:16,912 [19] NHibernate.Cfg.XmlHbmBinding.RootClassBinder.Bind(:0) - Mapping class: SimpleStore.Core.Site -> Site
+2010-07-02 22:15:36,585 [260] NHibernate.Cfg.XmlHbmBinding.RootClassBinder.Bind(:0) - Mapping class: SimpleStore.Core.Site -> Site
 
-2010-07-02 16:32:16,931 [19] NHibernate.Cfg.XmlHbmBinding.ClassBinder.LogMappedProperty(:0) - Mapped property: SiteId -> SiteId, type: Int32
+2010-07-02 22:15:36,604 [260] NHibernate.Cfg.XmlHbmBinding.ClassBinder.LogMappedProperty(:0) - Mapped property: SiteId -> SiteId, type: Int32
 
-2010-07-02 16:32:16,945 [19] NHibernate.Cfg.XmlHbmBinding.ClassBinder.BindProperty(:0) - Mapped property: Name -> Name, type: String
+2010-07-02 22:15:36,617 [260] NHibernate.Cfg.XmlHbmBinding.ClassBinder.BindProperty(:0) - Mapped property: Name -> Name, type: String
 
-2010-07-02 16:32:16,946 [19] NHibernate.Cfg.XmlHbmBinding.ClassBinder.BindProperty(:0) - Mapped property: Tagline -> Tagline, type: String
+2010-07-02 22:15:36,618 [260] NHibernate.Cfg.XmlHbmBinding.ClassBinder.BindProperty(:0) - Mapped property: Tagline -> Tagline, type: String
 
-2010-07-02 16:32:16,947 [19] NHibernate.Cfg.XmlHbmBinding.ClassBinder.BindProperty(:0) - Mapped property: Created -> Created, type: DateTime
+2010-07-02 22:15:36,618 [260] NHibernate.Cfg.XmlHbmBinding.ClassBinder.BindProperty(:0) - Mapped property: Created -> Created, type: DateTime
 
-2010-07-02 16:32:16,951 [19] NHibernate.Cfg.Configuration.AddDocument(:0) - Mapping XML:
+2010-07-02 22:15:36,623 [260] NHibernate.Cfg.Configuration.AddDocument(:0) - Mapping XML:
 <hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" default-access="property" auto-import="true" default-cascade="none" default-lazy="true"><class xmlns="urn:nhibernate-mapping-2.2" mutable="true" name="SimpleStore.Core.Seller, SimpleStore.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" table="`Seller`"><id name="SellerId" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><column name="SellerId" /><generator class="identity" /></id><property name="Email" type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><column name="Email" /></property><property name="EbayUser" type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><column name="EbayUser" /></property><property name="Created" type="System.DateTime, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><column name="Created" /></property></class></hibernate-mapping>
 
-2010-07-02 16:32:16,955 [19] NHibernate.Dialect.Dialect..ctor(:0) - Using dialect: NHibernate.Dialect.MsSql2008Dialect
+2010-07-02 22:15:36,627 [260] NHibernate.Dialect.Dialect..ctor(:0) - Using dialect: NHibernate.Dialect.MsSql2008Dialect
 
-2010-07-02 16:32:16,956 [19] NHibernate.Cfg.XmlHbmBinding.RootClassBinder.Bind(:0) - Mapping class: SimpleStore.Core.Seller -> Seller
+2010-07-02 22:15:36,628 [260] NHibernate.Cfg.XmlHbmBinding.RootClassBinder.Bind(:0) - Mapping class: SimpleStore.Core.Seller -> Seller
 
-2010-07-02 16:32:16,956 [19] NHibernate.Cfg.XmlHbmBinding.ClassBinder.LogMappedProperty(:0) - Mapped property: SellerId -> SellerId, type: Int32
+2010-07-02 22:15:36,629 [260] NHibernate.Cfg.XmlHbmBinding.ClassBinder.LogMappedProperty(:0) - Mapped property: SellerId -> SellerId, type: Int32
 
-2010-07-02 16:32:16,957 [19] NHibernate.Cfg.XmlHbmBinding.ClassBinder.BindProperty(:0) - Mapped property: Email -> Email, type: String
+2010-07-02 22:15:36,629 [260] NHibernate.Cfg.XmlHbmBinding.ClassBinder.BindProperty(:0) - Mapped property: Email -> Email, type: String
 
-2010-07-02 16:32:16,957 [19] NHibernate.Cfg.XmlHbmBinding.ClassBinder.BindProperty(:0) - Mapped property: EbayUser -> EbayUser, type: String
+2010-07-02 22:15:36,629 [260] NHibernate.Cfg.XmlHbmBinding.ClassBinder.BindProperty(:0) - Mapped property: EbayUser -> EbayUser, type: String
 
-2010-07-02 16:32:16,957 [19] NHibernate.Cfg.XmlHbmBinding.ClassBinder.BindProperty(:0) - Mapped property: Created -> Created, type: DateTime
+2010-07-02 22:15:36,629 [260] NHibernate.Cfg.XmlHbmBinding.ClassBinder.BindProperty(:0) - Mapped property: Created -> Created, type: DateTime
 
-2010-07-02 16:32:16,987 [19] NHibernate.Cfg.Configuration.SecondPassCompile(:0) - checking mappings queue
+2010-07-02 22:15:36,655 [260] NHibernate.Cfg.Configuration.SecondPassCompile(:0) - checking mappings queue
 
-2010-07-02 16:32:16,987 [19] NHibernate.Cfg.Configuration.SecondPassCompile(:0) - processing one-to-many association mappings
+2010-07-02 22:15:36,656 [260] NHibernate.Cfg.Configuration.SecondPassCompile(:0) - processing one-to-many association mappings
 
-2010-07-02 16:32:16,988 [19] NHibernate.Cfg.Configuration.SecondPassCompile(:0) - processing one-to-one association property references
+2010-07-02 22:15:36,656 [260] NHibernate.Cfg.Configuration.SecondPassCompile(:0) - processing one-to-one association property references
 
-2010-07-02 16:32:16,988 [19] NHibernate.Cfg.Configuration.SecondPassCompile(:0) - processing foreign key constraints
+2010-07-02 22:15:36,656 [260] NHibernate.Cfg.Configuration.SecondPassCompile(:0) - processing foreign key constraints
 
-2010-07-02 16:32:16,989 [19] NHibernate.Cfg.Configuration.SecondPassCompile(:0) - processing filters (second pass)
+2010-07-02 22:15:36,658 [260] NHibernate.Cfg.Configuration.SecondPassCompile(:0) - processing filters (second pass)
 
-2010-07-02 16:32:17,004 [19] NHibernate.Dialect.Dialect..ctor(:0) - Using dialect: NHibernate.Dialect.MsSql2008Dialect
+2010-07-02 22:15:36,672 [260] NHibernate.Dialect.Dialect..ctor(:0) - Using dialect: NHibernate.Dialect.MsSql2008Dialect
 
-2010-07-02 16:32:17,004 [19] NHibernate.Exceptions.SQLExceptionConverterFactory.BuildSQLExceptionConverter(:0) - Using dialect defined converter
+2010-07-02 22:15:36,673 [260] NHibernate.Exceptions.SQLExceptionConverterFactory.BuildSQLExceptionConverter(:0) - Using dialect defined converter
 
-2010-07-02 16:32:17,005 [19] NHibernate.Cfg.SettingsFactory.BuildSettings(:0) - Generate SQL with comments: disabled
+2010-07-02 22:15:36,673 [260] NHibernate.Cfg.SettingsFactory.BuildSettings(:0) - Generate SQL with comments: disabled
 
-2010-07-02 16:32:17,006 [19] NHibernate.Connection.ConnectionProviderFactory.NewConnectionProvider(:0) - Initializing connection provider: NHibernate.Connection.DriverConnectionProvider
+2010-07-02 22:15:36,674 [260] NHibernate.Connection.ConnectionProviderFactory.NewConnectionProvider(:0) - Initializing connection provider: NHibernate.Connection.DriverConnectionProvider
 
-2010-07-02 16:32:17,007 [19] NHibernate.Connection.ConnectionProvider.Configure(:0) - Configuring ConnectionProvider
+2010-07-02 22:15:36,675 [260] NHibernate.Connection.ConnectionProvider.Configure(:0) - Configuring ConnectionProvider
 
-2010-07-02 16:32:17,007 [19] NHibernate.Cfg.SettingsFactory.CreateTransactionFactory(:0) - Transaction factory: NHibernate.Transaction.AdoNetWithDistrubtedTransactionFactory
+2010-07-02 22:15:36,676 [260] NHibernate.Cfg.SettingsFactory.CreateTransactionFactory(:0) - Transaction factory: NHibernate.Transaction.AdoNetWithDistrubtedTransactionFactory
 
-2010-07-02 16:32:17,008 [19] NHibernate.Cfg.SettingsFactory.BuildSettings(:0) - Optimize cache for minimal puts: False
+2010-07-02 22:15:36,677 [260] NHibernate.Cfg.SettingsFactory.BuildSettings(:0) - Optimize cache for minimal puts: False
 
-2010-07-02 16:32:17,009 [19] NHibernate.Cfg.SettingsFactory.BuildSettings(:0) - Connection release mode: auto
+2010-07-02 22:15:36,677 [260] NHibernate.Cfg.SettingsFactory.BuildSettings(:0) - Connection release mode: auto
 
-2010-07-02 16:32:17,009 [19] NHibernate.Cfg.SettingsFactory.BuildSettings(:0) - Default batch fetch size: 1
+2010-07-02 22:15:36,677 [260] NHibernate.Cfg.SettingsFactory.BuildSettings(:0) - Default batch fetch size: 1
 
-2010-07-02 16:32:17,009 [19] NHibernate.Cfg.SettingsFactory.BuildSettings(:0) - Statistics: disabled
+2010-07-02 22:15:36,677 [260] NHibernate.Cfg.SettingsFactory.BuildSettings(:0) - Statistics: disabled
 
-2010-07-02 16:32:17,009 [19] NHibernate.Cfg.SettingsFactory.BuildSettings(:0) - Deleted entity synthetic identifier rollback: disabled
+2010-07-02 22:15:36,678 [260] NHibernate.Cfg.SettingsFactory.BuildSettings(:0) - Deleted entity synthetic identifier rollback: disabled
 
-2010-07-02 16:32:17,010 [19] NHibernate.Cfg.SettingsFactory.CreateQueryTranslatorFactory(:0) - Query translator: NHibernate.Hql.Ast.ANTLR.ASTQueryTranslatorFactory
+2010-07-02 22:15:36,678 [260] NHibernate.Cfg.SettingsFactory.CreateQueryTranslatorFactory(:0) - Query translator: NHibernate.Hql.Ast.ANTLR.ASTQueryTranslatorFactory
 
-2010-07-02 16:32:17,011 [19] NHibernate.Cfg.SettingsFactory.BuildSettings(:0) - Query language substitutions: {}
+2010-07-02 22:15:36,679 [260] NHibernate.Cfg.SettingsFactory.BuildSettings(:0) - Query language substitutions: {}
 
-2010-07-02 16:32:17,011 [19] NHibernate.Cfg.SettingsFactory.CreateCacheProvider(:0) - cache provider: NHibernate.Cache.NoCacheProvider, NHibernate, Version=2.1.2.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+2010-07-02 22:15:36,680 [260] NHibernate.Cfg.SettingsFactory.CreateCacheProvider(:0) - cache provider: NHibernate.Cache.NoCacheProvider, NHibernate, Version=2.1.2.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
 
-2010-07-02 16:32:17,012 [19] NHibernate.Cfg.SettingsFactory.BuildSettings(:0) - Wrap result sets: disabled
+2010-07-02 22:15:36,680 [260] NHibernate.Cfg.SettingsFactory.BuildSettings(:0) - Wrap result sets: disabled
 
-2010-07-02 16:32:17,013 [19] NHibernate.Cfg.SettingsFactory.CreateBatcherFactory(:0) - Batcher factory: NHibernate.AdoNet.SqlClientBatchingBatcherFactory, NHibernate, Version=2.1.2.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+2010-07-02 22:15:36,681 [260] NHibernate.Cfg.SettingsFactory.CreateBatcherFactory(:0) - Batcher factory: NHibernate.AdoNet.SqlClientBatchingBatcherFactory, NHibernate, Version=2.1.2.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
 
-2010-07-02 16:32:17,013 [19] NHibernate.Cfg.SettingsFactory.BuildSettings(:0) - Default entity-mode: Poco
+2010-07-02 22:15:36,681 [260] NHibernate.Cfg.SettingsFactory.BuildSettings(:0) - Default entity-mode: Poco
 
-2010-07-02 16:32:17,013 [19] NHibernate.Cfg.SettingsFactory.BuildSettings(:0) - Named query checking : enabled
+2010-07-02 22:15:36,682 [260] NHibernate.Cfg.SettingsFactory.BuildSettings(:0) - Named query checking : enabled
 
-2010-07-02 16:32:17,027 [19] NHibernate.Impl.SessionFactoryImpl..ctor(:0) - building session factory
+2010-07-02 22:15:36,694 [260] NHibernate.Impl.SessionFactoryImpl..ctor(:0) - building session factory
 
-2010-07-02 16:32:17,028 [19] NHibernate.Impl.SessionFactoryImpl..ctor(:0) - Session factory constructed with filter configurations : {}
+2010-07-02 22:15:36,695 [260] NHibernate.Impl.SessionFactoryImpl..ctor(:0) - Session factory constructed with filter configurations : {}
 
-2010-07-02 16:32:17,029 [19] NHibernate.Impl.SessionFactoryImpl..ctor(:0) - instantiating session factory with properties: {'use_reflection_optimizer'='True', 'connection.connection_string'='Data Source=.\sqlexpress;Database=SimpleStore;Integrated Security=SSPI;', 'dialect'='NHibernate.Dialect.MsSql2008Dialect', 'connection.provider'='NHibernate.Connection.DriverConnectionProvider', 'connection.driver_class'='NHibernate.Driver.SqlClientDriver', 'show_sql'='false', 'connection.release_mode'='auto', 'adonet.batch_size'='500', 'proxyfactory.factory_class'='NHibernate.ByteCode.Castle.ProxyFactoryFactory, NHibernate.ByteCode.Castle'}
+2010-07-02 22:15:36,696 [260] NHibernate.Impl.SessionFactoryImpl..ctor(:0) - instantiating session factory with properties: {'use_reflection_optimizer'='True', 'connection.connection_string'='Data Source=.\sqlexpress;Database=SimpleStore;Integrated Security=SSPI;', 'dialect'='NHibernate.Dialect.MsSql2008Dialect', 'connection.provider'='NHibernate.Connection.DriverConnectionProvider', 'connection.driver_class'='NHibernate.Driver.SqlClientDriver', 'show_sql'='false', 'connection.release_mode'='auto', 'adonet.batch_size'='500', 'proxyfactory.factory_class'='NHibernate.ByteCode.Castle.ProxyFactoryFactory, NHibernate.ByteCode.Castle'}
 
-2010-07-02 16:32:17,030 [19] NHibernate.Connection.DriverConnectionProvider.GetConnection(:0) - Obtaining IDbConnection from Driver
+2010-07-02 22:15:36,697 [260] NHibernate.Connection.DriverConnectionProvider.GetConnection(:0) - Obtaining IDbConnection from Driver
 
-2010-07-02 16:32:17,042 [19] NHibernate.Connection.ConnectionProvider.CloseConnection(:0) - Closing connection
+2010-07-02 22:15:36,721 [260] NHibernate.Connection.ConnectionProvider.CloseConnection(:0) - Closing connection
 
-2010-07-02 16:32:17,100 [19] NHibernate.Tuple.Entity.AbstractEntityTuplizer..ctor(:0) - No custom accessors found for entity: SimpleStore.Core.Site
+2010-07-02 22:15:36,773 [260] NHibernate.Tuple.Entity.AbstractEntityTuplizer..ctor(:0) - No custom accessors found for entity: SimpleStore.Core.Site
 
-2010-07-02 16:32:17,104 [19] NHibernate.Tuple.Entity.AbstractEntityTuplizer..ctor(:0) - No custom accessors found for entity: SimpleStore.Core.Site
+2010-07-02 22:15:36,777 [260] NHibernate.Tuple.Entity.AbstractEntityTuplizer..ctor(:0) - No custom accessors found for entity: SimpleStore.Core.Site
 
-2010-07-02 16:32:17,113 [19] NHibernate.Tuple.Entity.PocoEntityTuplizer.BuildInstantiator(:0) - Create Instantiator using optimizer for:SimpleStore.Core.Site
+2010-07-02 22:15:36,786 [260] NHibernate.Tuple.Entity.PocoEntityTuplizer.BuildInstantiator(:0) - Create Instantiator using optimizer for:SimpleStore.Core.Site
 
-2010-07-02 16:32:17,132 [19] NHibernate.Tuple.Entity.AbstractEntityTuplizer..ctor(:0) - No custom accessors found for entity: SimpleStore.Core.Seller
+2010-07-02 22:15:36,807 [260] NHibernate.Tuple.Entity.AbstractEntityTuplizer..ctor(:0) - No custom accessors found for entity: SimpleStore.Core.Seller
 
-2010-07-02 16:32:17,133 [19] NHibernate.Tuple.Entity.AbstractEntityTuplizer..ctor(:0) - No custom accessors found for entity: SimpleStore.Core.Seller
+2010-07-02 22:15:36,807 [260] NHibernate.Tuple.Entity.AbstractEntityTuplizer..ctor(:0) - No custom accessors found for entity: SimpleStore.Core.Seller
 
-2010-07-02 16:32:17,133 [19] NHibernate.Tuple.Entity.PocoEntityTuplizer.BuildInstantiator(:0) - Create Instantiator using optimizer for:SimpleStore.Core.Seller
+2010-07-02 22:15:36,808 [260] NHibernate.Tuple.Entity.PocoEntityTuplizer.BuildInstantiator(:0) - Create Instantiator using optimizer for:SimpleStore.Core.Seller
 
-2010-07-02 16:32:17,163 [19] NHibernate.Persister.Entity.AbstractEntityPersister.LogStaticSQL(:0) - Static SQL for entity: SimpleStore.Core.Site
+2010-07-02 22:15:36,838 [260] NHibernate.Persister.Entity.AbstractEntityPersister.LogStaticSQL(:0) - Static SQL for entity: SimpleStore.Core.Site
 
-2010-07-02 16:32:17,163 [19] NHibernate.Persister.Entity.AbstractEntityPersister.LogStaticSQL(:0) -  Version select: SELECT SiteId FROM [Site] WHERE SiteId = ?
+2010-07-02 22:15:36,838 [260] NHibernate.Persister.Entity.AbstractEntityPersister.LogStaticSQL(:0) -  Version select: SELECT SiteId FROM [Site] WHERE SiteId = ?
 
-2010-07-02 16:32:17,164 [19] NHibernate.Persister.Entity.AbstractEntityPersister.LogStaticSQL(:0) -  Snapshot select: SELECT site_.SiteId, site_.Name as Name0_, site_.Tagline as Tagline0_, site_.Created as Created0_ FROM [Site] site_ WHERE site_.SiteId=?
+2010-07-02 22:15:36,838 [260] NHibernate.Persister.Entity.AbstractEntityPersister.LogStaticSQL(:0) -  Snapshot select: SELECT site_.SiteId, site_.Name as Name0_, site_.Tagline as Tagline0_, site_.Created as Created0_ FROM [Site] site_ WHERE site_.SiteId=?
 
-2010-07-02 16:32:17,164 [19] NHibernate.Persister.Entity.AbstractEntityPersister.LogStaticSQL(:0) -  Insert 0: INSERT INTO [Site] (Name, Tagline, Created, SiteId) VALUES (?, ?, ?, ?)
+2010-07-02 22:15:36,839 [260] NHibernate.Persister.Entity.AbstractEntityPersister.LogStaticSQL(:0) -  Insert 0: INSERT INTO [Site] (Name, Tagline, Created, SiteId) VALUES (?, ?, ?, ?)
 
-2010-07-02 16:32:17,164 [19] NHibernate.Persister.Entity.AbstractEntityPersister.LogStaticSQL(:0) -  Update 0: UPDATE [Site] SET Name = ?, Tagline = ?, Created = ? WHERE SiteId = ?
+2010-07-02 22:15:36,839 [260] NHibernate.Persister.Entity.AbstractEntityPersister.LogStaticSQL(:0) -  Update 0: UPDATE [Site] SET Name = ?, Tagline = ?, Created = ? WHERE SiteId = ?
 
-2010-07-02 16:32:17,164 [19] NHibernate.Persister.Entity.AbstractEntityPersister.LogStaticSQL(:0) -  Delete 0: DELETE FROM [Site] WHERE SiteId = ?
+2010-07-02 22:15:36,839 [260] NHibernate.Persister.Entity.AbstractEntityPersister.LogStaticSQL(:0) -  Delete 0: DELETE FROM [Site] WHERE SiteId = ?
 
-2010-07-02 16:32:17,165 [19] NHibernate.Persister.Entity.AbstractEntityPersister.LogStaticSQL(:0) -  Identity insert: INSERT INTO [Site] (Name, Tagline, Created) VALUES (?, ?, ?); select SCOPE_IDENTITY()
+2010-07-02 22:15:36,840 [260] NHibernate.Persister.Entity.AbstractEntityPersister.LogStaticSQL(:0) -  Identity insert: INSERT INTO [Site] (Name, Tagline, Created) VALUES (?, ?, ?); select SCOPE_IDENTITY()
 
-2010-07-02 16:32:17,186 [19] NHibernate.Loader.Entity.EntityLoader..ctor(:0) - Static select for entity SimpleStore.Core.Site: SELECT site0_.SiteId as SiteId0_0_, site0_.Name as Name0_0_, site0_.Tagline as Tagline0_0_, site0_.Created as Created0_0_ FROM [Site] site0_ WHERE site0_.SiteId=?
+2010-07-02 22:15:36,861 [260] NHibernate.Loader.Entity.EntityLoader..ctor(:0) - Static select for entity SimpleStore.Core.Site: SELECT site0_.SiteId as SiteId0_0_, site0_.Name as Name0_0_, site0_.Tagline as Tagline0_0_, site0_.Created as Created0_0_ FROM [Site] site0_ WHERE site0_.SiteId=?
 
-2010-07-02 16:32:17,186 [19] NHibernate.Loader.Entity.EntityLoader..ctor(:0) - Static select for entity SimpleStore.Core.Site: SELECT site0_.SiteId as SiteId0_0_, site0_.Name as Name0_0_, site0_.Tagline as Tagline0_0_, site0_.Created as Created0_0_ FROM [Site] site0_ WHERE site0_.SiteId=?
+2010-07-02 22:15:36,861 [260] NHibernate.Loader.Entity.EntityLoader..ctor(:0) - Static select for entity SimpleStore.Core.Site: SELECT site0_.SiteId as SiteId0_0_, site0_.Name as Name0_0_, site0_.Tagline as Tagline0_0_, site0_.Created as Created0_0_ FROM [Site] site0_ WHERE site0_.SiteId=?
 
-2010-07-02 16:32:17,187 [19] NHibernate.Loader.Entity.EntityLoader..ctor(:0) - Static select for entity SimpleStore.Core.Site: SELECT site0_.SiteId as SiteId0_0_, site0_.Name as Name0_0_, site0_.Tagline as Tagline0_0_, site0_.Created as Created0_0_ FROM [Site] site0_ with (updlock, rowlock) WHERE site0_.SiteId=?
+2010-07-02 22:15:36,862 [260] NHibernate.Loader.Entity.EntityLoader..ctor(:0) - Static select for entity SimpleStore.Core.Site: SELECT site0_.SiteId as SiteId0_0_, site0_.Name as Name0_0_, site0_.Tagline as Tagline0_0_, site0_.Created as Created0_0_ FROM [Site] site0_ with (updlock, rowlock) WHERE site0_.SiteId=?
 
-2010-07-02 16:32:17,187 [19] NHibernate.Loader.Entity.EntityLoader..ctor(:0) - Static select for entity SimpleStore.Core.Site: SELECT site0_.SiteId as SiteId0_0_, site0_.Name as Name0_0_, site0_.Tagline as Tagline0_0_, site0_.Created as Created0_0_ FROM [Site] site0_ with (updlock, rowlock) WHERE site0_.SiteId=?
+2010-07-02 22:15:36,862 [260] NHibernate.Loader.Entity.EntityLoader..ctor(:0) - Static select for entity SimpleStore.Core.Site: SELECT site0_.SiteId as SiteId0_0_, site0_.Name as Name0_0_, site0_.Tagline as Tagline0_0_, site0_.Created as Created0_0_ FROM [Site] site0_ with (updlock, rowlock) WHERE site0_.SiteId=?
 
-2010-07-02 16:32:17,187 [19] NHibernate.Loader.Entity.EntityLoader..ctor(:0) - Static select for entity SimpleStore.Core.Site: SELECT site0_.SiteId as SiteId0_0_, site0_.Name as Name0_0_, site0_.Tagline as Tagline0_0_, site0_.Created as Created0_0_ FROM [Site] site0_ with (updlock, rowlock) WHERE site0_.SiteId=?
+2010-07-02 22:15:36,862 [260] NHibernate.Loader.Entity.EntityLoader..ctor(:0) - Static select for entity SimpleStore.Core.Site: SELECT site0_.SiteId as SiteId0_0_, site0_.Name as Name0_0_, site0_.Tagline as Tagline0_0_, site0_.Created as Created0_0_ FROM [Site] site0_ with (updlock, rowlock) WHERE site0_.SiteId=?
 
-2010-07-02 16:32:17,188 [19] NHibernate.Loader.Entity.CascadeEntityLoader..ctor(:0) - Static select for action NHibernate.Engine.CascadingAction+MergeCascadingAction on entity SimpleStore.Core.Site: SELECT site0_.SiteId as SiteId0_0_, site0_.Name as Name0_0_, site0_.Tagline as Tagline0_0_, site0_.Created as Created0_0_ FROM [Site] site0_ WHERE site0_.SiteId=?
+2010-07-02 22:15:36,863 [260] NHibernate.Loader.Entity.CascadeEntityLoader..ctor(:0) - Static select for action NHibernate.Engine.CascadingAction+MergeCascadingAction on entity SimpleStore.Core.Site: SELECT site0_.SiteId as SiteId0_0_, site0_.Name as Name0_0_, site0_.Tagline as Tagline0_0_, site0_.Created as Created0_0_ FROM [Site] site0_ WHERE site0_.SiteId=?
 
-2010-07-02 16:32:17,188 [19] NHibernate.Loader.Entity.CascadeEntityLoader..ctor(:0) - Static select for action NHibernate.Engine.CascadingAction+RefreshCascadingAction on entity SimpleStore.Core.Site: SELECT site0_.SiteId as SiteId0_0_, site0_.Name as Name0_0_, site0_.Tagline as Tagline0_0_, site0_.Created as Created0_0_ FROM [Site] site0_ WHERE site0_.SiteId=?
+2010-07-02 22:15:36,863 [260] NHibernate.Loader.Entity.CascadeEntityLoader..ctor(:0) - Static select for action NHibernate.Engine.CascadingAction+RefreshCascadingAction on entity SimpleStore.Core.Site: SELECT site0_.SiteId as SiteId0_0_, site0_.Name as Name0_0_, site0_.Tagline as Tagline0_0_, site0_.Created as Created0_0_ FROM [Site] site0_ WHERE site0_.SiteId=?
 
-2010-07-02 16:32:17,189 [19] NHibernate.Persister.Entity.AbstractEntityPersister.LogStaticSQL(:0) - Static SQL for entity: SimpleStore.Core.Seller
+2010-07-02 22:15:36,864 [260] NHibernate.Persister.Entity.AbstractEntityPersister.LogStaticSQL(:0) - Static SQL for entity: SimpleStore.Core.Seller
 
-2010-07-02 16:32:17,189 [19] NHibernate.Persister.Entity.AbstractEntityPersister.LogStaticSQL(:0) -  Version select: SELECT SellerId FROM [Seller] WHERE SellerId = ?
+2010-07-02 22:15:36,864 [260] NHibernate.Persister.Entity.AbstractEntityPersister.LogStaticSQL(:0) -  Version select: SELECT SellerId FROM [Seller] WHERE SellerId = ?
 
-2010-07-02 16:32:17,189 [19] NHibernate.Persister.Entity.AbstractEntityPersister.LogStaticSQL(:0) -  Snapshot select: SELECT seller_.SellerId, seller_.Email as Email1_, seller_.EbayUser as EbayUser1_, seller_.Created as Created1_ FROM [Seller] seller_ WHERE seller_.SellerId=?
+2010-07-02 22:15:36,864 [260] NHibernate.Persister.Entity.AbstractEntityPersister.LogStaticSQL(:0) -  Snapshot select: SELECT seller_.SellerId, seller_.Email as Email1_, seller_.EbayUser as EbayUser1_, seller_.Created as Created1_ FROM [Seller] seller_ WHERE seller_.SellerId=?
 
-2010-07-02 16:32:17,189 [19] NHibernate.Persister.Entity.AbstractEntityPersister.LogStaticSQL(:0) -  Insert 0: INSERT INTO [Seller] (Email, EbayUser, Created, SellerId) VALUES (?, ?, ?, ?)
+2010-07-02 22:15:36,864 [260] NHibernate.Persister.Entity.AbstractEntityPersister.LogStaticSQL(:0) -  Insert 0: INSERT INTO [Seller] (Email, EbayUser, Created, SellerId) VALUES (?, ?, ?, ?)
 
-2010-07-02 16:32:17,189 [19] NHibernate.Persister.Entity.AbstractEntityPersister.LogStaticSQL(:0) -  Update 0: UPDATE [Seller] SET Email = ?, EbayUser = ?, Created = ? WHERE SellerId = ?
+2010-07-02 22:15:36,865 [260] NHibernate.Persister.Entity.AbstractEntityPersister.LogStaticSQL(:0) -  Update 0: UPDATE [Seller] SET Email = ?, EbayUser = ?, Created = ? WHERE SellerId = ?
 
-2010-07-02 16:32:17,189 [19] NHibernate.Persister.Entity.AbstractEntityPersister.LogStaticSQL(:0) -  Delete 0: DELETE FROM [Seller] WHERE SellerId = ?
+2010-07-02 22:15:36,865 [260] NHibernate.Persister.Entity.AbstractEntityPersister.LogStaticSQL(:0) -  Delete 0: DELETE FROM [Seller] WHERE SellerId = ?
 
-2010-07-02 16:32:17,190 [19] NHibernate.Persister.Entity.AbstractEntityPersister.LogStaticSQL(:0) -  Identity insert: INSERT INTO [Seller] (Email, EbayUser, Created) VALUES (?, ?, ?); select SCOPE_IDENTITY()
+2010-07-02 22:15:36,865 [260] NHibernate.Persister.Entity.AbstractEntityPersister.LogStaticSQL(:0) -  Identity insert: INSERT INTO [Seller] (Email, EbayUser, Created) VALUES (?, ?, ?); select SCOPE_IDENTITY()
 
-2010-07-02 16:32:17,190 [19] NHibernate.Loader.Entity.EntityLoader..ctor(:0) - Static select for entity SimpleStore.Core.Seller: SELECT seller0_.SellerId as SellerId1_0_, seller0_.Email as Email1_0_, seller0_.EbayUser as EbayUser1_0_, seller0_.Created as Created1_0_ FROM [Seller] seller0_ WHERE seller0_.SellerId=?
+2010-07-02 22:15:36,865 [260] NHibernate.Loader.Entity.EntityLoader..ctor(:0) - Static select for entity SimpleStore.Core.Seller: SELECT seller0_.SellerId as SellerId1_0_, seller0_.Email as Email1_0_, seller0_.EbayUser as EbayUser1_0_, seller0_.Created as Created1_0_ FROM [Seller] seller0_ WHERE seller0_.SellerId=?
 
-2010-07-02 16:32:17,190 [19] NHibernate.Loader.Entity.EntityLoader..ctor(:0) - Static select for entity SimpleStore.Core.Seller: SELECT seller0_.SellerId as SellerId1_0_, seller0_.Email as Email1_0_, seller0_.EbayUser as EbayUser1_0_, seller0_.Created as Created1_0_ FROM [Seller] seller0_ WHERE seller0_.SellerId=?
+2010-07-02 22:15:36,866 [260] NHibernate.Loader.Entity.EntityLoader..ctor(:0) - Static select for entity SimpleStore.Core.Seller: SELECT seller0_.SellerId as SellerId1_0_, seller0_.Email as Email1_0_, seller0_.EbayUser as EbayUser1_0_, seller0_.Created as Created1_0_ FROM [Seller] seller0_ WHERE seller0_.SellerId=?
 
-2010-07-02 16:32:17,190 [19] NHibernate.Loader.Entity.EntityLoader..ctor(:0) - Static select for entity SimpleStore.Core.Seller: SELECT seller0_.SellerId as SellerId1_0_, seller0_.Email as Email1_0_, seller0_.EbayUser as EbayUser1_0_, seller0_.Created as Created1_0_ FROM [Seller] seller0_ with (updlock, rowlock) WHERE seller0_.SellerId=?
+2010-07-02 22:15:36,866 [260] NHibernate.Loader.Entity.EntityLoader..ctor(:0) - Static select for entity SimpleStore.Core.Seller: SELECT seller0_.SellerId as SellerId1_0_, seller0_.Email as Email1_0_, seller0_.EbayUser as EbayUser1_0_, seller0_.Created as Created1_0_ FROM [Seller] seller0_ with (updlock, rowlock) WHERE seller0_.SellerId=?
 
-2010-07-02 16:32:17,191 [19] NHibernate.Loader.Entity.EntityLoader..ctor(:0) - Static select for entity SimpleStore.Core.Seller: SELECT seller0_.SellerId as SellerId1_0_, seller0_.Email as Email1_0_, seller0_.EbayUser as EbayUser1_0_, seller0_.Created as Created1_0_ FROM [Seller] seller0_ with (updlock, rowlock) WHERE seller0_.SellerId=?
+2010-07-02 22:15:36,866 [260] NHibernate.Loader.Entity.EntityLoader..ctor(:0) - Static select for entity SimpleStore.Core.Seller: SELECT seller0_.SellerId as SellerId1_0_, seller0_.Email as Email1_0_, seller0_.EbayUser as EbayUser1_0_, seller0_.Created as Created1_0_ FROM [Seller] seller0_ with (updlock, rowlock) WHERE seller0_.SellerId=?
 
-2010-07-02 16:32:17,191 [19] NHibernate.Loader.Entity.EntityLoader..ctor(:0) - Static select for entity SimpleStore.Core.Seller: SELECT seller0_.SellerId as SellerId1_0_, seller0_.Email as Email1_0_, seller0_.EbayUser as EbayUser1_0_, seller0_.Created as Created1_0_ FROM [Seller] seller0_ with (updlock, rowlock) WHERE seller0_.SellerId=?
+2010-07-02 22:15:36,866 [260] NHibernate.Loader.Entity.EntityLoader..ctor(:0) - Static select for entity SimpleStore.Core.Seller: SELECT seller0_.SellerId as SellerId1_0_, seller0_.Email as Email1_0_, seller0_.EbayUser as EbayUser1_0_, seller0_.Created as Created1_0_ FROM [Seller] seller0_ with (updlock, rowlock) WHERE seller0_.SellerId=?
 
-2010-07-02 16:32:17,191 [19] NHibernate.Loader.Entity.CascadeEntityLoader..ctor(:0) - Static select for action NHibernate.Engine.CascadingAction+MergeCascadingAction on entity SimpleStore.Core.Seller: SELECT seller0_.SellerId as SellerId1_0_, seller0_.Email as Email1_0_, seller0_.EbayUser as EbayUser1_0_, seller0_.Created as Created1_0_ FROM [Seller] seller0_ WHERE seller0_.SellerId=?
+2010-07-02 22:15:36,867 [260] NHibernate.Loader.Entity.CascadeEntityLoader..ctor(:0) - Static select for action NHibernate.Engine.CascadingAction+MergeCascadingAction on entity SimpleStore.Core.Seller: SELECT seller0_.SellerId as SellerId1_0_, seller0_.Email as Email1_0_, seller0_.EbayUser as EbayUser1_0_, seller0_.Created as Created1_0_ FROM [Seller] seller0_ WHERE seller0_.SellerId=?
 
-2010-07-02 16:32:17,191 [19] NHibernate.Loader.Entity.CascadeEntityLoader..ctor(:0) - Static select for action NHibernate.Engine.CascadingAction+RefreshCascadingAction on entity SimpleStore.Core.Seller: SELECT seller0_.SellerId as SellerId1_0_, seller0_.Email as Email1_0_, seller0_.EbayUser as EbayUser1_0_, seller0_.Created as Created1_0_ FROM [Seller] seller0_ WHERE seller0_.SellerId=?
+2010-07-02 22:15:36,867 [260] NHibernate.Loader.Entity.CascadeEntityLoader..ctor(:0) - Static select for action NHibernate.Engine.CascadingAction+RefreshCascadingAction on entity SimpleStore.Core.Seller: SELECT seller0_.SellerId as SellerId1_0_, seller0_.Email as Email1_0_, seller0_.EbayUser as EbayUser1_0_, seller0_.Created as Created1_0_ FROM [Seller] seller0_ WHERE seller0_.SellerId=?
 
-2010-07-02 16:32:17,192 [19] NHibernate.Impl.SessionFactoryObjectFactory..cctor(:0) - initializing class SessionFactoryObjectFactory
+2010-07-02 22:15:36,868 [260] NHibernate.Impl.SessionFactoryObjectFactory..cctor(:0) - initializing class SessionFactoryObjectFactory
 
-2010-07-02 16:32:17,192 [19] NHibernate.Impl.SessionFactoryObjectFactory.AddInstance(:0) - registered: 9e7191a7d0b14ccb81f2eaf5373d7e8b(unnamed)
+2010-07-02 22:15:36,868 [260] NHibernate.Impl.SessionFactoryObjectFactory.AddInstance(:0) - registered: c6e7e12504f3427c860d0284399946a3(unnamed)
 
-2010-07-02 16:32:17,193 [19] NHibernate.Impl.SessionFactoryObjectFactory.AddInstance(:0) - no name configured
+2010-07-02 22:15:36,868 [260] NHibernate.Impl.SessionFactoryObjectFactory.AddInstance(:0) - no name configured
 
-2010-07-02 16:32:17,193 [19] NHibernate.Impl.SessionFactoryImpl..ctor(:0) - Instantiated session factory
+2010-07-02 22:15:36,869 [260] NHibernate.Impl.SessionFactoryImpl..ctor(:0) - Instantiated session factory
 
-2010-07-02 16:32:17,195 [19] NHibernate.Impl.SessionFactoryImpl.CheckNamedQueries(:0) - Checking 0 named HQL queries
+2010-07-02 22:15:36,871 [260] NHibernate.Impl.SessionFactoryImpl.CheckNamedQueries(:0) - Checking 0 named HQL queries
 
-2010-07-02 16:32:17,196 [19] NHibernate.Impl.SessionFactoryImpl.CheckNamedQueries(:0) - Checking 0 named SQL queries
+2010-07-02 22:15:36,871 [260] NHibernate.Impl.SessionFactoryImpl.CheckNamedQueries(:0) - Checking 0 named SQL queries
 

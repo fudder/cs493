@@ -15,7 +15,7 @@
     <p>
         <ul>
             <li>Check out the project <%: Html.ActionLink("documentation", "Product") %></li>
-            <li>Browse through the complete project <%: Html.ActionLink("source code repository", "Source") %></li>
+            <li>Browse through the online project <a href="http://github.com/fudder/cs493" target="_blank">source code repository</a> at GitHub</li>
             <li>Run through our live <%: Html.ActionLink("prototypes", "Prototype") %></li>
             <li>View the <%: Html.ActionLink("deliverables", "Project") %></li>
         </ul>

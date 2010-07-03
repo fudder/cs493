@@ -54,10 +54,9 @@ height:100%; /* IE6 treats height as min-height */
 a
 {
     color: #4e6282;
-    text-decoration: none;
 }
 
-a:hover {text-decoration: underline;}
+a:hover {text-decoration: none;}
 
 #doc
 {
@@ -100,6 +99,7 @@ a:hover {text-decoration: underline;}
 
 h1 {font-family: Georgia,Arial,sans-serif;  color: #7E5950; font-size: 2.2em; font-weight: bold;}
 h2 {font-family: Georgia,Arial,sans-serif; color: #335479; font-size: 1.6em; font-weight: bold;}
+h3 {font-family: Georgia,Arial,sans-serif; color: #335479; font-size: 1.2em; font-weight: bold;}
 
 .clear { clear: both; width: 1px; height: 1px; margin: 0; padding: 0; }
 .error { color: Red; }

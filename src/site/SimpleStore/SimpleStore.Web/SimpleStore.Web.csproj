@@ -203,6 +203,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Content\Docs\AdminToolWireframes.vsd" />
+    <Content Include="Content\Docs\Brossard_CapstoneDeliverables.zip" />
     <None Include="Content\Docs\Brossard_CapstonePresentation.pptx" />
     <None Include="Content\Docs\Brossard_CapstoneReflectionPaper.doc" />
     <None Include="Content\Docs\Brossard_CapstoneResearchPaper.docx" />

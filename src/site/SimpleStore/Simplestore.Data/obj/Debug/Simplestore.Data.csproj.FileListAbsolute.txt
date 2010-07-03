@@ -29,3 +29,5 @@ C:\cs493\src\site\SimpleStore\Simplestore.Data\bin\Debug\Castle.DynamicProxy2.dl
 C:\cs493\src\site\SimpleStore\Simplestore.Data\bin\Debug\Castle.MicroKernel.xml
 C:\cs493\src\site\SimpleStore\Simplestore.Data\bin\Debug\Castle.Windsor.xml
 C:\cs493\src\site\SimpleStore\Simplestore.Data\bin\Debug\Castle.DynamicProxy2.xml
+C:\cs493\src\site\SimpleStore\Simplestore.Data\bin\Debug\nunit.framework.dll
+C:\cs493\src\site\SimpleStore\Simplestore.Data\bin\Debug\nunit.framework.xml
